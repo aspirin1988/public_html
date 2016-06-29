@@ -1,0 +1,71 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/CloseButtonSlot Assets/CloseButtonSlot_bg" itemID="4c949e40-00000571" sourceFlashFilepath="..\..\website.fla" sourceLibraryItemHRef="Template Elements/Slots/CloseButtonSlot Assets/CloseButtonSlot_bg" sourceLastModified="1327938216" lastModified="1330422393" lastUniqueIdentifier="20">
+  <timeline>
+    <DOMTimeline name="CloseButtonSlot_bg">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/itemButton" name="item" selected="true">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

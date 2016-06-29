@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<motoStructure>
+	<website defaultPreloaderLinkageName="com.moto.template.common::WebsitePreloader">
+		<contentHolders>
+			<holder id="1" type="website" stretched="true" top="0" left="0" bottom="0" right="0" locked="false" depth="10">
+				<name><![CDATA[Website Content]]></name>
+			</holder>
+		</contentHolders>
+		<properties/>
+		<elements>
+			<loginForm librarySymbolLinkage="LoginForm" external="true" url="../assets/loginForm/loginForm1.swf">
+			<htmlTemplates>
+				<item name="main"><![CDATA[
+<div id="mjs-login-form-overlay" data-opacity="{%widget.properties.overlayBackgroundAlpha.value%}">&nbsp;</div>
+<div id="mjs-login-form">
+	<a id="mjs-login-form-close-button" href="#">X</a>
+	<div class="mjs-content">
+		<div>{%widget.properties.formTitle.value%}</div>
+		<form method="POST">
+			<div >
+				<div class="mjs-login-form-input">
+					<input name="data[username]" type="password"/>
+				</div>
+				<div class="mjs-login-form-submit">
+					<a href="#">{%widget.properties.submitButtonLabel.value%}</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</form>
+		<div id="mjs-login-form-message">{%widget.properties.wrongPasswordMessage.value%}</div>
+		<div class="clear"></div>
+	</div>
+	
+</div>
+<style>
+<!--
+#mjs-login-form-close-button {
+	color: #{%widget.properties.closeButtonColor.value%};
+}
+#mjs-login-form-close-button:hover {
+	color: #{%widget.properties.buttonHoverColor.value%};
+}
+#mjs-login-form-overlay {
+	background: #{%widget.properties.overlayBackgroundColor.value%};
+}
+#mjs-login-form {
+	position:relative;
+	width: {%widget.properties.formWidth.value%}px;
+	background: #{%widget.properties.formBackgroundColorFirst.value%};
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{%widget.properties.formBackgroundColorFirst.value%}', endColorstr='#{%widget.properties.formBackgroundColorSecond.value%}');
+	zoom:1;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#{%widget.properties.formBackgroundColorFirst.value%}), to(#{%widget.properties.formBackgroundColorSecond.value%}));
+	background-image: -webkit-linear-gradient(#{%widget.properties.formBackgroundColorFirst.value%}, #{%widget.properties.formBackgroundColorSecond.value%});
+	background-image: -moz-linear-gradient(#{%widget.properties.formBackgroundColorFirst.value%}, #{%widget.properties.formBackgroundColorSecond.value%});
+	background-image: -ms-linear-gradient(#{%widget.properties.formBackgroundColorFirst.value%}, #{%widget.properties.formBackgroundColorSecond.value%});
+	background-image: -o-linear-gradient(#{%widget.properties.formBackgroundColorFirst.value%}, #{%widget.properties.formBackgroundColorSecond.value%});
+	background-image: linear-gradient(#{%widget.properties.formBackgroundColorFirst.value%}, #{%widget.properties.formBackgroundColorSecond.value%});
+}
+#mjs-login-form .mjs-content {
+	padding: {%widget.properties.formPaddingVertical.value%}px {%widget.properties.formPaddingHorizontal.value%}px ;
+}
+#mjs-login-form .mjs-login-form-input {
+	background: #{%widget.properties.inputPasswordBackgroundColor.value%};
+	padding: 3px {%widget.properties.inputPasswordPaddingRight.value%}px 3px {%widget.properties.inputPasswordPaddingLeft.value%}px;
+	border: 1px solid #{%widget.properties.inputPasswordBorderColor.value%};
+	float:left;
+	width:1px;
+}
+#mjs-login-form .mjs-login-form-input input {
+	{%widget.properties.inputPasswordTextFormat.value%}
+	width:0px;
+}
+#mjs-login-form .mjs-login-form-submit a {
+	background: #{%widget.properties.submitButtonBackgroundColorFirst.value%};
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{%widget.properties.submitButtonBackgroundColorFirst.value%}', endColorstr='#{%widget.properties.submitButtonBackgroundColorSecond.value%}');
+	zoom:1;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#{%widget.properties.submitButtonBackgroundColorFirst.value%}), to(#{%widget.properties.submitButtonBackgroundColorSecond.value%}));
+	background-image: -webkit-linear-gradient(#{%widget.properties.submitButtonBackgroundColorFirst.value%}, #{%widget.properties.submitButtonBackgroundColorSecond.value%});
+	background-image: -moz-linear-gradient(#{%widget.properties.submitButtonBackgroundColorFirst.value%}, #{%widget.properties.submitButtonBackgroundColorSecond.value%});
+	background-image: -ms-linear-gradient(#{%widget.properties.submitButtonBackgroundColorFirst.value%}, #{%widget.properties.submitButtonBackgroundColorSecond.value%});
+	background-image: -o-linear-gradient(#{%widget.properties.submitButtonBackgroundColorFirst.value%}, #{%widget.properties.submitButtonBackgroundColorSecond.value%});
+	background-image: linear-gradient(#{%widget.properties.submitButtonBackgroundColorFirst.value%}, #{%widget.properties.submitButtonBackgroundColorSecond.value%});
+}
+#mjs-login-form .mjs-login-form-submit a:hover {
+	background: #{%widget.properties.buttonHoverColor.value%};
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{%widget.properties.buttonHoverColor.value%}', endColorstr='#{%widget.properties.buttonHoverColor.value%}');
+}
+#mjs-login-form .mjs-login-form-submit a span {
+	height: inherit;
+}
+
+-->
+</style>
+		]]></item>
+			</htmlTemplates>
+			
+				<properties>
+					<property id="1" type="htmlText" keyName="formTitle">
+						<name><![CDATA[Form title]]></name>
+					</property>
+					<property id="2" type="htmlText" keyName="wrongPasswordMessage">
+						<name><![CDATA[Wrong password message]]></name>
+					</property>
+					<property id="3" type="htmlText" keyName="submitButtonLabel">
+						<name><![CDATA[Button label]]></name>
+					</property>
+					<property id="4" type="stepper" keyName="formPaddingHorizontal">
+						<name><![CDATA[Form horizontal padding]]></name>
+						<parameters>
+							<minimum>0</minimum>
+							<maximum>1000</maximum>
+							<stepSize>1</stepSize>
+						</parameters>
+					</property>
+					<property id="5" type="stepper" keyName="formPaddingVertical">
+						<name><![CDATA[Form vertical padding]]></name>
+						<parameters>
+							<minimum>0</minimum>
+							<maximum>1000</maximum>
+							<stepSize>1</stepSize>
+						</parameters>
+					</property>
+					<property id="6" type="stepper" keyName="formWidth">
+						<name><![CDATA[Form width]]></name>
+						<parameters>
+							<minimum>100</minimum>
+							<maximum>1000</maximum>
+							<stepSize>1</stepSize>
+						</parameters>
+					</property>
+					<property id="7" type="color" keyName="submitButtonBackgroundColorFirst">
+						<name><![CDATA[Top button color]]></name>
+					</property>
+					<property id="8" type="color" keyName="submitButtonBackgroundColorSecond">
+						<name><![CDATA[Bottom button color]]></name>
+					</property>
+					<property id="9" type="color" keyName="closeButtonColor">
+						<name><![CDATA[Close icon color]]></name>
+					</property>
+					<property id="10" type="color" keyName="buttonHoverColor">
+						<name><![CDATA[Button over color]]></name>
+					</property>
+					<property id="11" type="textFormat" keyName="inputPasswordTextFormat">
+						<name><![CDATA[Password text format]]></name>
+					</property>
+					<property id="12" type="color" keyName="inputPasswordBackgroundColor">
+						<name><![CDATA[Password field color]]></name>
+					</property>
+					<property id="13" type="color" keyName="inputPasswordBorderColor">
+						<name><![CDATA[Password field border]]></name>
+					</property>
+					<property id="14" type="checkBox" keyName="inputPasswordShadowEnabled">
+						<name><![CDATA[Enable password field shadow]]></name>
+						<parameters>
+							<visible>false</visible>
+						</parameters>
+					</property>
+					<property id="15" type="color" keyName="formBackgroundColorFirst">
+						<name><![CDATA[Top form color]]></name>
+					</property>
+					<property id="16" type="color" keyName="formBackgroundColorSecond">
+						<name><![CDATA[Bottom form color]]></name>
+					</property>
+					<property id="17" type="color" keyName="overlayBackgroundColor">
+						<name><![CDATA[Form background color]]></name>
+					</property>
+					<property id="18" type="slider" keyName="overlayBackgroundAlpha">
+						<name><![CDATA[Form background alpha]]></name>
+						<parameters>
+							<postfix>%</postfix>
+							<minimum>0</minimum>
+							<maximum>100</maximum>
+							<snapInterval>1</snapInterval>
+						</parameters>
+					</property>
+					<property id="19" type="stepper" keyName="inputPasswordPaddingLeft">
+						<name><![CDATA[Password field padding left]]></name>
+						<parameters>
+							<minimum>0</minimum>
+							<maximum>200</maximum>
+							<stepSize>1</stepSize>
+						</parameters>
+					</property>
+					<property id="20" type="stepper" keyName="inputPasswordPaddingRight">
+						<name><![CDATA[Password field padding right]]></name>
+						<parameters>
+							<minimum>0</minimum>
+							<maximum>200</maximum>
+							<stepSize>1</stepSize>
+						</parameters>
+					</property>
+				</properties>
+				<template/>
+			</loginForm>
+		</elements>
+	</website>
+	<layouts>
+		<layout id="1">
+			<name><![CDATA[Splash Layout]]></name>
+			<contentHolders/>
+		</layout>
+	</layouts>
+	<pages>
+		<page id="1" layoutType="1" preview="images/previews/page.jpg" locked="false">
+			<name><![CDATA[Page]]></name>
+			<contentHolders>
+				<holder id="2" type="page" stretched="true" top="0" left="0" bottom="0" right="0" locked="false" depth="200">
+					<name><![CDATA[Page Content]]></name>
+				</holder>
+			</contentHolders>
+			<properties/>
+			<template>
+				<properties/>
+				<objects/>
+				<slots/>
+				<modules/>
+			</template>
+		</page>
+	</pages>
+	<contentHolders>
+		<holder id="3" type="page" isDynamic="true">
+			<name><![CDATA[Block]]></name>
+			<properties>
+				<property id="1" type="select" keyName="animationShow">
+					<name><![CDATA[Show Effect]]></name>
+					<dataProvider>
+						<item data="none">None</item>
+						<item data="fade">Fade In</item>
+						<item data="resize">Expand</item>
+						<item data="flyLeft">Enter Left</item>
+						<item data="flyRight">Enter Right</item>
+						<item data="scrollUp">Scroll Up</item>
+						<item data="scrollDown">Scroll Down</item>
+					</dataProvider>
+				</property>
+				<property id="2" type="select" keyName="animationHide">
+					<name><![CDATA[Hide Effect]]></name>
+					<dataProvider>
+						<item data="none">None</item>
+						<item data="fade">Fade Out</item>
+						<item data="resize">Collapse</item>
+						<item data="flyLeft">Hide Left</item>
+						<item data="flyRight">Hide Right</item>
+						<item data="scrollUp">Scroll Up</item>
+						<item data="scrollDown">Scroll Down</item>
+					</dataProvider>
+				</property>
+				<property id="3" type="slider" keyName="showDuration" dependencyId="1">
+					<dependencyValue><![CDATA[!none]]></dependencyValue>
+					<name><![CDATA[Show Duration]]></name>
+					<parameters>
+						<postfix> ms</postfix>
+						<minimum>0</minimum>
+						<maximum>10000</maximum>
+						<snapInterval>200</snapInterval>
+					</parameters>
+				</property>
+				<property id="4" type="slider" keyName="hideDuration" dependencyId="2">
+					<name><![CDATA[Hide Duration]]></name>
+					<dependencyValue><![CDATA[!none]]></dependencyValue>
+					<parameters>
+						<postfix> ms</postfix>
+						<minimum>0</minimum>
+						<maximum>10000</maximum>
+						<snapInterval>200</snapInterval>
+					</parameters>
+				</property>
+			</properties>
+			<template isDynamic="true">
+				<properties>
+					<item propertyType="1"><![CDATA[none]]></item>
+					<item propertyType="2"><![CDATA[none]]></item>
+					<item propertyType="3"><![CDATA[1000]]></item>
+					<item propertyType="4"><![CDATA[1000]]></item>
+				</properties>
+			</template>
+		</holder>
+	</contentHolders>
+	<slots/>
+
+	<modules>
+		<module id="1" type="googleMapModule" librarySymbolLinkage="GmapModule" external="true" url="modules/gmapModule.swf" resizable="true" icon="images/modules/gmap_icon.png" isContent="true" category="maps">
+			<htmlTemplates>
+				<item name="main"><![CDATA[
+<div id="{%id%}" class="{%class%}" style="{%style%}"></div>
+		]]></item>
+			</htmlTemplates>
+			<requirements>
+				<item type="js"><![CDATA[//maps.googleapis.com/maps/api/js?&sensor=false]]></item>
+			</requirements>
+			<name><![CDATA[Google Maps Widget]]></name>
+			<properties>
+				<property id="1" type="select" keyName="mapType">
+					<name><![CDATA[Default Map Type]]></name>
+					<dataProvider>
+						<item data="normal">Normal</item>
+						<item data="satellite">Satellite</item>
+						<item data="hybrid">Hybrid</item>
+						<item data="physical">Physical</item>
+					</dataProvider>
+				</property>
+				<property id="2" type="select" keyName="positionMapFocus">
+					<name><![CDATA[Position of Map Focus]]></name>
+					<dataProvider>
+						<item data="first">First Point</item>
+						<item data="last">Last Point</item>
+						<item data="all">All Points</item>
+					</dataProvider>
+				</property>
+				<property id="5" type="stepper" keyName="mapZoom">
+					<name><![CDATA[Zoom]]></name>
+					<parameters>
+						<minimum>1</minimum>
+						<maximum>17</maximum>
+						<stepSize>1</stepSize>
+						<tooltip><![CDATA[Default Zoom Depth.]]></tooltip>
+					</parameters>
+				</property>
+				<property id="16" type="group">
+					<name><![CDATA[Controls Position]]></name>
+				</property>
+				<property id="6" type="select" groupId="16" keyName="controllPositionLocation">
+					<name><![CDATA[Location]]></name>
+					<dataProvider>
+						<item data="invisible">Invisible</item>
+						<item data="anchor_top_right">Top Right</item>
+						<item data="anchor_top_left">Top Left</item>
+						<item data="anchor_bottom_right">Bottom Right</item>
+						<item data="anchor_bottom_left">Bottom Left</item>
+					</dataProvider>
+				</property>
+				<property id="7" type="select" groupId="16" keyName="controllPositionZoom">
+					<name><![CDATA[Zoom]]></name>
+					<dataProvider>
+						<item data="invisible">Invisible</item>
+						<item data="anchor_top_right">Top Right</item>
+						<item data="anchor_top_left">Top Left</item>
+						<item data="anchor_bottom_right">Bottom Right</item>
+						<item data="anchor_bottom_left">Bottom Left</item>
+					</dataProvider>
+				</property>
+				<property id="8" type="select" groupId="16" keyName="controllPositionScale">
+					<name><![CDATA[Scale]]></name>
+					<dataProvider>
+						<item data="invisible">Invisible</item>
+						<item data="anchor_top_right">Top Right</item>
+						<item data="anchor_top_left">Top Left</item>
+						<item data="anchor_bottom_right">Bottom Right</item>
+						<item data="anchor_bottom_left">Bottom Left</item>
+					</dataProvider>
+				</property>
+				<property id="9" type="select" groupId="16" keyName="controllPositionOverview">
+					<name><![CDATA[Map Overview]]></name>
+					<dataProvider>
+						<item data="invisible">Invisible</item>
+						<item data="anchor_top_right">Top Right</item>
+						<item data="anchor_top_left">Top Left</item>
+						<item data="anchor_bottom_right">Bottom Right</item>
+						<item data="anchor_bottom_left">Bottom Left</item>
+					</dataProvider>
+				</property>
+				<property id="10" type="select" groupId="16" keyName="controllPositionMapType">
+					<name><![CDATA[Map Type]]></name>
+					<dataProvider>
+						<item data="invisible">Invisible</item>
+						<item data="anchor_top_right">Top Right</item>
+						<item data="anchor_top_left">Top Left</item>
+						<item data="anchor_bottom_right">Bottom Right</item>
+						<item data="anchor_bottom_left">Bottom Left</item>
+					</dataProvider>
+				</property>
+				<property id="17" type="group">
+					<name><![CDATA[Map Types]]></name>
+				</property>
+				<property id="11" type="checkBox" groupId="17" keyName="mapTypesNormal">
+					<name><![CDATA[Normal]]></name>
+				</property>
+				<property id="12" type="checkBox" groupId="17" keyName="mapTypesSatellite">
+					<name><![CDATA[Satellite]]></name>
+				</property>
+				<property id="13" type="checkBox" groupId="17" keyName="mapTypesHybrid">
+					<name><![CDATA[Hybrid]]></name>
+				</property>
+				<property id="14" type="checkBox" groupId="17" keyName="mapTypesPhysical">
+					<name><![CDATA[Physical]]></name>
+				</property>
+			</properties>
+			<template alpha="1" width="600" height="200">
+				<properties>
+					<item propertyType="1">normal</item>
+					<item propertyType="2">first</item>
+					<item propertyType="3">1</item>
+					<item propertyType="4">0x333333</item>
+					<item propertyType="5">5</item>
+					<item propertyType="6">invisible</item>
+					<item propertyType="7">invisible</item>
+					<item propertyType="8">invisible</item>
+					<item propertyType="9">invisible</item>
+					<item propertyType="10">invisible</item>
+					<item propertyType="11">true</item>
+					<item propertyType="12">true</item>
+					<item propertyType="13">true</item>
+					<item propertyType="14">true</item>
+					<item propertyType="18">0</item>
+				</properties>
+				<data>
+					<dataProvider isDataProvider="true"/>
+				</data>
+			</template>
+		</module>
+<module id="2" type="contactFormModule" librarySymbolLinkage="MotoExternalContactFormModule" external="true"
+        applicationDomain="MotoExternalContactForm" url="modules/contactFormWidget.swf" resizable="false"
+        icon="images/modules/advanced_form_icon.png" isContent="true" minHeight="100" minWidth="100"
+        category="contact_forms">
+    <name><![CDATA[Contact Form]]></name>
+    
+    <htmlTemplates>
+        <item name="main"><![CDATA[<div id="{%id%}" class="{%class%}" style="{%style%}">
+            <div class="mjs-widget-content" style="width:{%widget.width%}px;height:{%widget.height%}px;">
+                {%content%}
+            </div>
+        </div>]]></item>
+        <item name="style"><![CDATA[]]></item>
+        <item name="items"><![CDATA[<style type="text/css">
+<!--
+			#{%widget.id%}_form .icon,
+            #{%widget.id%}_form .mjs-fakefile span,
+			#{%widget.id%}_form .mjs-fakefile div {
+				color: #{%widget.properties.inputIconColor.value%};
+			}
+		
+            #{%widget.id%}_form .mjs-input,
+            #{%widget.id%}_form .mjs-item-input label,
+            #{%widget.id%}_form .chzn-container-single .chzn-single,
+            #{%widget.id%}_form .chzn-container .chzn-drop,
+            #{%widget.id%}_form .placeholder{
+                {%widget.properties.inputTextFormat.value%}
+				margin-top:0;
+			}
+			
+#{%widget.id%}_form ::-webkit-input-placeholder { {%widget.properties.inputTextFormat.value%} }
+#{%widget.id%}_form :-moz-placeholder { {%widget.properties.inputTextFormat.value%} }
+#{%widget.id%}_form input[type="submit"] { {%widget.submitButtonStyle%} }
+#{%widget.id%}_form input[type="reset"] { {%widget.resetButtonStyle%} }
+ 
+#{%widget.id%}_form a.mjs-item-input-checkbox,
+#{%widget.id%}_form a.mjs-item-input-radio
+{
+	color: #{%widget.properties.inputIconColor.value%}
+}
+#{%widget.id%}_form a.mjs-item-input-radio span {
+	background-color: #{%widget.properties.inputIconColor.value%};
+}
+
+#{%widget.id%}_form .chzn-container .chzn-drop {
+	border: {%widget.properties.inputLineWidth.value%}px solid #{%widget.properties.inputLineColor.value%};
+	background: #{%widget.properties.inputBackgroundColorBottom.value%};
+	}
+
+#{%widget.id%}_form .mjs-item-input
+{
+	border: {%widget.properties.inputLineWidth.value%}px  solid #{%widget.properties.inputLineColor.value%};
+	background: #{%widget.properties.inputBackgroundColorTop.value%};
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{%widget.properties.inputBackgroundColorTop.value%}', endColorstr='#{%widget.properties.inputBackgroundColorBottom.value%}');
+	zoom:1;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#{%widget.properties.inputBackgroundColorTop.value%}), to(#{%widget.properties.inputBackgroundColorBottom.value%}));
+	background-image: -webkit-linear-gradient(#{%widget.properties.inputBackgroundColorTop.value%}, #{%widget.properties.inputBackgroundColorBottom.value%});
+	background-image: -moz-linear-gradient(#{%widget.properties.inputBackgroundColorTop.value%}, #{%widget.properties.inputBackgroundColorBottom.value%});
+	background-image: -ms-linear-gradient(#{%widget.properties.inputBackgroundColorTop.value%}, #{%widget.properties.inputBackgroundColorBottom.value%});
+	background-image: -o-linear-gradient(#{%widget.properties.inputBackgroundColorTop.value%}, #{%widget.properties.inputBackgroundColorBottom.value%});
+	background-image: linear-gradient(#{%widget.properties.inputBackgroundColorTop.value%}, #{%widget.properties.inputBackgroundColorBottom.value%});
+	
+	border-radius:{%widget.properties.inputCornerRadius.value%}px;
+	-webkit-border-radius:{%widget.properties.inputCornerRadius.value%}px;
+	-moz-border-radius:{%widget.properties.inputCornerRadius.value%}px;
+	-ms-border-radius:{%widget.properties.inputCornerRadius.value%}px;
+
+}
+
+#{%widget.id%}_form .mjs-item-input {
+	{%widget.inputShadowStyle%}
+}
+
+#{%widget.id%}_form .mjs-button {
+	border: {%widget.properties.buttonLineWidth.value%}px solid #{%widget.properties.buttonLineColor.value%};
+	
+	background: #{%widget.properties.buttonBackgroundColorTop.value%};
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{%widget.properties.buttonBackgroundColorTop.value%}', endColorstr='#{%widget.properties.buttonBackgroundColorBottom.value%}');
+	zoom:1;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#{%widget.properties.buttonBackgroundColorTop.value%}), to(#{%widget.properties.buttonBackgroundColorBottom.value%}));
+	background-image: -webkit-linear-gradient(#{%widget.properties.buttonBackgroundColorTop.value%}, #{%widget.properties.buttonBackgroundColorBottom.value%});
+	background-image: -moz-linear-gradient(#{%widget.properties.buttonBackgroundColorTop.value%}, #{%widget.properties.buttonBackgroundColorBottom.value%});
+	background-image: -ms-linear-gradient(#{%widget.properties.buttonBackgroundColorTop.value%}, #{%widget.properties.buttonBackgroundColorBottom.value%});
+	background-image: -o-linear-gradient(#{%widget.properties.buttonBackgroundColorTop.value%}, #{%widget.properties.buttonBackgroundColorBottom.value%});
+	background-image: linear-gradient(#{%widget.properties.buttonBackgroundColorTop.value%}, #{%widget.properties.buttonBackgroundColorBottom.value%});
+	
+	border-radius:{%widget.properties.buttonCornerRadius.value%}px;
+	-webkit-border-radius:{%widget.properties.buttonCornerRadius.value%}px;
+	-moz-border-radius:{%widget.properties.buttonCornerRadius.value%}px;
+	
+	{%widget.buttonShadowStyle%}
+}
+#{%widget.id%}_form .mjs-button:hover {
+	background: #{%widget.properties.buttonHoverColorTop.value%};
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{%widget.properties.buttonHoverColorTop.value%}', endColorstr='#{%widget.properties.buttonHoverColorBottom.value%}');
+	zoom:1;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#{%widget.properties.buttonHoverColorTop.value%}), to(#{%widget.properties.buttonHoverColorBottom.value%}));
+	background-image: -webkit-linear-gradient(#{%widget.properties.buttonHoverColorTop.value%}, #{%widget.properties.buttonHoverColorBottom.value%});
+	background-image: -moz-linear-gradient(#{%widget.properties.buttonHoverColorTop.value%}, #{%widget.properties.buttonHoverColorBottom.value%});
+	background-image: -ms-linear-gradient(#{%widget.properties.buttonHoverColorTop.value%}, #{%widget.properties.buttonHoverColorBottom.value%});
+	background-image: -o-linear-gradient(#{%widget.properties.buttonHoverColorTop.value%}, #{%widget.properties.buttonHoverColorBottom.value%});
+	background-image: linear-gradient(#{%widget.properties.buttonHoverColorTop.value%}, #{%widget.properties.buttonHoverColorBottom.value%});
+}
+
+-->
+        </style>
+        <form id="{%widget.id%}_form" action="{%website.root_url%}{%widget.action%}" name="{%widget.id%}_name" method="POST">
+                <input name="widget_id" value="{%widget.id%}" type="hidden"/>
+                <input name="path_configuration" value="{%widget.data.configurationDataProvider%}" type="hidden"/>
+                <input name="path_structure" value="{%widget.data.itemsDataProvider%}" type="hidden"/>
+                <input name="mail_from" value="" type="hidden"/>
+                <fieldset>
+                    {%content%}
+                </fieldset>
+            </form>]]></item>
+        <item name="inputText"><![CDATA[
+<div class="mjs-item mjs-item-input mjs-item-input-text" style="top:{%item.y%}px;left:{%item.x%}px;width:{%item.width%}px;padding:{%item.wraper.padding%};height:{%item.height%}px;"><input
+	id="{%widget.id%}_input_{%item.id%}"
+	placeholder="{%item.textToShow%}"
+	value=""
+	name="data[{%item.label%}]"
+	tabindex="{%item.tabOrder%}"
+	type="{%item.type%}"
+	class="mjs-input mjs-input-text"
+	maxlength="{%item.maxChars%}"
+/></div>
+		]]></item>
+        <item name="inputTextarea"><![CDATA[
+<div class="mjs-item mjs-item-input mjs-item-textarea" style="top:{%item.y%}px;left:{%item.x%}px;width:{%item.width%}px;height:{%item.height%}px;"><textarea
+	id="{%widget.id%}_input_{%item.id%}"
+	placeholder="{%item.textToShow%}"
+	name="data[{%item.label%}]"
+	tabindex="{%item.tabOrder%}"
+	class="mjs-input mjs-input-textarea"
+	maxlength="{%item.maxChars%}"
+></textarea></div>]]></item>
+        <item name="inputSelect"><![CDATA[
+<div class="mjs-item mjs-item-input mjs-item-select" style="top:{%item.y%}px;left:{%item.x%}px;width:{%item.width%}px;height:{%item.height%}px;"><select 
+	id="{%widget.id%}_input_{%item.id%}"
+	data-placeholder="{%item.textToShow%}"
+	name="data[{%item.label%}]"
+	tabindex="{%item.tabOrder%}"
+	class="mjs-input mjs-input-select"
+	style="width:{%item.width%}px;height:{%item.height%}px;"
+	data-width="{%item.width%}"
+	data-height="{%item.height%}"
+	>
+	<option value="" selected="selected">{%item.textToShow%}</option>
+	{%content%}
+</select></div>]]></item>
+        <item name="inputCheckBox"><![CDATA[
+<div class="mjs-item mjs-item-checkbox mjs-text-position-{%item.textPosition%}" style="top:{%item.y%}px;left:{%item.x%}px;width:{%item.width%}px;"><label 
+	style="{%widget.properties.inputTextFormat.value%};line-height:{%item.height%}px;">{%item.textToShow%}</label><input
+		id="{%widget.id%}_input_{%item.id%}"
+		name="data[{%item.label%}]"
+		type="checkbox"
+		value="{%item.textToShow%}"
+		tabindex="{%item.tabOrder%}"
+		class="mjs-input mjs-input-checkbox"
+		style="height:{%item.height%}px;width:{%item.height%}px;"
+		{%item.checked%}
+/></div>
+]]></item>
+        <item name="inputRadioButton"><![CDATA[
+<div class="mjs-item mjs-item-radio mjs-text-position-{%item.textPosition%}" style="top:{%item.y%}px;left:{%item.x%}px;width:{%item.width%}px;"><label
+	style="{%widget.properties.inputTextFormat.value%};line-height:{%item.height%}px;">{%item.textToShow%}</label><input
+		id="{%widget.id%}_input_{%item.id%}"
+		name="data[{%item.label%}]"
+		type="radio"
+		value="{%item.textToShow%}"
+		tabindex="{%item.tabOrder%}"
+		class="mjs-input mjs-input-radio"
+		style="height:{%item.height%}px;width:{%item.height%}px;"
+		{%item.checked%}
+/></div>]]></item>
+        <item name="inputAttach"><![CDATA[
+<div class="mjs-item mjs-item-input mjs-item-file" style="top:{%item.y%}px;left:{%item.x%}px;"><input
+	id="{%widget.id%}_input_{%item.id%}"
+	name="data[{%item.label%}]"
+	type="file"
+	data-placeholder="{%item.textToShow%}"
+	tabindex="{%item.tabOrder%}"
+	class="mjs-input mjs-input-file"
+	style="width:{%item.width%}px;height:{%item.height%}px;"
+/></div>]]></item>
+        <item name="buttonSubmit"><![CDATA[<input id="{%widget.id%}_{%item.type%}" type="submit" class="mjs-item mjs-button" style="{%item.style%};" value="{%label%}"/>]]></item>
+        <item name="buttonReset"><![CDATA[<input id="{%widget.id%}_{%item.type%}" type="reset" class="mjs-item mjs-button" style="{%item.style%}" value="{%label%}"/>]]></item>
+        <item name="buttonStatusMessage"><![CDATA[<div id="{%widget.id%}_{%item.type%}" class="mjs-item mjs-status-message" style="{%item.style%};{%widget.properties.messageTextFormat.value%}"></div>]]></item>
+    </htmlTemplates>
+    <properties>
+        <property id="4" type="textFormat" keyName="inputTextFormat">
+            <name><![CDATA[Input Text Format]]></name>
+			<parameters>
+				<fontParagraph>false</fontParagraph>
+				<fontIntervals>false</fontIntervals>
+			</parameters>			
+        </property>
+        <property id="5" type="textFormat" keyName="messageTextFormat">
+            <name><![CDATA[Message Text Format]]></name>
+        </property>
+        <property id="48" type="htmlText" keyName="submitButtonLabel">
+            <name><![CDATA[Submit Button Label]]></name>
+        </property>
+        <property id="49" type="htmlText" keyName="resetButtonLabel">
+            <name><![CDATA[Reset Button Label]]></name>
+        </property>
+        <property id="10" type="slider" groupId="90" keyName="inputLineWidth">
+            <name><![CDATA[Line Thickness]]></name>
+            <parameters>
+                <postfix/>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="11" type="color" groupId="90" keyName="inputLineColor">
+            <name><![CDATA[Line Color]]></name>
+        </property>
+        <property id="12" type="slider" groupId="90">
+            <name><![CDATA[Line Alpha]]></name>
+            <parameters>
+                <postfix>%</postfix>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="13" type="slider" groupId="90" keyName="inputCornerRadius">
+            <name><![CDATA[Line Corner Radius]]></name>
+            <parameters>
+                <postfix/>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="14" type="color" groupId="90" keyName="inputBackgroundColorTop">
+            <name><![CDATA[Top Fill Color]]></name>
+        </property>
+        <property id="15" type="color" groupId="90" keyName="inputBackgroundColorBottom">
+            <name><![CDATA[Bottom Fill Color]]></name>
+        </property>
+        <property id="16" type="slider" groupId="90">
+            <name><![CDATA[Fill Alpha]]></name>
+            <parameters>
+                <postfix>%</postfix>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="17" type="checkBox" groupId="90" keyName="inputShadowEnabled">
+            <name><![CDATA[Add Shadow]]></name>
+        </property>
+        <property id="18" type="checkBox" groupId="90" dependencyId="17" keyName="inputShadowIsInner">
+            <name><![CDATA[Inner Shadow]]></name>
+            <dependencyValue>true</dependencyValue>
+        </property>
+        <property id="19" type="color" groupId="90" dependencyId="17" keyName="inputShadowColor">
+            <dependencyValue>true</dependencyValue>
+            <name><![CDATA[Shadow Color]]></name>
+        </property>
+        <property id="20" type="slider" groupId="90" dependencyId="17" keyName="inputShadowAlpha">
+            <name><![CDATA[Shadow Alpha]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <postfix>%</postfix>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="21" type="stepper" groupId="90" dependencyId="17" keyName="inputShadowDistance">
+            <name><![CDATA[Shadow Distance]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <minimum>-100</minimum>
+                <maximum>100</maximum>
+                <stepSize>1</stepSize>
+            </parameters>
+        </property>
+        <property id="22" type="stepper" groupId="90" dependencyId="17" keyName="inputShadowBlur">
+            <name><![CDATA[Shadow Blur]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <stepSize>1</stepSize>
+            </parameters>
+        </property>
+        <property id="23" type="stepper" groupId="90" dependencyId="17" keyName="inputShadowStrength">
+            <name><![CDATA[Shadow Strength]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <stepSize>1</stepSize>
+            </parameters>
+        </property>
+        <property id="24" type="color" groupId="90" keyName="inputIconColor">
+            <name><![CDATA[Item Icon Color]]></name>
+        </property>
+
+        <property id="50" type="slider" groupId="91" keyName="buttonLineWidth">
+            <name><![CDATA[Line Thickness]]></name>
+            <parameters>
+                <postfix/>
+                <minimum>0</minimum>
+                <maximum>200</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="51" type="color" groupId="91" keyName="buttonLineColor">
+            <name><![CDATA[Line Color]]></name>
+        </property>
+        <property id="52" type="slider" groupId="91" keyName="buttonLineAlpha">
+            <name><![CDATA[Line Alpha]]></name>
+            <parameters>
+                <postfix>%</postfix>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="53" type="slider" groupId="91" keyName="buttonCornerRadius">
+            <name><![CDATA[Line Corner Radius]]></name>
+            <parameters>
+                <postfix/>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="54" type="color" groupId="91" keyName="buttonBackgroundColorTop">
+            <name><![CDATA[Top Fill Color]]></name>
+        </property>
+        <property id="55" type="color" groupId="91" keyName="buttonBackgroundColorBottom">
+            <name><![CDATA[Bottom Fill Color]]></name>
+        </property>
+        <property id="56" type="slider" groupId="91" keyName="buttonFillAlpha">
+            <name><![CDATA[Fill Alpha]]></name>
+            <parameters>
+                <postfix>%</postfix>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="57" type="checkBox" groupId="91" keyName="buttonShadowEnabled">
+            <name><![CDATA[Add Shadow]]></name>
+        </property>
+        <property id="58" type="checkBox" groupId="91" dependencyId="57" keyName="buttonShadowIsInner">
+            <dependencyValue>true</dependencyValue>
+            <name><![CDATA[Inner Shadow]]></name>
+        </property>
+        <property id="59" type="color" groupId="91" dependencyId="57" keyName="buttonShadowColor">
+            <dependencyValue>true</dependencyValue>
+            <name><![CDATA[Shadow Color]]></name>
+        </property>
+        <property id="60" type="slider" groupId="91" dependencyId="57" keyName="buttonShadowAlpha">
+            <name><![CDATA[Shadow Alpha]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <postfix>%</postfix>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <snapInterval>1</snapInterval>
+            </parameters>
+        </property>
+        <property id="61" type="stepper" groupId="91" dependencyId="57" keyName="buttonShadowDistance">
+            <name><![CDATA[Shadow Distance]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <minimum>-100</minimum>
+                <maximum>100</maximum>
+                <stepSize>1</stepSize>
+            </parameters>
+        </property>
+        <property id="62" type="stepper" groupId="91" dependencyId="57" keyName="buttonShadowBlur">
+            <name><![CDATA[Shadow Blur]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <stepSize>1</stepSize>
+            </parameters>
+        </property>
+        <property id="63" type="stepper" groupId="91" dependencyId="57" keyName="buttonShadowStrength">
+            <name><![CDATA[Shadow Strength]]></name>
+            <dependencyValue>true</dependencyValue>
+            <parameters>
+                <minimum>0</minimum>
+                <maximum>100</maximum>
+                <stepSize>1</stepSize>
+            </parameters>
+        </property>
+        <property id="64" type="color" groupId="91" keyName="buttonHoverColorTop">
+            <name><![CDATA[Over Top Fill Color]]></name>
+        </property>
+        <property id="65" type="color" groupId="91" keyName="buttonHoverColorBottom">
+            <name><![CDATA[Over Bottom Fill Color]]></name>
+        </property>
+        <property id="90" type="group">
+            <name><![CDATA[Item Style]]></name>
+        </property>
+        <property id="91" type="group">
+            <name><![CDATA[Button Style]]></name>
+        </property>
+    </properties>
+    <template alpha="1" width="100" height="100">
+        <properties>
+            <item propertyType="4" embedFonts="false"><![CDATA[<TEXTFORMAT><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#6D6D6D" LETTERSPACING="0" KERNING="0">FORM FIELD TEXT</FONT></P></TEXTFORMAT>]]></item>
+            <item propertyType="5" embedFonts="false"><![CDATA[<TEXTFORMAT><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="11" COLOR="#252525" LETTERSPACING="0" KERNING="0">FORM FIELD TEXT</FONT></P></TEXTFORMAT>]]></item>
+            <item propertyType="10"><![CDATA[1]]></item>
+            <item propertyType="11"><![CDATA[0xFFFFFF]]></item>
+            <item propertyType="12"><![CDATA[100]]></item>
+            <item propertyType="13"><![CDATA[0]]></item>
+            <item propertyType="14"><![CDATA[0xEEEEEE]]></item>
+            <item propertyType="15"><![CDATA[0xFFFFFF]]></item>
+            <item propertyType="16"><![CDATA[100]]></item>
+            <item propertyType="17"><![CDATA[true]]></item>
+            <item propertyType="18"><![CDATA[false]]></item>
+            <item propertyType="19"><![CDATA[0x1B1B1B]]></item>
+            <item propertyType="20"><![CDATA[100]]></item>
+            <item propertyType="21"><![CDATA[1]]></item>
+            <item propertyType="22"><![CDATA[4]]></item>
+            <item propertyType="23"><![CDATA[1]]></item>
+            <item propertyType="24"><![CDATA[0x5E5E5E]]></item>
+            <item propertyType="48" embedFonts="false" backgroundColor="0x444444"><![CDATA[<TEXTFORMAT LEADING="1"><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="11" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"><B>SEND</B></FONT></P></TEXTFORMAT>]]></item>
+            <item propertyType="49" backgroundColor="0x444444" embedFonts="false"><![CDATA[<TEXTFORMAT LEADING="1"><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="11" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"><B>CLEAR</B></FONT></P></TEXTFORMAT>]]></item>
+            <item propertyType="50"><![CDATA[1]]></item>
+            <item propertyType="51"><![CDATA[0xFFFFFF]]></item>
+            <item propertyType="52"><![CDATA[100]]></item>
+            <item propertyType="53"><![CDATA[0]]></item>
+            <item propertyType="54"><![CDATA[0x6D6D6D]]></item>
+            <item propertyType="55"><![CDATA[0x3B3B3B]]></item>
+            <item propertyType="56"><![CDATA[100]]></item>
+            <item propertyType="57"><![CDATA[true]]></item>
+            <item propertyType="58"><![CDATA[false]]></item>
+            <item propertyType="59"><![CDATA[0x000000]]></item>
+            <item propertyType="60"><![CDATA[26]]></item>
+            <item propertyType="61"><![CDATA[1]]></item>
+            <item propertyType="62"><![CDATA[4]]></item>
+            <item propertyType="63"><![CDATA[1]]></item>
+            <item propertyType="64"><![CDATA[0x8A8A8A]]></item>
+            <item propertyType="65"><![CDATA[0x4F4E4E]]></item>
+            <item propertyType="90"><![CDATA[]]></item>
+            <item propertyType="91"><![CDATA[]]></item>
+        </properties>
+        <data>
+            <formConfiguration isDataProvider="true"/>
+            <formStructure isDataProvider="true"/>
+            <configuration_template>configuration_template.xml</configuration_template>
+            <structure_template>structure_template.xml</structure_template>
+            <submitButtonRenderer>MotoExternalContactFormSimpleButtonSlot</submitButtonRenderer>
+            <resetButtonRenderer>MotoExternalContactFormSimpleButtonSlot</resetButtonRenderer>
+            <textItemRenderer>MotoExternalContactFormItem</textItemRenderer>
+            <comboBoxItemRenderer>MotoExternalContactFormSelectItem</comboBoxItemRenderer>
+            <checkBoxItemRenderer>MotoExternalContactFormCheckBoxItem</checkBoxItemRenderer>
+            <radioButtonItemRenderer>MotoExternalContactFormRadioButtonItem</radioButtonItemRenderer>
+        </data>
+    </template>
+</module>
+		
+		<module id="4" type="richContent" librarySymbolLinkage="JSRichContentPreviewModule" external="true" url="modules/richContentWidget.swf" resizable="true" locked="false" category="general" icon="images/modules/richcontent_icon.png" jsClass="RichContent">
+	<name><![CDATA[Rich Content Widget]]></name>
+	<requirements>
+		<item type="css"><![CDATA[assets/css/jScrollPane/jquery.jscrollpane.css]]></item>
+	</requirements>
+	<htmlTemplates>
+		<item name="main"><![CDATA[
+<div id="{%id%}" class="{%class%}" style="{%widget.dimensions%}">
+	<div id="{%id%}-content" class="mjs-widget-content">
+		{%content%}
+	</div>
+    <style>
+	<!--    
+        
+        #{%id%} .jspVerticalBar {
+            width:{%widget.properties.scrollerThickness.value%}px;
+        }
+        
+        #{%id%} .jspHorizontalBar {
+            height:{%widget.properties.scrollerThickness.value%}px;
+        }
+        
+        #{%id%} .jspVisualStyles {
+            {%style%}
+            width: {%widget.width%}px;
+            height: {%widget.height%}px;
+        }
+        
+        #{%id%} .jspVisualStyles {
+            {%style%}
+            width: {%widget.width%}px;
+            height: {%widget.height%}px;
+        }
+        
+        #{%id%} .jspTrack
+        {
+            background: #{%widget.properties.jspTrackColor.value%};
+        }
+
+        #{%id%} .jspDrag
+        {
+            background: #{%widget.properties.jspDragColor.value%};
+        }
+        
+	-->
+	</style>
+</div>
+]]></item>
+	</htmlTemplates>
+			<properties>
+				<property id="1" type="stepper" keyName="scrollerThickness">
+					<name><![CDATA[Scrollbar Thickness]]></name>
+					<parameters>
+						<minimum>13</minimum>
+						<maximum>200</maximum>
+						<stepSize>1</stepSize>
+					</parameters>
+				</property>
+				<property id="2" type="stepper" keyName="scrollerPadding">
+					<name><![CDATA[Scrollbar Padding]]></name>
+					<parameters>
+						<minimum>0</minimum>
+						<maximum>100</maximum>
+						<stepSize>1</stepSize>
+					</parameters>
+				</property>
+                <property id="3" type="color" keyName="jspTrackColor">
+					<name><![CDATA[Scrollbar Track Color]]></name>
+				</property>
+                <property id="4" type="color" keyName="jspDragColor">
+					<name><![CDATA[Scrollbar Thumb Color]]></name>
+				</property>
+                <property id="5" type="checkBox" keyName="scrollerShowArrows">
+					<name><![CDATA[Show Arrows]]></name>
+					<parameters>
+						<visible>false</visible>
+					</parameters>
+				</property>
+			</properties>
+			<template alpha="1" width="400" height="300">
+				<name><![CDATA[Rich Content Block]]></name>
+				<data>
+					<objects/>
+					<slots/>
+					<modules/>
+				</data>
+				<properties>
+					<item propertyType="1"><![CDATA[22]]></item>
+					<item propertyType="2"><![CDATA[3]]></item>
+					<item propertyType="3"><![CDATA[0xeeeeee]]></item>
+					<item propertyType="4"><![CDATA[0x83C00B]]></item>
+					<item propertyType="5"><![CDATA[false]]></item>
+				</properties>
+			</template>
+		</module>
+		<module id="6" type="htmlWidgetModule" external="true" url="modules/HTMLWidget.swf" librarySymbolLinkage="HTMLWidget" resizable="true" locked="false" icon="images/modules/htmlwidget_icon.png" isContent="true" category="general">
+			<htmlTemplates>
+				<item name="main"><![CDATA[
+<div id="{%id%}" class="{%class%}" style="{%style%}">{%content%}</div>
+]]></item>
+				<item name="iframe"><![CDATA[
+<iframe 
+	src="widg" 
+	id="{%id%}_iframe" 
+	name="{%%id}_iframe" 
+	scrolling="'+(obj.configuration.showScrollBars ? 'yes' : 'no')+'" 
+	allowtransparency="true"
+	style="'+(obj.configuration.showScrollBars ? 'overflow:auto' : 'overflow:hidden')+'; padding:0px;margin:0px;border:0;" 
+	width="100%" 
+	height="100%" 
+	border="0" 
+	hspace="0" 
+	marginheight="0" 
+	marginwidth="0" 
+	vspace="0" 
+	frameborder="0" 
+	frameBorder="0">'
+			
+			
+			]]></item>
+			</htmlTemplates>
+			<name><![CDATA[HTML Widget]]></name>
+			<properties/>
+			<template alpha="1" width="100" height="100">
+				<properties/>
+				<data>
+					<file isDataProvider="true"/>
+				</data>
+			</template>
+		</module>
+		<module id="7" type="menuModule" librarySymbolLinkage="JSMenuPreviewModule" resizable="true" icon="images/modules/menu_icon.png" category="menus" url="modules/menuWidget.swf" external="true" jsClass="HorizontalMenuModule" cssClass="mjs-widget-horizontalMenuModule">
+			<name><![CDATA[Horizontal Menu]]></name>
+			<htmlTemplates>
+				<item name="main"><![CDATA[
+<div id="{%id%}" class="{%class%}" style="{%style%}">
+	<div class="mjs-widget-content" style="margin:0 auto;">
+		{%content%}
+	</div>
+	<style>
+	<!--    
+        
+        #{%id%} ul.mjs-menu-level-0 li a.mjs-menu-styles {
+            background-color: #{%widget.properties.buttonBGColor.value%};
+            border:1px #{%widget.properties.buttonBorderColor.value%} solid;
+            height: {%widget.height%}px;
+            margin:2px;
+        }
+        
+        #{%id%} ul.mjs-menu-level-0 li a.mjs-menu-styles .mjs-menu-align{
+            {%widget.properties.buttonLabelFormat.value%};
+        }
+        
+        #{%id%} ul li.mjs-active > a.mjs-menu-styles {
+            border:1px #{%widget.properties.activeButtonBorderColor.value%} solid;
+            background-color: #{%widget.properties.activeButtonBGColor.value%};
+        }
+        
+        #{%id%} ul li.mjs-active > a.mjs-menu-styles .mjs-menu-align {
+            {%widget.properties.activeButtonLabelFormat.value%};
+        }
+        
+        #{%id%} ul li > a.mjs-menu-styles:hover{
+            background-color: #{%widget.properties.activeButtonBGColor.value%};
+            border:1px #{%widget.properties.activeButtonBorderColor.value%} solid;
+            
+        }
+		
+		#{%id%} ul li > a.mjs-menu-styles:hover .mjs-menu-align{
+			{%widget.properties.activeButtonLabelFormat.value%};
+		}
+        
+        #{%id%} ul.mjs-menu-level-0 li .mjs-menu-align{
+            vertical-align: middle;
+            padding: 2px;
+        }
+        
+	-->
+	</style>
+</div>
+]]></item>
+				<item name="items"><![CDATA[<ul class="mjs-menu mjs-menu-level-{%level%}">{%content%}</ul>]]></item>
+				<item name="item"><![CDATA[<li class="mjs-sub mjs-item-{%position%} {%item.class%}">&nbsp;<a class="{%link.class%} mjs-menu-styles" href="{%href%}" data-url="{%url%}" data-action="{%action%}" rel="{%rel%}" target="{%target%}"><span class="mjs-menu-display"><span class="mjs-menu-align">{%item.properties.label.value%}</span></span></a>{%content%}<span class="mjs-navMenu"></span></li>]]></item>
+			</htmlTemplates>
+			<properties>
+                <property id="13" type="group" keyName="buttonProperties">
+					<name><![CDATA[Button Style]]></name>
+				</property>
+				<property id="1" type="color" keyName="buttonBGColor" groupId="13">
+					<name><![CDATA[Background Color]]></name>
+				</property>
+				<property id="2" type="color" keyName="buttonBorderColor" groupId="13">
+					<name><![CDATA[Border Color]]></name>
+				</property>
+                <property id="3" type="textFormat" keyName="buttonLabelFormat" groupId="13">
+					<name><![CDATA[Text Style]]></name>
+				</property>
+                <property id="14" type="group" keyName="activeButtonProperties">
+					<name><![CDATA[Active Button Style]]></name>
+				</property>
+                <property id="10" type="color" keyName="activeButtonBGColor" groupId="14">
+					<name><![CDATA[Background Color]]></name>
+				</property>
+				<property id="11" type="color" keyName="activeButtonBorderColor" groupId="14">
+					<name><![CDATA[Border Color]]></name>
+				</property>
+                <property id="4" type="textFormat" keyName="activeButtonLabelFormat" groupId="14">
+					<name><![CDATA[Text Style]]></name>
+				</property>
+                
+                <property id="20" type="checkBox" keyName="enableMenuBG">
+					<name><![CDATA[Enable Menu Items Background]]></name>
+				</property>
+                
+                <property id="21" type="checkBox" keyName="enableSubmenuBG">
+					<name><![CDATA[Enable Submenu Items Background]]></name>
+				</property>
+				
+				<property id="22" type="checkBox" keyName="fitText">
+					<name><![CDATA[Stretch Buttons]]></name>
+					<parameters>
+						<tooltip><![CDATA[Stretch buttons to fill availabel space]]></tooltip>
+					</parameters>
+				</property>
+
+                <property id="16" type="group" keyName="submenuIndicatorMain">
+					<name><![CDATA[Menu Items Indicator]]></name>
+				</property>
+                <property id="5" type="image" keyName="hasSubmenuBGImage" groupId="16">
+					<name><![CDATA[Background Image]]></name>
+				</property>
+                <property id="6" type="select" keyName="hasSubmenuBGRepeatMode" groupId="16">
+					<name><![CDATA[Background Repeat Mode]]></name>
+					<dataProvider>
+                        <item data="no-repeat">no-repeat</item>
+						<item data="repeat">repeat</item>
+						<item data="repeat-x">repeat-x</item>
+						<item data="repeat-y">repeat-y</item>
+					</dataProvider>
+				</property>
+                <property id="7" type="select" keyName="hasSubmenuBGHorizontalAlign" groupId="16">
+					<name><![CDATA[Background Horizontal Align]]></name>
+					<dataProvider>
+						<item data="left">left</item>
+						<item data="center">center</item>
+						<item data="right">right</item>
+					</dataProvider>
+				</property>
+                <property id="8" type="select" keyName="hasSubmenuBGVerticalAlign" groupId="16">
+					<name><![CDATA[Background Vertical Align]]></name>
+					<dataProvider>
+						<item data="top">top</item>
+						<item data="center">center</item>
+						<item data="bottom">bottom</item>
+					</dataProvider>
+				</property>
+                <property id="15" type="group" keyName="submenuIndicatorSub">
+					<name><![CDATA[Submenu Items Indicator]]></name>
+				</property>
+                <property id="9" type="image" keyName="hasSubmenuBGImage2" groupId="15">
+					<name><![CDATA[Background Image]]></name>
+				</property>
+                
+                <property id="17" type="select" keyName="hasSubmenuBGRepeatMode2" groupId="15">
+					<name><![CDATA[Background Repeat Mode]]></name>
+					<dataProvider>
+                        <item data="no-repeat">no-repeat</item>
+						<item data="repeat">repeat</item>
+						<item data="repeat-x">repeat-x</item>
+						<item data="repeat-y">repeat-y</item>
+					</dataProvider>
+				</property>
+                <property id="18" type="select" keyName="hasSubmenuBGHorizontalAlign2" groupId="15">
+					<name><![CDATA[Background Horizontal Align]]></name>
+					<dataProvider>
+						<item data="left">left</item>
+						<item data="center">center</item>
+						<item data="right">right</item>
+					</dataProvider>
+				</property>
+                <property id="19" type="select" keyName="hasSubmenuBGVerticalAlign2" groupId="15">
+					<name><![CDATA[Background Vertical Align]]></name>
+					<dataProvider>
+						<item data="top">top</item>
+						<item data="center">center</item>
+						<item data="bottom">bottom</item>
+					</dataProvider>
+				</property>
+                
+			</properties>
+
+			<template alpha="1" width="400" height="50" forceTop="true">
+				<data>
+					<dataProvider isDataProvider="true"></dataProvider>
+					<maxDepth>2</maxDepth>
+					<maxRootItems>-1</maxRootItems>
+					<iconPath>images/modules/menu_icon.png</iconPath>
+					<label embedFonts="false"><![CDATA[<FONT FACE="Tahoma" SIZE="11" COLOR="#000000"><B>Menu</B></FONT>]]></label>
+				</data>
+				<properties>
+					<item propertyType="1">0x4a4a4a</item>
+					<item propertyType="2">0x5e5e5e</item>
+                    <item propertyType="3"><![CDATA[<TEXTFORMAT><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="11" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">sample text</FONT></P></TEXTFORMAT>]]></item>
+					<item propertyType="10">0x6b6b6b</item>
+					<item propertyType="11">0x7c7c7c</item>
+                    <item propertyType="4"><![CDATA[<TEXTFORMAT><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="11" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">sample text</FONT></P></TEXTFORMAT>]]></item>
+                    <item propertyType="20"><![CDATA[true]]></item>
+                    <item propertyType="21"><![CDATA[true]]></item>
+                    <item propertyType="5"><![CDATA[]]></item>
+                    <item propertyType="6"><![CDATA[no-repeat]]></item>
+                    <item propertyType="7"><![CDATA[center]]></item>
+                    <item propertyType="8"><![CDATA[bottom]]></item>
+                    <item propertyType="9"><![CDATA[]]></item>
+                    <item propertyType="17"><![CDATA[no-repeat]]></item>
+                    <item propertyType="18"><![CDATA[right]]></item>
+                    <item propertyType="19"><![CDATA[center]]></item>
+                    <item propertyType="22"><![CDATA[true]]></item>
+				</properties>
+			</template>
+		</module>
+		<module id="8" type="menuModule" librarySymbolLinkage="JSMenuPreviewModule" resizable="true" icon="images/modules/menu_icon.png" category="menus" url="modules/menuWidget.swf" external="true" jsClass="VerticalMenuModule" cssClass="mjs-widget-verticalMenuModule">
+			<name><![CDATA[Vertical Menu]]></name>
+			<htmlTemplates>
+				<item name="main"><![CDATA[
+<div id="{%id%}" class="{%class%}" style="{%style%}">
+	<div class="mjs-widget-content" style="margin:0 auto; height:100%">
+		{%content%}
+	</div>
+	<style>
+	<!--    
+        
+        #{%id%} ul.mjs-menu-level-0 li a.mjs-menu-styles {
+            background-color: #{%widget.properties.buttonBGColor.value%};
+            border:1px #{%widget.properties.buttonBorderColor.value%} solid;
+            margin:1px;
+        }
+        
+        #{%id%} ul.mjs-menu-level-0 li a.mjs-menu-styles .mjs-menu-align{
+            {%widget.properties.buttonLabelFormat.value%};
+        }
+        
+        #{%id%} ul li.mjs-active > a.mjs-menu-styles {
+            border:1px #{%widget.properties.activeButtonBorderColor.value%} solid;
+            background-color: #{%widget.properties.activeButtonBGColor.value%};
+        }
+        
+        #{%id%} ul li.mjs-active > a.mjs-menu-styles .mjs-menu-align {
+            {%widget.properties.activeButtonLabelFormat.value%};
+        }
+        
+       #{%id%} ul li > a.mjs-menu-styles:hover{
+            background-color: #{%widget.properties.activeButtonBGColor.value%};
+            border:1px #{%widget.properties.activeButtonBorderColor.value%} solid;
+        }
+		
+		#{%id%} ul li > a.mjs-menu-styles:hover .mjs-menu-align{
+			{%widget.properties.activeButtonLabelFormat.value%};
+		}
+        
+        #{%id%} ul.mjs-menu-level-0 li .mjs-menu-align{
+            vertical-align: middle;
+            padding: 2px;
+        }
+        
+	-->
+	</style>
+</div>
+]]></item>
+				<item name="items"><![CDATA[<ul class="mjs-menu mjs-menu-level-{%level%}">{%content%}</ul>]]></item>
+				<item name="item"><![CDATA[<li class="mjs-sub mjs-item-{%position%} {%item.class%}">&nbsp;<a class="{%link.class%} mjs-menu-styles" href="{%href%}" data-url="{%url%}" data-action="{%action%}" rel="{%rel%}" target="{%target%}"><span class="mjs-menu-display"><span class="mjs-menu-align">{%item.properties.label.value%}</span></span></a>{%content%}<span class="mjs-navMenu"></span></li>]]></item>
+			</htmlTemplates>
+			<properties>
+                <property id="13" type="group" keyName="buttonProperties">
+					<name><![CDATA[Button Style]]></name>
+				</property>
+				<property id="1" type="color" keyName="buttonBGColor" groupId="13">
+					<name><![CDATA[Background Color]]></name>
+				</property>
+				<property id="2" type="color" keyName="buttonBorderColor" groupId="13">
+					<name><![CDATA[Border Color]]></name>
+				</property>
+                <property id="3" type="textFormat" keyName="buttonLabelFormat" groupId="13">
+					<name><![CDATA[Text Style]]></name>
+				</property>
+                <property id="14" type="group" keyName="activeButtonProperties">
+					<name><![CDATA[Active Button Style]]></name>
+				</property>
+                <property id="10" type="color" keyName="activeButtonBGColor" groupId="14">
+					<name><![CDATA[Background Color]]></name>
+				</property>
+				<property id="11" type="color" keyName="activeButtonBorderColor" groupId="14">
+					<name><![CDATA[Border Color]]></name>
+				</property>
+                <property id="4" type="textFormat" keyName="activeButtonLabelFormat" groupId="14">
+					<name><![CDATA[Text Style]]></name>
+				</property>
+                
+                <property id="20" type="checkBox" keyName="enableMenuBG">
+					<name><![CDATA[Enable Menu Items Background]]></name>
+				</property>
+                
+                <property id="21" type="checkBox" keyName="enableSubmenuBG">
+					<name><![CDATA[Enable Submenu Items Background]]></name>
+				</property>
+                
+                <property id="16" type="group" keyName="submenuIndicatorMain">
+					<name><![CDATA[Menu Items Indicator]]></name>
+				</property>
+                <property id="5" type="image" keyName="hasSubmenuBGImage" groupId="16">
+					<name><![CDATA[Background Image]]></name>
+				</property>
+                <property id="6" type="select" keyName="hasSubmenuBGRepeatMode" groupId="16">
+					<name><![CDATA[Background Repeat Mode]]></name>
+					<dataProvider>
+                        <item data="no-repeat">no-repeat</item>
+						<item data="repeat">repeat</item>
+						<item data="repeat-x">repeat-x</item>
+						<item data="repeat-y">repeat-y</item>
+					</dataProvider>
+				</property>
+                <property id="7" type="select" keyName="hasSubmenuBGHorizontalAlign" groupId="16">
+					<name><![CDATA[Background Horizontal Align]]></name>
+					<dataProvider>
+						<item data="left">left</item>
+						<item data="center">center</item>
+						<item data="right">right</item>
+					</dataProvider>
+				</property>
+                <property id="8" type="select" keyName="hasSubmenuBGVerticalAlign" groupId="16">
+					<name><![CDATA[Background Vertical Align]]></name>
+					<dataProvider>
+						<item data="top">top</item>
+						<item data="center">center</item>
+						<item data="bottom">bottom</item>
+					</dataProvider>
+				</property>
+                
+                <property id="15" type="group" keyName="submenuIndicatorSub">
+					<name><![CDATA[Submenu Items Indicator]]></name>
+				</property>
+                <property id="9" type="image" keyName="hasSubmenuBGImage2" groupId="15">
+					<name><![CDATA[Background Image]]></name>
+				</property>
+                
+                <property id="17" type="select" keyName="hasSubmenuBGRepeatMode2" groupId="15">
+					<name><![CDATA[Background Repeat Mode]]></name>
+					<dataProvider>
+                        <item data="no-repeat">no-repeat</item>
+						<item data="repeat">repeat</item>
+						<item data="repeat-x">repeat-x</item>
+						<item data="repeat-y">repeat-y</item>
+					</dataProvider>
+				</property>
+                <property id="18" type="select" keyName="hasSubmenuBGHorizontalAlign2" groupId="15">
+					<name><![CDATA[Background Horizontal Align]]></name>
+					<dataProvider>
+						<item data="left">left</item>
+						<item data="center">center</item>
+						<item data="right">right</item>
+					</dataProvider>
+				</property>
+                <property id="19" type="select" keyName="hasSubmenuBGVerticalAlign2" groupId="15">
+					<name><![CDATA[Background Vertical Align]]></name>
+					<dataProvider>
+						<item data="top">top</item>
+						<item data="center">center</item>
+						<item data="bottom">bottom</item>
+					</dataProvider>
+				</property>
+                
+			</properties>
+			<template alpha="1" width="150" height="200" forceTop="true">
+				<data>
+					<dataProvider isDataProvider="true"></dataProvider>
+					<maxDepth>2</maxDepth>
+					<maxRootItems>-1</maxRootItems>
+					<iconPath>images/modules/menu_icon.png</iconPath>
+					<label embedFonts="false"><![CDATA[<FONT FACE="Tahoma" SIZE="11" COLOR="#000000"><B>Menu</B></FONT>]]></label>
+				</data>
+				<properties>
+					<item propertyType="1">0x4a4a4a</item>
+					<item propertyType="2">0x5e5e5e</item>
+                    <item propertyType="3"><![CDATA[<TEXTFORMAT LEADING="0"><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="11" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">sample text</FONT></P></TEXTFORMAT>]]></item>
+					<item propertyType="10">0x6b6b6b</item>
+					<item propertyType="11">0x7c7c7c</item>
+                    <item propertyType="4"><![CDATA[<TEXTFORMAT LEADING="0"><P ALIGN="CENTER"><FONT FACE="Tahoma" SIZE="11" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">sample text</FONT></P></TEXTFORMAT>]]></item>
+                    <item propertyType="20"><![CDATA[true]]></item>
+                    <item propertyType="21"><![CDATA[true]]></item>
+                    <item propertyType="5"><![CDATA[]]></item>
+                    <item propertyType="6"><![CDATA[no-repeat]]></item>
+                    <item propertyType="7"><![CDATA[right]]></item>
+                    <item propertyType="8"><![CDATA[center]]></item>
+                    <item propertyType="9"><![CDATA[]]></item>
+                    <item propertyType="17"><![CDATA[no-repeat]]></item>
+                    <item propertyType="18"><![CDATA[right]]></item>
+                    <item propertyType="19"><![CDATA[center]]></item>
+				</properties>
+			</template>
+		</module>
+		<module id="9" type="simpleGalleryModule" librarySymbolLinkage="JSGalleryPreviewModule" external="true" url="modules/galleryWidget.swf" resizable="true" locked="false" lockEffects="false" icon="images/modules/gallery_icon.png" isContent="true" category="galleries" setSizeOnMouseUp="true" cssClass="mjs-widget-galleryModule" jsClass="GalleryModule">
+			<requirements />
+			<name><![CDATA[Gallery Widget]]></name>
+			<htmlTemplates>
+				<item name="main"><![CDATA[
+                    <div id="{%id%}" class="{%class%}" style="{%style%}">
+                        {%content%}
+                        <style>
+                        <!--    
+							#{%id%} ul {
+								bottom:{%widget.properties.prevIcon.image.parameters.height%}px;
+							}
+
+							#{%id%} .mjs-gallery-nav {
+								background-color: #{%widget.properties.controlPanelColor.value%};
+								height:{%widget.properties.prevIcon.image.parameters.height%}px;
+								padding: 10px 0px 5px 0px;
+                            }
+                            
+                            #cboxContent {background:#000;}
+                            #cboxInfo{cursor:pointer;}
+                            
+                            #cboxTopLeft, #cboxTopCenter, #cboxTopRight, #cboxBottomLeft, #cboxBottomRight, #cboxMiddleLeft, #cboxMiddleRight, #cboxCurrent {width:0; height:0; background:none;}
+                            
+                            #cboxBottomCenter{height:70px; background:none;}
+                            #cboxContent{text-align:center; margin-bottom:0px;}
+                            #cboxLoadedContent{margin-bottom:0px;}
+                            #cboxTitle{bottom:0px; height: 20%;}
+                            #cboxTitle .cboxTitlePadding {padding: 10px;}
+
+                            #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow, #cboxInfo{
+                                left:auto;
+                                right:auto;
+                                position:absolute;
+                                background-position: left top;
+                                background-repeat: no-repeat;
+                            }
+                            
+                            #cboxPrevious{left:30%; }
+                            
+                            #cboxNext{right:30%;}
+                            
+                            #cboxInfo{left:3%;}
+                            
+                            #cboxClose{right:3%;}
+                            
+                            #cboxSlideshow{left:50%;}
+                        -->
+                        </style>
+                    </div>
+                ]]></item>
+				<!-- module object -->
+				<item name="items"><![CDATA[<div class="mjs-widget-content">
+                    <ul>{%content%}</ul>
+                    <div class="mjs-gallery-nav">
+                        <span class="mjs-prev"><img src="" /></span>
+                        <span class="mjs-next"><img src="" /></span>
+                    </div></div>]]>
+                </item>
+				<item name="item"><![CDATA[
+<li class="{%class%}">
+	<a data-item="{%item.id%}" tabIndex="-1" data-href="{%item.properties.preview.value%}" href="{%website.root_url%}{%item.properties.preview.value%}" target="_blank"><img alt="" src="{%website.root_url%}{%item.properties.thumbnail.value%}" width="{%item.properties.thumbnail.image.parameters.width%}" height="{%item.properties.thumbnail.image.parameters.height%}" title=""></a>
+</li>
+]]></item>
+				<item name="classSubItems"><![CDATA[sub]]></item>
+			</htmlTemplates>
+			<properties>
+				<property id="8" type="stepper" keyName="rowsNum">
+					<name><![CDATA[Rows Number]]></name>
+					<parameters>
+						<maximum>16</maximum>
+						<minimum>1</minimum>
+						<stepSize>1</stepSize>
+					</parameters>
+				</property>
+				<property id="9" type="stepper" keyName="columnsNum">
+					<name><![CDATA[Columns Number]]></name>
+					<parameters>
+						<maximum>16</maximum>
+						<minimum>1</minimum>
+						<stepSize>1</stepSize>
+					</parameters>
+				</property>
+				<property id="3" type="color" keyName="controlPanelColor">
+					<name><![CDATA[Controls Background]]></name>
+				</property>
+				<property id="2" type="color" keyName="thumbnailsBgColor">
+					<name><![CDATA[Lightbox Background]]></name>
+				</property>
+				<property id="4" type="color" keyName="overlayColor">
+					<name><![CDATA[Overlay Color]]></name>
+				</property>
+				<property id="5" type="color" keyName="descriptionBgColor">
+					<name><![CDATA[Description Background]]></name>
+				</property>
+				<property id="6" type="slider" keyName="descriptionBgAlpha">
+					<name><![CDATA[Description Alpha]]></name>
+					<parameters>
+						<postfix>%</postfix>
+						<minimum>0</minimum>
+						<maximum>100</maximum>
+						<snapInterval>1</snapInterval>
+					</parameters>
+				</property>
+				<property id="1" type="checkBox" keyName="autoStartSlideShow">
+					<name><![CDATA[Autostart Slideshow]]></name>
+				</property>
+                <property id="7" type="stepper" keyName="slideshowSpeed">
+					<name><![CDATA[Slideshow Speed, ms]]></name>
+					<parameters>
+						<maximum>10000</maximum>
+						<minimum>500</minimum>
+						<stepSize>100</stepSize>
+					</parameters>
+				</property>
+                <property id="10" type="group" keyName="icons">
+					<name><![CDATA[Controls Icons]]></name>
+                </property>
+                <property id="11" type="image" keyName="descriptionIcon" groupId="10">
+                    <name><![CDATA[Description Icon]]></name>
+				</property>
+                <property id="12" type="image" keyName="prevIcon" groupId="10">
+                    <name><![CDATA[Previous Icon]]></name>
+				</property>
+                <property id="13" type="image" keyName="startSlideShowIcon" groupId="10">
+                    <name><![CDATA[Start Slideshow Icon]]></name>
+				</property>
+                <property id="14" type="image" keyName="pauseSlideShowIcon" groupId="10">
+                    <name><![CDATA[Pause Slideshow Icon]]></name>
+				</property>
+                <property id="15" type="image" keyName="nextIcon" groupId="10">
+                    <name><![CDATA[Next Icon]]></name>
+				</property>
+				<property id="16" type="image" keyName="closeIcon" groupId="10">
+                    <name><![CDATA[Close Lightbox Icon]]></name>
+				</property>
+			</properties>
+			<template alpha="1" width="300" height="300">
+				<data>
+					<galleryData isDataProvider="true"/>
+					<iconPath>images/modules/gallery_icon.png</iconPath>
+					<label embedFonts="false"><![CDATA[<FONT FACE="Tahoma" SIZE="11" COLOR="#000000"><B>Gallery</B></FONT>]]></label>
+					<countMask embedFonts="false"><![CDATA[<FONT FACE="Tahoma" SIZE="11" COLOR="#000000">{COUNT} items</FONT>]]></countMask>
+				</data>
+				<properties>
+					<item propertyType="1"><![CDATA[false]]></item>
+					<item propertyType="2"><![CDATA[0x383838]]></item>
+					<item propertyType="3"><![CDATA[0x191919]]></item>
+					<item propertyType="4"><![CDATA[0x666666]]></item>
+					<item propertyType="5"><![CDATA[0x2B2B2B]]></item>
+					<item propertyType="6"><![CDATA[90]]></item>
+					<item propertyType="7"><![CDATA[2000]]></item>
+					<item propertyType="8"><![CDATA[3]]></item>
+					<item propertyType="9"><![CDATA[3]]></item>
+					<item propertyType="11"><![CDATA[../images/mobile/controls/info.png]]></item>
+					<item propertyType="12"><![CDATA[../images/mobile/controls/prev.png]]></item>
+					<item propertyType="13"><![CDATA[../images/mobile/controls/play.png]]></item>
+					<item propertyType="14"><![CDATA[../images/mobile/controls/pause.png]]></item>
+					<item propertyType="15"><![CDATA[../images/mobile/controls/next.png]]></item>
+					<item propertyType="16"><![CDATA[../images/mobile/controls/close.png]]></item>
+					<item propertyType="10"><![CDATA[]]></item>
+				</properties>
+			</template>
+		</module>
+	</modules>
+	<popups>
+		<popup id="1" preview="images/previews/popup.jpg">
+			<name><![CDATA[Website Popup]]></name>
+			<contentHolders>
+				<holder id="3" type="popup" stretched="true" top="0" left="0" bottom="0" right="0" depth="40">
+					<name><![CDATA[Popup Content]]></name>
+				</holder>
+			</contentHolders>
+			<template>
+			</template>
+		</popup>
+	</popups>
+</motoStructure>

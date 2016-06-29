@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/AppPreloader Assets/rects" itemID="4eeb6f98-00000a04" sourceFlashFilepath="..\..\..\..\..\envelope\EndWork\15921_hScroll\endWork\19_12_11\moto.fla" sourceLibraryItemHRef="Template Elements/AppPreloader Assets/rects" sourceLastModified="1324309086" lastModified="1345215999">
+  <timeline>
+    <DOMTimeline name="rects">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="customThicknessSharpness" width="156" height="48.25" antiAliasSharpness="72" antiAliasThickness="69" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>LOADING</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-2" size="40" bitmapSize="800" face="Tahoma" fillColor="#911422"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,17 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MP3PlayerModule Assets/soundEQpla2" itemID="4d233990-000003a4" sourceFlashFilepath="..\..\..\..\..\envelope\16292\endWork\05_01_12\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MP3PlayerModule Assets/soundEQpla2" sourceLastModified="1324888918" lastModified="1345214431" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="soundEQpla2">
+      <layers>
+        <DOMLayer name="Layer 14" color="#808080" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Template Elements/Modules/MP3PlayerModule Assets/soundOff.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

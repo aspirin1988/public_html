@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MainMenuModule Assets/areaHolder" itemID="4dcbd81c-00000d0c" sourceFlashFilepath="..\..\..\example\34800\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MainMenuModule Assets/areaHolder" sourceLastModified="1305205129" lastModified="1305205129">
+  <timeline>
+    <DOMTimeline name="areaHolder">
+      <layers>
+        <DOMLayer name="rectangle" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix ty="-3"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1000 60|1000 1060!1000 1060|0 1060!0 1060|0 60!0 60|1000 60"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

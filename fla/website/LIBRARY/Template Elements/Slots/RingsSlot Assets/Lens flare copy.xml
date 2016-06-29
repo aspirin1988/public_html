@@ -1,0 +1,243 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/RingsSlot Assets/Lens flare copy" itemID="482f0bd5-00000811" sourceFlashFilepath="..\..\..\..\D\use_for_templates\use_stars_shine.fla" sourceLibraryItemHRef="Lens flare copy" sourceLastModified="1283769521" lastModified="1283769814">
+  <timeline>
+    <DOMTimeline name="Lens flare copy">
+      <layers>
+        <DOMLayer name="Actions/Labels" color="#00FF66" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="71" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var n:Number;
+n=int(Math.random()*70)+2;
+gotoAndPlay(n);
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="71" duration="39" name="flare" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="110" duration="178" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Ring 1" color="#FF9900" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Base Flare" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.713546752929688" d="0.713546752929688"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Ring 1" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.713546752929688" d="0.713546752929688" tx="8.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="70" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="71" duration="12" tweenType="motion" keyMode="17921" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Ring 1" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.411911010742188" d="0.411911010742188" tx="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="83" duration="24" tweenType="motion" keyMode="17921" acceleration="-75">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Ring 1" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.713546752929688" d="0.713546752929688" tx="8.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="107" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Ring 1" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.41082763671875" d="0.41082763671875" tx="14.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Base Flare" color="#009900" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="71" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="71" duration="12" tweenType="motion" keyMode="17921" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Base Flare" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.312545776367188" d="0.312545776367188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="83" duration="26" tweenType="motion" keyMode="17921" acceleration="-75">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Base Flare" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.713546752929688" d="0.713546752929688"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="109" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Base Flare" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.3228759765625" d="0.3228759765625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Cross" color="#808080" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="73" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="73" duration="11" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Lens Cross" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.82952880859375" b="-0.775924682617188" c="0.775924682617188" d="-0.82952880859375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="84" duration="22" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-75">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Lens Cross" name="" symbolType="graphic" firstFrame="11" loop="loop">
+                  <matrix>
+                    <Matrix a="-1.02061462402344" b="1.04327392578125" c="-1.04327392578125" d="-1.02061462402344"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="106" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Lens Cross" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.0951690673828125" b="0.987213134765625" c="-0.987213134765625" d="-0.0951690673828125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Cross 2" color="#009900" locked="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="74" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="74" duration="12" tweenType="motion" motionTweenRotate="counter-clockwise" motionTweenRotateTimes="1" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Lens Cross" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.0834503173828125" b="0.654937744140625" c="-0.654937744140625" d="0.0834503173828125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="86" duration="14" tweenType="motion" motionTweenRotate="clockwise" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-75">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Lens Cross" name="" symbolType="graphic" firstFrame="12" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.637115478515625" b="-0.156265258789063" c="0.156265258789063" d="-0.637115478515625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="100" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Gr-Lens Cross" name="" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-0.288665771484375" b="-0.397216796875" c="0.397216796875" d="-0.288665771484375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

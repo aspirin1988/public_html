@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/TemplateRichContentModule Assets/arr1" itemID="4f70575b-000005fa" lastModified="1332762459">
+  <timeline>
+    <DOMTimeline name="arr1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="-4" ty="-7"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#990033"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!120 160|120 180!120 180|100 180!100 180|100 200!100 200|80 200!80 200|80 180!80 180|100 180!100 180|100 160!100 160|120 160"/>
+                    <Edge fillStyle0="1" edges="!120 160|140 160!140 160|140 140!140 140|120 140!120 140|120 160"/>
+                    <Edge fillStyle1="1" edges="!160 180|180 180!180 180|180 200!180 200|160 200!160 200|160 180"/>
+                    <Edge fillStyle0="1" edges="!160 180|160 160!160 160|140 160!140 160|140 180!140 180|160 180"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

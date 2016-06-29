@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MainSubMenu Assets/menuHolder" itemID="4dcbf549-000004a4" sourceFlashFilepath="..\..\..\example\34800\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MainSubMenu Assets/menuHolder" sourceLastModified="1305212979" lastModified="1305212979" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="menuHolder">
+      <layers>
+        <DOMLayer name="clip" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/MainSubMenu Assets/clip" name="clip" selected="true">
+                  <transformationPoint>
+                    <Point x="17" y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

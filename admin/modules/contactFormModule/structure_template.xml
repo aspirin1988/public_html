@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contactFormStructure>
+	<formItems/>
+	<formControls>
+		<item type="submitButton" x="0" y="0" width="100" height="20"/>
+		<item type="resetButton" x="0" y="30" width="100" height="20"/>
+		<item type="statusMessage" x="0" y="60" width="100" height="20"/>
+	</formControls>
+</contactFormStructure>

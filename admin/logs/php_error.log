@@ -1,0 +1,1 @@
+[18-Mar-2014 14:58:22 Europe/Moscow] PHP Fatal error:  Incompatible file format:  The encoded file has format major ID 3, whereas the Loader expects 4 in /home/sojrypee/public_html/admin/modules/htmlWidgetModule/services/vo/ModuleDataProviderVO.php on line 0

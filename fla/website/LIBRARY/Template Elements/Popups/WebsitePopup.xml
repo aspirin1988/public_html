@@ -1,0 +1,111 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Popups/WebsitePopup" itemID="4cf4b524-00000240" linkageExportForAS="true" linkageBaseClass="popups.WebsitePopup" linkageClassName="WebsitePopup" sourceFlashFilepath="..\..\..\webSite31\website.fla" sourceLibraryItemHRef="Template Elements/Popups/WebsitePopup" sourceLastModified="1302874169" lastModified="1328701296" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="WebsitePopup" currentFrame="1">
+      <layers>
+        <DOMLayer name="a" color="#FFFF4F" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="49" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[import com.moto.template.common.Moto;
+
+Moto.getInstance().getPopupHolder (popupID, 10, popupHolder.popup_holder_10);
+Moto.getInstance().getPopupHolder (popupID, 11, popupHolder.popup_holder_11);
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="a" color="#FF4FFF" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="28" name="show" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="19" name="hide" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="48" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();
+// Remove popup
+removePopup();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="popupHolder" color="#4FFFFF" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="49" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Popups/WebsitePopup Assets/websitePopupHolder" name="popupHolder" selected="true">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Popups/WebsitePopup Assets/websitePopupBg" name="bg" selected="true">
+                  <transformationPoint>
+                    <Point x="489" y="370"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Popups/WebsitePopup Assets/websitePopupBg" name="bg">
+                  <transformationPoint>
+                    <Point x="489" y="370"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.6015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" duration="11" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Popups/WebsitePopup Assets/websitePopupBg" name="bg">
+                  <transformationPoint>
+                    <Point x="489" y="370"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.6015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="48" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Popups/WebsitePopup Assets/websitePopupBg" name="bg">
+                  <transformationPoint>
+                    <Point x="489" y="370"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

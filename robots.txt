@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /*?
+Disallow: *.swf$
+Disallow: *.js$
+Disallow: /admin/
+Disallow: /xml/
+Disallow: /m/
+Host: http://royalcar.kz/
+Sitemap: http://royalcar.kz/sitemap.xml

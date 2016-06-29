@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Other/WebsitePreloader" itemID="4f35198f-00000283" linkageExportForAS="true" linkageBaseClass="common.WebsitePreloader" linkageClassName="WebsitePreloader" sourceFlashFilepath="..\..\..\..\components\websitePreloaders\websitePreloader_01\websitePreloader_01.fla" sourceLibraryItemHRef="Template Elements/Other/WebsitePreloader" sourceLastModified="1261349897" lastModified="1328268347" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="WebsitePreloader">
+      <layers>
+        <DOMLayer name="g" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_pic_3" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="-15.15" ty="-15.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.15" y="15.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MainSubMenu Assets/rectangle" itemID="4dcbf631-000004ad" sourceFlashFilepath="..\..\..\example\34800\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MainSubMenu Assets/rectangle" sourceLastModified="1305212465" lastModified="1305212465">
+  <timeline>
+    <DOMTimeline name="rectangle">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1000 1000|0 1000!0 1000|0 0!0 0|1000 0!1000 0|1000 1000"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

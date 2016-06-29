@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contactFormConfiguration>
+  <emailTo><![CDATA[elina_00001@mail.ru]]></emailTo>
+  <serverProcessorType>php</serverProcessorType>
+  <serverProcessorFileName>widget_contact</serverProcessorFileName>
+  <validateRequiredOnly>false</validateRequiredOnly>
+  <submitFormOnEnter>false</submitFormOnEnter>
+  <messageSentText><![CDATA[Спасибо, мы обязательно вам ответим]]></messageSentText>
+  <messageSentFailedText><![CDATA[Sorry, your message was not sent. Please try again.]]></messageSentFailedText>
+  <formProcessingText><![CDATA[processing...]]></formProcessingText>
+  <useSmtp>false</useSmtp>
+  <smtpServer><![CDATA[localhost]]></smtpServer>
+  <smtpPort>25</smtpPort>
+  <smtpLogin><![CDATA[]]></smtpLogin>
+  <smtpPassword><![CDATA[]]></smtpPassword>
+  <smtpAuth>none</smtpAuth>
+  <smtpSecure>none</smtpSecure>
+  <plainText>false</plainText>
+  <emailFromSource>Запрос с сайта royalcar</emailFromSource>
+  <subjectSource><![CDATA[Contact Form from your site]]></subjectSource>
+  <checkBoxSelected><![CDATA[Yes]]></checkBoxSelected>
+  <checkBoxUnselected><![CDATA[No]]></checkBoxUnselected>
+  <radioButtonUnselected><![CDATA[Not selected]]></radioButtonUnselected>
+  <validationErrorMessages>
+    <message type="shouldBeEqualError"><![CDATA[{LABEL} - values do not match]]></message>
+    <message type="fieldIsRequired"><![CDATA[{LABEL} is required.]]></message>
+    <message type="biggerThanMaxError"><![CDATA[{LABEL} - The specified number is greater than an acceptable biggest number for this field.]]></message>
+    <message type="maxRequirementError"><![CDATA[{LABEL} - The number of variants selected exceeds the maximum]]></message>
+    <message type="minCharsLimitError"><![CDATA[{LABEL} - The specified number of characters in a field is less than a required minimum.]]></message>
+    <message type="negativeError"><![CDATA[{LABEL} - The specified number must not be negative.]]></message>
+    <message type="notANumberError"><![CDATA[{LABEL} - The data is not a number.]]></message>
+    <message type="dateIsNotValidError"><![CDATA[{LABEL} - date has wrong format]]></message>
+    <message type="minRequirementError"><![CDATA[{LABEL} - The minimum number of variants is not selected]]></message>
+    <message type="emailNotValid"><![CDATA[{LABEL} - is not valid email address.]]></message>
+    <message type="lowerThanMinError"><![CDATA[{LABEL} - The specified number is lower than an acceptable lowest number for this field.]]></message>
+    <message type="reqExpError"><![CDATA[{LABEL} - The specified string does not match with the regular expression.]]></message>
+  </validationErrorMessages>
+</contactFormConfiguration>

@@ -1,0 +1,140 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/RingsSlot" itemID="502e0f0c-00000690" linkageExportForAS="true" linkageBaseClass="slots.RingsSlot" linkageClassName="RingsSlot" sourceLibraryItemHRef="Template Elements/Symbol 1" lastModified="1345197850">
+  <timeline>
+    <DOMTimeline name="RingsSlot">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="20" name="show" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="21" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" duration="12" name="out" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="34" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rings" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/rings" name="">
+                  <matrix>
+                    <Matrix a="0.0999908447265625" d="0.0999908447265625" tx="57" ty="70.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-31.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="12" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/rings" name="">
+                  <matrix>
+                    <Matrix a="1.0999755859375" d="1.0999755859375" tx="80" ty="82.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-31.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color redOffset="55" blueOffset="55" greenOffset="55"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/rings" name="">
+                  <matrix>
+                    <Matrix tx="80" ty="79"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-31.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" duration="6" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/rings" name="">
+                  <matrix>
+                    <Matrix tx="80" ty="79"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-31.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" duration="6" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/rings" name="">
+                  <matrix>
+                    <Matrix a="1.0999755859375" d="1.0999755859375" tx="80" ty="82.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-31.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color redOffset="55" blueOffset="55" greenOffset="55"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/rings" name="">
+                  <matrix>
+                    <Matrix a="0.0999908447265625" d="0.0999908447265625" tx="57" ty="70.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-31.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/preview" name="area" centerPoint3DX="59.5" centerPoint3DY="31.5">
+                  <transformationPoint>
+                    <Point x="59.5" y="31.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

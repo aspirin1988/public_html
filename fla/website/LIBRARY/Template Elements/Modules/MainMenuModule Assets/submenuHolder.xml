@@ -1,0 +1,15 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MainMenuModule Assets/submenuHolder" itemID="4dcbd35b-000009c4" sourceFlashFilepath="..\..\..\example\34800\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MainMenuModule Assets/submenuHolder" sourceLastModified="1305203562" lastModified="1329304876">
+  <timeline>
+    <DOMTimeline name="submenuHolder">
+      <layers>
+        <DOMLayer name="submenu" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

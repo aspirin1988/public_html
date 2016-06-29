@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/PagePartSlot Assets/preview2" itemID="502e640b-00000a8f" sourceLibraryItemHRef="Symbol 1" lastModified="1345217721">
+  <timeline>
+    <DOMTimeline name="preview2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#1F1F1F"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!11900 859|11900 8239!11900 8239[11890 8638 11577 8908!11577 8908[11419 9033 11232 9078!11232 9078|11034 9100!11034 9100|863 9100!863 9100|661 9075!661 9075[476 9025 341 8920!341 8920[15 8658 0 8244!0 8244|0 859!0 859[5 472 320 195!320
+ 195[591 2 858 0!858 0|11019 0!11019 0|11229 22!11229 22[11412 62 11574 190!11574 190[11888 452 11900 859"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

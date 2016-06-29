@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/IntroSlot Assets/Page Movie/slogan" itemID="4b0d35a4-00000043" sourceLibraryItemHRef="Symbol 1" lastModified="1345219965">
+  <timeline>
+    <DOMTimeline name="slogan">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="tf" selected="true" fontRenderingMode="device" left="46.9" width="372" height="57.7" antiAliasThickness="-100" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="-44.9" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>HELPING YOU PLAN YOUR SPECIAL DAY</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="16" bitmapSize="320" face="_sans" fillColor="#888888"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

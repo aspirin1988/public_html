@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/CloseButtonSlot Assets/itemButton" itemID="4d496d2a-00000f69" sourceFlashFilepath="..\..\website.fla" sourceLibraryItemHRef="Template Elements/Slots/CloseButtonSlot Assets/itemButton" sourceLastModified="1327938222" lastModified="1345196322">
+  <timeline>
+    <DOMTimeline name="itemButton">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Template Elements/Slots/RingsSlot Assets/cross_2.png">
+                  <matrix>
+                    <Matrix tx="-9" ty="-10"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/TemplateRichContentModule Assets/g" itemID="4ce147bf-00000622" sourceFlashFilepath="..\..\..\..\16291\endWork\30_12_11\website.fla" sourceLibraryItemHRef="Template Elements/Modules/TemplateRichContentModule Assets/g" sourceLastModified="1324970604" lastModified="1345227878">
+  <timeline>
+    <DOMTimeline name="g">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="21" objectHeight="121" x="18" y="0" selected="true" lockFlag="true" topLeftRadius="25" topRightRadius="25" bottomLeftRadius="25" bottomRightRadius="25">
+                  <matrix>
+                    <Matrix tx="-18"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#990066"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

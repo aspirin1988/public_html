@@ -1,0 +1,181 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/BackgroundAnimationSlot Assets/decors_all" itemID="4c764abc-000001b3" sourceLibraryItemHRef="Symbol 3" lastModified="1345225841" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="decors_all">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="81" name="show" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="82" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" duration="77" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="77" duration="19" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02" name="" centerPoint3DX="-555.5" centerPoint3DY="-446.15">
+                  <matrix>
+                    <Matrix a="-1.341064453125" b="-0.359329223632813" c="-0.359329223632813" d="1.341064453125" tx="-609.15" ty="-424.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="77" blueOffset="77" greenOffset="77"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="patt_02" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="66" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="66" duration="30" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02" name="" centerPoint3DX="94.05" centerPoint3DY="-506.9">
+                  <matrix>
+                    <Matrix a="-1.20913696289063" b="0.516159057617188" c="0.516159057617188" d="1.20913696289063" tx="66.9" ty="-459.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="77" blueOffset="77" greenOffset="77"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="patt_02" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="53" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="53" duration="43" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02" name="">
+                  <matrix>
+                    <Matrix a="-1.21951293945313" b="0.326766967773438" c="-0.326766967773438" d="-1.21951293945313" tx="387.85" ty="-501.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="77" blueOffset="77" greenOffset="77"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="patt_02" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="41" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="41" duration="55" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02" name="">
+                  <matrix>
+                    <Matrix a="1.81303405761719" b="-0.485794067382813" c="0.485794067382813" d="1.81303405761719" tx="421.6" ty="-159.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="77" blueOffset="77" greenOffset="77"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="patt_02" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" duration="68" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02" name="">
+                  <matrix>
+                    <Matrix a="-0.492721557617188" b="2.05264282226563" c="2.05264282226563" d="0.492721557617188" tx="-324.15" ty="-501.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="77" blueOffset="77" greenOffset="77"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="patt_02" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" duration="82" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02" name="">
+                  <matrix>
+                    <Matrix a="0.558273315429688" b="-1.91532897949219" c="-1.91532897949219" d="-0.558273315429688" tx="-375.15" ty="-287.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="77" blueOffset="77" greenOffset="77"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="patt_02" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="94" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02" name="" centerPoint3DX="150.3" centerPoint3DY="-463.85">
+                  <matrix>
+                    <Matrix a="1.81303405761719" b="-0.485794067382813" c="0.485794067382813" d="1.81303405761719" tx="222.85" ty="-434.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875" redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="77" blueOffset="77" greenOffset="77"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

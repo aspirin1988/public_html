@@ -1,0 +1,337 @@
+html,body{
+	margin:0px;padding:0px;
+	width:100%;height:100%;
+}
+body{
+	font:normal 16px Arial;
+	position:relative;
+}
+.cls{clear: both;}
+
+h1{
+	text-align: center;
+	font:bold italic 30px Georgia;
+	color:#99C418;
+}
+
+h2{
+	text-align: center;
+	font:bold italic 20px Georgia;
+	color:#99C418;
+}
+
+h3{
+	text-align: center;font:bold italic 20px Georgia;
+	color:#99C418;
+}
+
+.workarea{
+	width:920px;height:500px;
+	margin:0px auto;
+}
+.wrk{
+	border:#e9e9e9 1px solid;
+	padding:3px;
+}
+
+.slogo{
+	background:url('/img/slogo.png') center 15px no-repeat;
+	padding-top:80px;
+}
+
+.list li{
+	font:bold italic 20px Georgia;
+	color:#99c418;
+	padding-top:5px;
+}
+.list li a{
+	text-decoration:none;
+	border-bottom:2px #e41c3c dotted;
+}
+
+.login1{
+	position:absolute;
+	width:320px;padding:3px;
+	border:#e9e9e9 1px solid;
+	left:50%;top:50%;margin-left:-160px;margin-top:-160px;
+	color:#000;
+}
+
+.login2{
+	position:absolute;
+	width:220px;padding:3px;
+	border:#e9e9e9 1px solid;
+	right:0px;top:0px;
+	color:#000;
+}
+
+.border_wrapp{border:#e9e9e9 1px solid;padding:3px}
+.wrapp{
+	background:#f7f7f7;color:#250085;
+	padding:20px 20px 20px 20px;
+	
+}
+.txt{
+	color:#444;font:italic 12px Georgia;
+}
+.stbl td{padding:5px;font:italic 15px Georgia;}
+
+.headerstyle{
+	text-align:right;
+}
+
+.orangebg{
+	background:#f7f7f7 url('/img/logo.png') center 10px no-repeat;
+	padding:90px 20px 20px 20px;
+	border:#f4f4f4 1px solid;
+	font-size:12px;
+	line-height:25px;
+	color:#250085;
+	text-align:center;
+}
+.orangebg input{
+	width:100%;
+	border:1px solid #ececec;
+	text-align:center;
+}
+input.btn, a.btn{
+	font:bold italic 14px Georgia;
+	background:#e41c3c;
+	border:1px solid #e41c3c;
+	color:#fff;padding:3px 13px 3px 13px;
+	text-decoration:none;
+	cursor:pointer;
+	
+	transition: 0.5s Ease;
+}
+input.btn:hover, a.btn:hover{
+	background:#d61635;
+	color:#fff;
+	border:1px solid #d61635;
+}
+p.btn{
+	width:120px;background:#fff;padding:3px;
+	border:1px solid #ececec;
+	margin:10px auto 0px auto;
+	display:block;
+}
+
+.rb{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.error h2{
+	margin:0px;color:#fff;margin-left:-75px;
+}
+.error{
+	background:#e41c3c url('/img/error.png') 20px center no-repeat;padding:10px 5px 10px 75px;color:#fff;
+	min-height:50px;
+}
+
+.okmessage{
+	background:#99c418;padding:10px;color:#fff;
+	font:bold italic 14px Georgia;text-align:center;
+	margin-bottom:10px;
+}
+
+.marker{color:#e41c3c;}
+.note{color:#444;font:normal 14px Arial;}
+.ctr{
+	background:#f7f7f7;
+	color:#444;font:italic 12px Georgia;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding:5px;
+	display:inline-block;
+	margin-left:5px;
+	border-radius: 5px;
+}
+.ctr input{
+	background:transparent;border:0px;
+}
+#drop_Menu a{
+	padding:3px 10px 3px 10px;
+	font:bold italic 12px Georgia;
+	color:#e41c3c;border-bottom:2px #99C418 dotted;
+	text-decoration:none;
+	width:220px;
+}
+
+#action_menu{
+	position:absolute;
+	width:300px;
+	margin-right:10px;
+	margin-left:10px;
+} 
+
+#action_menu a.active{
+	background-color: #99c418;color:#fff !important;padding:4px;
+	border:0px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+}
+#action_menu a:visited{
+	color:#0000ef;
+}
+#action_menu a{
+	font:bold italic 12px Georgia;
+}
+#action_menu ul.list {
+	margin:0px 0px 0px 15px;padding:0px;
+}
+#action_menu .wrapp{
+	padding:10px;margin:0px;
+}
+h2 a{
+	color:#e41c3c;
+	text-decoration:none;border-bottom:2px #99C418 dotted;
+}
+#work_area{
+	margin-left:320px;
+	padding-top:80px;
+	width:920px;
+}
+.answerbox{
+	width:405px;float:left;margin:0px 10px 15px 10px;
+	text-align:center;
+}
+.slist{
+	display:block;width:60px;background:#99c418;padding:4px 4px 4px 14px;
+	float:left;margin:3px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+} 
+.tlist .active{
+	background:#e41c3c;
+}
+.slist a{
+	color:#fff;text-decoration:none;
+}
+
+.inp{
+	width:100%;height:30px;border:#e9e9e9 1px solid;
+}
+
+.inptxt{
+	width:100%;height:100px;border:#e9e9e9 1px solid;
+}
+
+.mtp{
+	height:50px;
+}
+
+
+.headerstyle, .smtd th{
+	border:1px #fff solid;background:#99c418;padding:5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	color:#fff;
+}
+.headerstyle{
+	text-align:center;
+}
+.smtd td{
+	font:italic 12px Georgia;
+	padding-left:10px;
+}
+
+.vname{
+	background:#e41c3c;padding:4px;color:#fff;
+}
+.voting{
+	font:bold italic 14px Georgia;	
+}
+
+.answer{
+	clear: both;padding:10px;
+}
+.big{
+	display:inline;background:transparent;border-bottom:1px #555 solid;border-top:0px;border-right:0px;border-left:0px;
+	text-align:center;font:bold italic 14px Georgia;
+}
+.smin{
+	width:60px;
+}
+.url{
+	color:#e41c3c;
+	text-decoration:none;border-bottom:2px #99C418 dotted;
+}
+.unitset{
+	width:100px;
+	float:left;
+	margin-right:10px;
+}
+.hdr{
+	background:#99c418;padding:5px;color:#fff;display:block;
+}
+.tasks{
+	background:#ccc;padding:5px;color:#333;display:block;margin:5px;
+}
+.tasks a{
+	text-decoration:none;color:#333;margin-left:5px;
+}
+h4{
+	text-align:left;font:bold italic 16px Georgia;
+	color:#777;
+}
+
+#user_stat{
+	background:#ffe897;width:310px;
+	float:right;margin:10px;padding:10px;
+}
+#user_stat h4{
+	color:#000;text-align:center;font-size:18px;margin:5px 0px 15px 0px;
+}
+
+#sortable ul{
+	list-style:none;margin:0px;padding:0px;
+}
+#sortable li{
+	display:block;text-align:center;margin-bottom:10px;
+}
+#sortable .icon{
+	display:block;
+	width:200px;
+	overflow:hidden;
+}
+
+#imageList .icon{
+	background:#fff;
+	border:1px #e9e9e9 solid;
+	width:165px;
+	padding:5px;margin:5px;float:left;
+	text-align:center;
+}
+#imageList .icon span{
+	display:block;
+	width:155px;height:155px;overflow:hidden;
+	margin:5px;
+}
+#imageList .icon span img{
+	display:block;
+	width:100%;height:auto;
+}
+
+#imageList textarea{
+	margin:5px 0px;
+	border:1px #e9e9e9 solid;
+	width:100%;
+}
+#imageList input{
+	border:1px #e9e9e9 solid;
+}
+#imageList .icons{
+	width:200px;height:200px;overflow:hidden;
+}
+#drop_Menu a.act{
+	background-color: #99c418;color:#fff !important;padding:4px;
+	border:0px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+}
+
+input[type="email"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], textarea {
+	padding: 8px 9px;
+	border: 1px solid #CCC;
+	border-bottom-color: #B3B3B3;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px #F1F1F1, 0 1px 2px rgba(0,0,0,.1);
+	font: 14px Arial, sans-serif;
+	color: #333;
+}

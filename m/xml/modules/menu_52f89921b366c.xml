@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infomodule>
+	<configuration>
+		<option id="titleID">
+			<value>1</value>
+		</option>
+	</configuration>
+
+	<structure>
+		<properties>
+			<property id="1" type="plainText" keyName="label">
+				<name><![CDATA[Label]]></name>
+			</property>
+		</properties>
+		<template id="0" parent="0" click="switchPage;page=1" order="0">
+			<properties>
+				<item propertyType="1"><![CDATA[MENU LABEL]]></item>
+			</properties>
+		</template>
+	</structure>
+
+	<data><item id="1" parent="0" click="switchPage;page=3" order="1"><properties><item propertyType="1"><![CDATA[КАТАЛЛОГ АВТОМОБИЛЕЙ]]></item></properties></item></data>
+
+</infomodule>

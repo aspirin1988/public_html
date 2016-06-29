@@ -1,0 +1,2009 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#3A3A3A" gridColor="#C0C0C0" guidesColor="#00FF00" width="1000" height="800" frameRate="40" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 485" majorVersion="11" buildNumber="485" gridSpacingX="18" gridSpacingY="18" gridSnapTo="true" rulerVisible="true" pixelSnap="true" snapAlignBorderSpacing="18" timelineHeight="364" timelineLabelWidth="253" viewAngle3D="55.9536640511374" nextSceneIdentifier="280" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" hasAccessibleData="true">
+     <folders>
+          <DOMFolderItem name="Components" itemID="48e20045-000000ff"/>
+          <DOMFolderItem name="Components/Moto Components" itemID="4c0f8d6c-00000498"/>
+          <DOMFolderItem name="Components/Moto Modules Preview" itemID="4c0f8d5e-00000487"/>
+          <DOMFolderItem name="Sounds" itemID="4b2ea29d-00000556"/>
+          <DOMFolderItem name="Template Elements" itemID="48e200a9-00000107" isExpanded="true"/>
+          <DOMFolderItem name="Template Elements/Graphics &amp; Animation" itemID="4a4a40f6-00000494"/>
+          <DOMFolderItem name="Template Elements/Holders" itemID="4a4a4cd3-000004ae"/>
+          <DOMFolderItem name="Template Elements/Modules" itemID="4a4a4ccb-000004ab" isExpanded="true"/>
+          <DOMFolderItem name="Template Elements/Modules/MainMenuModule Assets" itemID="4dcbd28a-000009c0"/>
+          <DOMFolderItem name="Template Elements/Modules/MainSubMenu Assets" itemID="4dcbf585-000004a9"/>
+          <DOMFolderItem name="Template Elements/Modules/MP3PlayerModule Assets" itemID="4a66df30-00000520"/>
+          <DOMFolderItem name="Template Elements/Modules/TemplateRichContentModule Assets" itemID="4a588caa-00000309"/>
+          <DOMFolderItem name="Template Elements/Other" itemID="4abd40e6-00000ae1"/>
+          <DOMFolderItem name="Template Elements/Other/WebsitePreloader Assets" itemID="4b2eaac1-00000a31"/>
+          <DOMFolderItem name="Template Elements/Popups" itemID="4a4a4cd7-000004b1"/>
+          <DOMFolderItem name="Template Elements/Popups/WebsitePopup Assets" itemID="4a642f31-0000054e" isExpanded="true"/>
+          <DOMFolderItem name="Template Elements/Slots" itemID="4a4a4cc5-000004a8"/>
+          <DOMFolderItem name="Template Elements/Slots/AnimatedLinesSlot Assets" itemID="502e7eb2-000003e8"/>
+          <DOMFolderItem name="Template Elements/Slots/BackgroundAnimationSlot Assets" itemID="502e84ec-00000416"/>
+          <DOMFolderItem name="Template Elements/Slots/CloseButtonSlot Assets" itemID="4cadd913-0000077a"/>
+          <DOMFolderItem name="Template Elements/Slots/ImageSlot Assets" itemID="4c7f5cbe-000001aa"/>
+          <DOMFolderItem name="Template Elements/Slots/IntroSlot Assets" itemID="502e66f8-00000aa6"/>
+          <DOMFolderItem name="Template Elements/Slots/IntroSlot Assets/Menu" itemID="4b41d9e6-00000097"/>
+          <DOMFolderItem name="Template Elements/Slots/IntroSlot Assets/Page Movie" itemID="4b41d9d9-00000094"/>
+          <DOMFolderItem name="Template Elements/Slots/MenuItemSlot Assets" itemID="502e1b3f-000007e7"/>
+          <DOMFolderItem name="Template Elements/Slots/PagePartSlot Assets" itemID="4f3b7303-000002ac"/>
+          <DOMFolderItem name="Template Elements/Slots/RingsSlot Assets" itemID="502e0fdb-00000695"/>
+          <DOMFolderItem name="Template Elements/Slots/TitleSlotAssets" itemID="4ca1a245-0000033c"/>
+     </folders>
+     <fonts>
+          <DOMFontItem name="Font 1" itemID="4f3d1c37-000002ec" font="ArialMT" size="8" id="1" sourceLastImported="1329404983" embedRanges="1|2|3|4" bitmapSize="160"/>
+     </fonts>
+     <media>
+          <DOMSoundItem name="Sounds/b" itemID="4b793ca5-0000008a" linkageExportForAS="true" linkageClassName="b" sourceExternalFilepath=".\flash\sound\b.wav" sourceLastImported="1266236930" href="Sounds\b.wav" soundDataHRef="M 121 1266236581.dat" format="44kHz 16bit Stereo" sampleCount="18423"/>
+          <DOMSoundItem name="Sounds/b1" itemID="4f7dc1e4-00000fdf" linkageExportForAS="true" linkageClassName="b1" sourceExternalFilepath=".\flash\sound\b.WAV" sourceLastImported="1333641700" href="Sounds\b1.WAV" soundDataHRef="Media 102.dat" format="44kHz 16bit Stereo" sampleCount="42353"/>
+          <DOMBitmapItem name="Template Elements/Slots/IntroSlot Assets/bg_spot_2.png" itemID="4c6e9eee-00000d7f" sourceExternalFilepath=".\flash\img\bg_spot_2.png" sourceLastImported="1282318037" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Slots\IntroSlot Assets\bg_spot_2.png" bitmapDataHRef="M 199 1282318062.dat" frameRight="14200" frameBottom="12720"/>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Catalog Module Preview" itemID="4f3d1c15-00000019" linkageExportForAS="true" linkageClassName="CatalogModulePreview" sourceLastImported="1323095469" customIconID="0" actionscriptClass="CatalogModulePreview" swfScmHRef="fim28zhrh5.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfim28zhrh5..swf" persistLivePreview11="true" livePreview11ScmHRef="fim28zhrh559.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfim1tzhrh5..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Catalog Module Preview.xml" rootSymbolLinkageID="CatalogModulePreview" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="o0nhrSpNeS5isiqTA9bfc1">
+               <classProperties><![CDATA[<component id="CatalogModulePreview" class="CatalogModulePreview" modified="1323095469906">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="CatalogModulePreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="CatalogModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="CatalogModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fim28zhrh560.dat"/>
+               </customIcon>
+               <SwcItem name="CatalogModulePreview" version="1323095469" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMBitmapItem name="Template Elements/Slots/RingsSlot Assets/cross_2.png" itemID="4c77a751-00000559" sourceExternalFilepath="..\..\delta-11569_new_loading_as3\flash\img\cross_2.png" sourceLastImported="1282910001" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Slots\RingsSlot Assets\cross_2.png" bitmapDataHRef="M 208 1284029995.dat" frameRight="360" frameBottom="400"/>
+          <DOMBitmapItem name="Template Elements/Slots/RingsSlot Assets/cross_plane2.png" itemID="4c77a745-00000554" sourceExternalFilepath="..\..\delta-11569_new_loading_as3\flash\img\cross_plane2.png" sourceLastImported="1282909991" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Slots\RingsSlot Assets\cross_plane2.png" bitmapDataHRef="M 207 1284029995.dat" frameRight="840" frameBottom="840"/>
+          <DOMSoundItem name="Sounds/f" itemID="4b793ca6-00000092" linkageExportForAS="true" linkageClassName="f" sourceExternalFilepath=".\flash\sound\f.wav" sourceLastImported="1266237077" href="Sounds\f.wav" soundDataHRef="M 123 1266236582.dat" format="44kHz 16bit Stereo" sampleCount="23238"/>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Form Module Preview" itemID="4f3d1c15-00000052" linkageExportForAS="true" linkageClassName="FormModulePreview" sourceLastImported="1323095479" customIconID="0" actionscriptClass="FormModulePreview" swfScmHRef="finw7zhrh8.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfinw7zhrh8..swf" persistLivePreview11="true" livePreview11ScmHRef="finw7zhrh862.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfinw7zhrh8..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Form Module Preview.xml" rootSymbolLinkageID="FormModulePreview" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="y24X2VXT//iY0DGkLLQNM.">
+               <classProperties><![CDATA[<component id="FormModulePreview" class="FormModulePreview" modified="1323095479718">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="ModulePreview"/>
+	<classDef id="FormModulePreview"/>
+</classDefs>
+<class id="FormModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="FormModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="finw7zhrh863.dat"/>
+               </customIcon>
+               <SwcItem name="FormModulePreview" version="1323095479" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMSoundItem name="Sounds/fx" itemID="4e01e205-000000c4" linkageExportForAS="true" linkageClassName="fx" sourceExternalFilepath=".\LIBRARY\Sounds\fx.wav" sourceLastImported="1308746233" href="Sounds\fx.wav" soundDataHRef="M 363 1308746245.dat" format="44kHz 16bit Stereo" sampleCount="66150"/>
+          <DOMSoundItem name="Sounds/I1" itemID="4f7d96ad-00000d93" linkageExportForAS="true" linkageClassName="I1" sourceExternalFilepath=".\flash\sound\l.wav" sourceLastImported="1333630637" href="Sounds\I1.wav" soundDataHRef="Media 104.dat" format="44kHz 16bit Stereo" sampleCount="3359"/>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Image Gallery Module Preview" itemID="4f3d1c15-00000057" linkageExportForAS="true" linkageClassName="ImageGalleryModulePreview" sourceLastImported="1323095487" customIconID="0" actionscriptClass="ImageGalleryModulePreview" swfScmHRef="fipwpzhrha.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfipwpzhrha..swf" persistLivePreview11="true" livePreview11ScmHRef="fipwpzhrha65.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfipw9zhrha..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Image Gallery Module Preview.xml" rootSymbolLinkageID="ImageGalleryModulePreview" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="Z86gPgU1zX2qoXzQ9QEwP.">
+               <classProperties><![CDATA[<component id="ImageGalleryModulePreview" class="ImageGalleryModulePreview" modified="1323095487921">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="ImageGalleryModulePreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="ImageGalleryModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="ImageGalleryModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fipwpzhrha66.dat"/>
+               </customIcon>
+               <SwcItem name="ImageGalleryModulePreview" version="1323095487" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Info Module Preview" itemID="4f3d1c15-00000061" linkageExportForAS="true" linkageClassName="InfoModulePreview" sourceLastImported="1323095491" customIconID="0" actionscriptClass="InfoModulePreview" swfScmHRef="fis1yzhrhd.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfis1yzhrhd..swf" persistLivePreview11="true" livePreview11ScmHRef="fis1yzhrhd68.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfis1yzhrhd..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Info Module Preview.xml" rootSymbolLinkageID="InfoModulePreview" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="xsayVZoFuugG.YXGZH6R61">
+               <classProperties><![CDATA[<component id="InfoModulePreview" class="InfoModulePreview" modified="1323095491640">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="InfoModulePreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="InfoModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="InfoModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fis1yzhrhd69.dat"/>
+               </customIcon>
+               <SwcItem name="InfoModulePreview" version="1323095491" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMSoundItem name="Sounds/l" itemID="4e01e209-000000d0" linkageExportForAS="true" linkageClassName="l" sourceExternalFilepath=".\LIBRARY\Sounds\l.wav" sourceLastImported="1255449644" href="Sounds\l.wav" soundDataHRef="M 366 1308746249.dat" format="44kHz 16bit Stereo" sampleCount="3940"/>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Menu Module Preview" itemID="4f3d1c16-00000093" linkageExportForAS="true" linkageClassName="MenuModulePreview" sourceLastImported="1323095506" customIconID="0" actionscriptClass="MenuModulePreview" swfScmHRef="fiu5hzhrhg.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfiu5hzhrhg..swf" persistLivePreview11="true" livePreview11ScmHRef="fiu5hzhrhg71.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfiu5hzhrhg..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Menu Module Preview.xml" rootSymbolLinkageID="MenuModulePreview" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="MpzD7I5TgERjas.beKJgb0">
+               <classProperties><![CDATA[<component id="MenuModulePreview" class="MenuModulePreview" modified="1323095506500">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="MenuModulePreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="MenuModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="MenuModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fiu5hzhrhg72.dat"/>
+               </customIcon>
+               <SwcItem name="MenuModulePreview" version="1323095506" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Components/Moto CMS FLV Loader" itemID="4f3d1c15-00000039" linkageExportForAS="true" linkageClassName="com.moto.template.common.view.components.loaders.FLVLoader" sourceLastImported="1323095133" tooltip="Moto CMS FLV Loader" customIconID="0" actionscriptClass="com.moto.template.common.view.components.loaders.FLVLoader" livePreviewScmHRef="fi7a4zhrgm.swf" livePreviewScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfi7a4zhrgm..swf" persistLivePreview11="true" livePreview11ScmHRef="fi7a4zhrgm41.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfi7a4zhrgm..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Components/Moto CMS FLV Loader.xml" rootSymbolLinkageID="com.moto.template.common.view.components.loaders.FLVLoader" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="Pq//rGRSbFSAjQ/FgRaXm/">
+               <parametersAsXML><![CDATA[   <property id="autoPlay">
+      <Inspectable name="Auto Play" variable="autoPlay" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="backgroundAlpha">
+      <Inspectable name="Background Alpha" variable="backgroundAlpha" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="backgroundColor">
+      <Inspectable name="Background Color" variable="backgroundColor" category="" verbose="0" defaultValue="0x000000" type="String"/>
+   </property>
+   <property id="bufferTime">
+      <Inspectable name="Buffer Time" variable="bufferTime" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="defaultVolume">
+      <Inspectable name="Default Volume" variable="defaultVolume" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="horizontalAlign">
+      <Inspectable name="Horizontal Align" variable="horizontalAlign" category="" verbose="0" defaultValue="center" enumeration="left,right,center" type="List"/>
+   </property>
+   <property id="repeat">
+      <Inspectable name="Repeat" variable="repeat" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="scalingMode">
+      <Inspectable name="Scaling Mode" variable="scalingMode" category="" verbose="0" defaultValue="none" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" type="List"/>
+   </property>
+   <property id="smoothing">
+      <Inspectable name="Smoothing" variable="smoothing" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="verticalAlign">
+      <Inspectable name="Vertical Align" variable="verticalAlign" category="" verbose="0" defaultValue="middle" enumeration="top,bottom,middle" type="List"/>
+   </property>
+   <property id="zooming">
+      <Inspectable name="Zooming" variable="zooming" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+               <classProperties><![CDATA[<component id="com/moto/template/common/view/components/loaders/FLVLoader" class="com.moto.template.common.view.components.loaders.FLVLoader" livePreviewClass="FLVLoaderPreview" modified="1323095133421">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="com.moto.template.common.view.components.loaders.FLVLoader"/>
+	<classDef id="com.moto.template.common.view.AnimatedProgressBar"/>
+	<classDef id="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+</classDefs>
+<class id="com.moto.template.common.view.components.loaders.FLVLoader" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\components\com\moto\template\common\view\components\loaders\FLVLoader.as" pos="1714" />
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\components\com\moto\template\common\view\components\loaders\AbstractMediaLoader.as" pos="2159" />
+	<method id="autoPlay" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Auto Play" defaultValue="false" type="Boolean" />
+	</method>
+	<method id="smoothing" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Smoothing" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="bufferTime" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Buffer Time" defaultValue="0" type="Number" />
+	</method>
+	<method id="defaultVolume" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Default Volume" defaultValue="1" type="Number" />
+	</method>
+	<method id="repeat" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Repeat" defaultValue="false" type="Boolean" />
+	</method>
+	<method id="scalingMode" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Scaling Mode" defaultValue="none" type="List" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" />
+	</method>
+	<method id="horizontalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Horizontal Align" defaultValue="center" type="List" enumeration="left,right,center" />
+	</method>
+	<method id="verticalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Vertical Align" defaultValue="middle" type="List" enumeration="top,bottom,middle" />
+	</method>
+	<method id="backgroundColor" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Color" defaultValue="0x000000" type="String" />
+	</method>
+	<method id="backgroundAlpha" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Alpha" defaultValue="0" type="Number" />
+	</method>
+	<method id="zooming" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Zooming" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="FLVLoader" isConstructor="true" isProperty="false">
+	</method>
+	<method id="AbstractMediaLoader" isConstructor="true" isProperty="false">
+	</method>
+</class><livePreview class="FLVLoaderPreview">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="CommonPreview"/>
+	<classDef id="FLVLoaderPreview"/>
+</classDefs>
+<class id="FLVLoaderPreview" >
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="icon" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="FLVLoaderPreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="CommonPreview" isConstructor="true" isProperty="false">
+	</method>
+</class></livePreview>
+</component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fi7a4zhrgm42.dat"/>
+               </customIcon>
+               <SwcItem name="com.moto.template.common.view.components.loaders.FLVLoader" version="1323095133" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Components/Moto CMS Image Loader" itemID="4f3d1c15-0000005c" linkageExportForAS="true" linkageClassName="com.moto.template.common.view.components.loaders.ImageLoader" sourceLastImported="1323095142" tooltip="Moto CMS Image Loader" customIconID="0" actionscriptClass="com.moto.template.common.view.components.loaders.ImageLoader" livePreviewScmHRef="fi9l0zhrgp.swf" livePreviewScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfi9l0zhrgp..swf" persistLivePreview11="true" livePreview11ScmHRef="fi9l0zhrgp44.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfi9l0zhrgp..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Components/Moto CMS Image Loader.xml" rootSymbolLinkageID="com.moto.template.common.view.components.loaders.ImageLoader" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="9p5yq7PCNCo2o8ldxteEQ.">
+               <parametersAsXML><![CDATA[   <property id="backgroundAlpha">
+      <Inspectable name="Background Alpha" variable="backgroundAlpha" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="backgroundColor">
+      <Inspectable name="Background Color" variable="backgroundColor" category="" verbose="0" defaultValue="0x000000" type="String"/>
+   </property>
+   <property id="horizontalAlign">
+      <Inspectable name="Horizontal Align" variable="horizontalAlign" category="" verbose="0" defaultValue="center" enumeration="left,right,center" type="List"/>
+   </property>
+   <property id="scalingMode">
+      <Inspectable name="Scaling Mode" variable="scalingMode" category="" verbose="0" defaultValue="none" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" type="List"/>
+   </property>
+   <property id="smoothing">
+      <Inspectable name="Smoothing" variable="smoothing" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="verticalAlign">
+      <Inspectable name="Vertical Align" variable="verticalAlign" category="" verbose="0" defaultValue="middle" enumeration="top,bottom,middle" type="List"/>
+   </property>
+   <property id="zooming">
+      <Inspectable name="Zooming" variable="zooming" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+               <classProperties><![CDATA[<component id="com/moto/template/common/view/components/loaders/ImageLoader" class="com.moto.template.common.view.components.loaders.ImageLoader" livePreviewClass="ImageLoaderPreview" modified="1323095142812">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="com.moto.template.common.view.components.loaders.ImageLoader"/>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="com.moto.template.common.view.AnimatedProgressBar"/>
+	<classDef id="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+</classDefs>
+<class id="com.moto.template.common.view.components.loaders.ImageLoader" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\components\com\moto\template\common\view\components\loaders\ImageLoader.as" pos="342" />
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\components\com\moto\template\common\view\components\loaders\AbstractMediaLoader.as" pos="2159" />
+	<method id="smoothing" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Smoothing" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="scalingMode" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Scaling Mode" defaultValue="none" type="List" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" />
+	</method>
+	<method id="horizontalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Horizontal Align" defaultValue="center" type="List" enumeration="left,right,center" />
+	</method>
+	<method id="verticalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Vertical Align" defaultValue="middle" type="List" enumeration="top,bottom,middle" />
+	</method>
+	<method id="backgroundColor" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Color" defaultValue="0x000000" type="String" />
+	</method>
+	<method id="backgroundAlpha" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Alpha" defaultValue="0" type="Number" />
+	</method>
+	<method id="zooming" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Zooming" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="ImageLoader" isConstructor="true" isProperty="false">
+	</method>
+	<method id="AbstractMediaLoader" isConstructor="true" isProperty="false">
+	</method>
+</class><livePreview class="ImageLoaderPreview">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="CommonPreview"/>
+	<classDef id="ImageLoaderPreview"/>
+</classDefs>
+<class id="ImageLoaderPreview" >
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="icon" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="ImageLoaderPreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="CommonPreview" isConstructor="true" isProperty="false">
+	</method>
+</class></livePreview>
+</component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fi9l0zhrgp45.dat"/>
+               </customIcon>
+               <SwcItem name="com.moto.template.common.view.components.loaders.ImageLoader" version="1323095142" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Components/Moto CMS Media Loader" itemID="4f3d1c15-0000007f" linkageExportForAS="true" linkageClassName="com.moto.template.common.view.components.loaders.MediaLoader" sourceLastImported="1323095146" tooltip="Moto CMS Media Loader" customIconID="0" actionscriptClass="com.moto.template.common.view.components.loaders.MediaLoader" livePreviewScmHRef="fia7lzhrgq.swf" livePreviewScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfia7lzhrgq..swf" persistLivePreview11="true" livePreview11ScmHRef="fia7lzhrgq47.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfia7lzhrgq..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Components/Moto CMS Media Loader.xml" rootSymbolLinkageID="com.moto.template.common.view.components.loaders.MediaLoader" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="aBWhW4sQGZvtEioYQ7t1l/">
+               <parametersAsXML><![CDATA[   <property id="autoPlay">
+      <Inspectable name="Auto Play" variable="autoPlay" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="backgroundAlpha">
+      <Inspectable name="Background Alpha" variable="backgroundAlpha" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="backgroundColor">
+      <Inspectable name="Background Color" variable="backgroundColor" category="" verbose="0" defaultValue="0x000000" type="String"/>
+   </property>
+   <property id="bufferTime">
+      <Inspectable name="Buffer Time" variable="bufferTime" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="defaultVolume">
+      <Inspectable name="Default Volume" variable="defaultVolume" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="horizontalAlign">
+      <Inspectable name="Horizontal Align" variable="horizontalAlign" category="" verbose="0" defaultValue="center" enumeration="left,right,center" type="List"/>
+   </property>
+   <property id="repeat">
+      <Inspectable name="Repeat" variable="repeat" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="scalingMode">
+      <Inspectable name="Scaling Mode" variable="scalingMode" category="" verbose="0" defaultValue="none" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" type="List"/>
+   </property>
+   <property id="showDisplayBackground">
+      <Inspectable name="Show display background" variable="showDisplayBackground" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="smoothing">
+      <Inspectable name="Smoothing" variable="smoothing" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="streamMusic">
+      <Inspectable name="Stream Music" variable="streamMusic" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="verticalAlign">
+      <Inspectable name="Vertical Align" variable="verticalAlign" category="" verbose="0" defaultValue="middle" enumeration="top,bottom,middle" type="List"/>
+   </property>
+   <property id="zooming">
+      <Inspectable name="Zooming" variable="zooming" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+               <classProperties><![CDATA[<component id="com/moto/template/common/view/components/loaders/MediaLoader" class="com.moto.template.common.view.components.loaders.MediaLoader" livePreviewClass="MediaLoaderPreview" modified="1323095146937">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="com.moto.template.common.view.components.loaders.MediaLoader"/>
+	<classDef id="com.moto.template.common.view.AnimatedProgressBar"/>
+</classDefs>
+<class id="com.moto.template.common.view.components.loaders.MediaLoader" >
+	<method id="scalingMode" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Scaling Mode" defaultValue="none" type="List" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" />
+	</method>
+	<method id="horizontalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Horizontal Align" defaultValue="center" type="List" enumeration="left,right,center" />
+	</method>
+	<method id="verticalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Vertical Align" defaultValue="middle" type="List" enumeration="top,bottom,middle" />
+	</method>
+	<method id="smoothing" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Smoothing" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="zooming" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Zooming" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="bufferTime" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Buffer Time" defaultValue="0" type="Number" />
+	</method>
+	<method id="defaultVolume" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Default Volume" defaultValue="1" type="Number" />
+	</method>
+	<method id="autoPlay" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Auto Play" defaultValue="false" type="Boolean" />
+	</method>
+	<method id="repeat" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Repeat" defaultValue="false" type="Boolean" />
+	</method>
+	<method id="streamMusic" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Stream Music" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="showDisplayBackground" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Show display background" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="backgroundColor" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Color" defaultValue="0x000000" type="String" />
+	</method>
+	<method id="backgroundAlpha" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Alpha" defaultValue="0" type="Number" />
+	</method>
+	<method id="MediaLoader" isConstructor="true" isProperty="false">
+	</method>
+</class><livePreview class="MediaLoaderPreview">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="CommonPreview"/>
+	<classDef id="MediaLoaderPreview"/>
+</classDefs>
+<class id="MediaLoaderPreview" >
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="icon" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="MediaLoaderPreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="CommonPreview" isConstructor="true" isProperty="false">
+	</method>
+</class></livePreview>
+</component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fia7lzhrgq48.dat"/>
+               </customIcon>
+               <SwcItem name="com.moto.template.common.view.components.loaders.MediaLoader" version="1323095146" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Components/Moto CMS Module Content Area" itemID="4f3d1c16-00000098" linkageExportForAS="true" linkageClassName="com.moto.template.common.view.components.ModuleContentArea" sourceLastImported="1323095151" tooltip="Moto CMS Module Content Area" customIconID="0" actionscriptClass="com.moto.template.common.view.components.ModuleContentArea" livePreviewScmHRef="fifabzhrgx.swf" livePreviewScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfifabzhrgx..swf" persistLivePreview11="true" livePreview11ScmHRef="fifabzhrgx50.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfifabzhrgx..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Components/Moto CMS Module Content Area.xml" rootSymbolLinkageID="com.moto.template.common.view.components.ModuleContentArea" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="R3N9SlAwXSZG.DuT4EUWi.">
+               <classProperties><![CDATA[<component id="com/moto/template/common/view/components/ModuleContentArea" class="com.moto.template.common.view.components.ModuleContentArea" livePreviewClass="ModuleContentAreaPreview" modified="1323095151031">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="com.moto.template.common.view.AnimatedProgressBar"/>
+	<classDef id="com.moto.template.common.view.components.ModuleContentArea"/>
+</classDefs>
+<class id="com.moto.template.common.view.components.ModuleContentArea" >
+	<method id="ModuleContentArea" isConstructor="true" isProperty="false">
+	</method>
+</class><livePreview class="ModuleContentAreaPreview">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="CommonPreview"/>
+	<classDef id="ModuleContentAreaPreview"/>
+</classDefs>
+<class id="ModuleContentAreaPreview" >
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="icon" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="ModuleContentAreaPreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="CommonPreview" isConstructor="true" isProperty="false">
+	</method>
+</class></livePreview>
+</component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fifabzhrgx51.dat"/>
+               </customIcon>
+               <SwcItem name="com.moto.template.common.view.components.ModuleContentArea" version="1323095151" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Components/Moto CMS SWF Loader" itemID="4f3d1c16-000000cc" linkageExportForAS="true" linkageClassName="com.moto.template.common.view.components.loaders.SWFLoader" sourceLastImported="1323095155" tooltip="Moto CMS SWF Loader" customIconID="0" actionscriptClass="com.moto.template.common.view.components.loaders.SWFLoader" livePreviewScmHRef="fih2jzhrgz.swf" livePreviewScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfih2jzhrgz..swf" persistLivePreview11="true" livePreview11ScmHRef="fih2jzhrgz53.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfih2jzhrgz..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Components/Moto CMS SWF Loader.xml" rootSymbolLinkageID="com.moto.template.common.view.components.loaders.SWFLoader" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="6UA4CnRQuTeeRjWUmg8AH0">
+               <parametersAsXML><![CDATA[   <property id="autoPlay">
+      <Inspectable name="Auto Play" variable="autoPlay" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="backgroundAlpha">
+      <Inspectable name="Background Alpha" variable="backgroundAlpha" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="backgroundColor">
+      <Inspectable name="Background Color" variable="backgroundColor" category="" verbose="0" defaultValue="0x000000" type="String"/>
+   </property>
+   <property id="defaultVolume">
+      <Inspectable name="Default Volume" variable="defaultVolume" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="horizontalAlign">
+      <Inspectable name="Horizontal Align" variable="horizontalAlign" category="" verbose="0" defaultValue="center" enumeration="left,right,center" type="List"/>
+   </property>
+   <property id="repeat">
+      <Inspectable name="Repeat" variable="repeat" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="scalingMode">
+      <Inspectable name="Scaling Mode" variable="scalingMode" category="" verbose="0" defaultValue="none" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" type="List"/>
+   </property>
+   <property id="verticalAlign">
+      <Inspectable name="Vertical Align" variable="verticalAlign" category="" verbose="0" defaultValue="middle" enumeration="top,bottom,middle" type="List"/>
+   </property>
+   <property id="zooming">
+      <Inspectable name="Zooming" variable="zooming" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+               <classProperties><![CDATA[<component id="com/moto/template/common/view/components/loaders/SWFLoader" class="com.moto.template.common.view.components.loaders.SWFLoader" livePreviewClass="SWFLoaderPreview" modified="1323095155296">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="com.moto.template.common.view.components.loaders.SWFLoader"/>
+	<classDef id="com.moto.template.common.view.AnimatedProgressBar"/>
+	<classDef id="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+</classDefs>
+<class id="com.moto.template.common.view.components.loaders.SWFLoader" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\components\com\moto\template\common\view\components\loaders\SWFLoader.as" pos="800" />
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\components\com\moto\template\common\view\components\loaders\AbstractMediaLoader.as" pos="2159" />
+	<method id="autoPlay" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Auto Play" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="defaultVolume" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Default Volume" defaultValue="1" type="Number" />
+	</method>
+	<method id="repeat" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Repeat" defaultValue="false" type="Boolean" />
+	</method>
+	<method id="scalingMode" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Scaling Mode" defaultValue="none" type="List" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" />
+	</method>
+	<method id="horizontalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Horizontal Align" defaultValue="center" type="List" enumeration="left,right,center" />
+	</method>
+	<method id="verticalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Vertical Align" defaultValue="middle" type="List" enumeration="top,bottom,middle" />
+	</method>
+	<method id="backgroundColor" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Color" defaultValue="0x000000" type="String" />
+	</method>
+	<method id="backgroundAlpha" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Alpha" defaultValue="0" type="Number" />
+	</method>
+	<method id="zooming" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Zooming" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="SWFLoader" isConstructor="true" isProperty="false">
+	</method>
+	<method id="AbstractMediaLoader" isConstructor="true" isProperty="false">
+	</method>
+</class><livePreview class="SWFLoaderPreview">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="CommonPreview"/>
+	<classDef id="SWFLoaderPreview"/>
+</classDefs>
+<class id="SWFLoaderPreview" >
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="icon" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="SWFLoaderPreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="CommonPreview" isConstructor="true" isProperty="false">
+	</method>
+</class></livePreview>
+</component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fih2jzhrgz54.dat"/>
+               </customIcon>
+               <SwcItem name="com.moto.template.common.view.components.loaders.SWFLoader" version="1323095155" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Components/Moto CMS YouTube Loader" itemID="4f3d1c16-0000021c" linkageExportForAS="true" linkageClassName="com.moto.template.common.view.components.loaders.YouTubeVideoLoader" sourceLastImported="1323095162" tooltip="Moto CMS YouTube Loader" customIconID="0" actionscriptClass="com.moto.template.common.view.components.loaders.YouTubeVideoLoader" livePreviewScmHRef="fij6xzhrh2.swf" livePreviewScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfij6xzhrh2..swf" persistLivePreview11="true" livePreview11ScmHRef="fij6xzhrh256.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfij6xzhrh2..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Components/Moto CMS YouTube Loader.xml" rootSymbolLinkageID="com.moto.template.common.view.components.loaders.YouTubeVideoLoader" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="FTIWRxYltAul84HO7c5Wv/">
+               <parametersAsXML><![CDATA[   <property id="autoPlay">
+      <Inspectable name="Auto Play" variable="autoPlay" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="backgroundAlpha">
+      <Inspectable name="Background Alpha" variable="backgroundAlpha" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="backgroundColor">
+      <Inspectable name="Background Color" variable="backgroundColor" category="" verbose="0" defaultValue="0x000000" type="String"/>
+   </property>
+   <property id="defaultVolume">
+      <Inspectable name="Default Volume" variable="defaultVolume" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="horizontalAlign">
+      <Inspectable name="Horizontal Align" variable="horizontalAlign" category="" verbose="0" defaultValue="center" enumeration="left,right,center" type="List"/>
+   </property>
+   <property id="repeat">
+      <Inspectable name="Repeat" variable="repeat" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="scalingMode">
+      <Inspectable name="Scaling Mode" variable="scalingMode" category="" verbose="0" defaultValue="none" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" type="List"/>
+   </property>
+   <property id="verticalAlign">
+      <Inspectable name="Vertical Align" variable="verticalAlign" category="" verbose="0" defaultValue="middle" enumeration="top,bottom,middle" type="List"/>
+   </property>
+   <property id="zooming">
+      <Inspectable name="Zooming" variable="zooming" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+               <classProperties><![CDATA[<component id="com/moto/template/common/view/components/loaders/YouTubeVideoLoader" class="com.moto.template.common.view.components.loaders.YouTubeVideoLoader" livePreviewClass="YouTubeLoaderPreview" modified="1323095162468">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="com.moto.template.common.view.components.loaders.YouTubeVideoLoader"/>
+	<classDef id="com.moto.template.common.view.AnimatedProgressBar"/>
+	<classDef id="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+</classDefs>
+<class id="com.moto.template.common.view.components.loaders.YouTubeVideoLoader" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\components\com\moto\template\common\view\components\loaders\AbstractMediaLoader.as" pos="2159" />
+	<method id="autoPlay" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Auto Play" defaultValue="false" type="Boolean" />
+	</method>
+	<method id="defaultVolume" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Default Volume" defaultValue="1" type="Number" />
+	</method>
+	<method id="repeat" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Repeat" defaultValue="false" type="Boolean" />
+	</method>
+	<method id="scalingMode" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Scaling Mode" defaultValue="none" type="List" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" />
+	</method>
+	<method id="horizontalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Horizontal Align" defaultValue="center" type="List" enumeration="left,right,center" />
+	</method>
+	<method id="verticalAlign" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Vertical Align" defaultValue="middle" type="List" enumeration="top,bottom,middle" />
+	</method>
+	<method id="backgroundColor" returnType="String" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Color" defaultValue="0x000000" type="String" />
+	</method>
+	<method id="backgroundAlpha" returnType="Number" isProperty="true" permissions="readwrite">
+		<Inspectable name="Background Alpha" defaultValue="0" type="Number" />
+	</method>
+	<method id="zooming" returnType="Boolean" isProperty="true" permissions="readwrite">
+		<Inspectable name="Zooming" defaultValue="true" type="Boolean" />
+	</method>
+	<method id="YouTubeVideoLoader" isConstructor="true" isProperty="false">
+	</method>
+	<method id="AbstractMediaLoader" isConstructor="true" isProperty="false">
+	</method>
+</class><livePreview class="YouTubeLoaderPreview">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="CommonPreview"/>
+	<classDef id="YouTubeLoaderPreview"/>
+</classDefs>
+<class id="YouTubeLoaderPreview" >
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="icon" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="YouTubeLoaderPreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="CommonPreview" isConstructor="true" isProperty="false">
+	</method>
+</class></livePreview>
+</component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fij6xzhrh257.dat"/>
+               </customIcon>
+               <SwcItem name="com.moto.template.common.view.components.loaders.YouTubeVideoLoader" version="1323095162" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Music Player Module Preview" itemID="4f3d1c16-0000009f" linkageExportForAS="true" linkageClassName="MusicPlayerModulePreview" sourceLastImported="1323095510" customIconID="0" actionscriptClass="MusicPlayerModulePreview" swfScmHRef="fiwaazhrhj.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfiwaazhrhj..swf" persistLivePreview11="true" livePreview11ScmHRef="fiwaazhrhj74.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfiwaazhrhj..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Music Player Module Preview.xml" rootSymbolLinkageID="MusicPlayerModulePreview" movieRectLeft="-190" movieRectRight="2218" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="RvY0bSE8td2xmqdMHoTHu1">
+               <classProperties><![CDATA[<component id="MusicPlayerModulePreview" class="MusicPlayerModulePreview" modified="1323095510171">
+<movieBounds xmin="-190" xmax="2218" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="MusicPlayerModulePreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="MusicPlayerModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="MusicPlayerModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fiwaazhrhj75.dat"/>
+               </customIcon>
+               <SwcItem name="MusicPlayerModulePreview" version="1323095510" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Photo Gallery Lightbox" itemID="4f3d1c16-000000a9" linkageExportForAS="true" linkageClassName="PhotoGalleryLightbox" sourceLastImported="1323095513" customIconID="0" actionscriptClass="PhotoGalleryLightbox" swfScmHRef="fiy60zhrhl.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfiy60zhrhl..swf" persistLivePreview11="true" livePreview11ScmHRef="fiy60zhrhl77.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfiy60zhrhl..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Photo Gallery Lightbox.xml" rootSymbolLinkageID="PhotoGalleryLightbox" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="PZJDzeVNYmKMWSyg4LRGv.">
+               <classProperties><![CDATA[<component id="PhotoGalleryLightbox" class="PhotoGalleryLightbox" modified="1323095513828">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="PhotoGalleryLightbox"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="PhotoGalleryLightbox" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="PhotoGalleryLightbox" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fiy60zhrhl78.dat"/>
+               </customIcon>
+               <SwcItem name="PhotoGalleryLightbox" version="1323095513" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Photo Gallery Preview" itemID="4f3d1c16-000000ae" linkageExportForAS="true" linkageClassName="PhotoGalleryPreview" sourceLastImported="1323095517" customIconID="0" actionscriptClass="PhotoGalleryPreview" swfScmHRef="fj03vzhrho.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj03vzhrho..swf" persistLivePreview11="true" livePreview11ScmHRef="fj03vzhrho80.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj03vzhrho..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Photo Gallery Preview.xml" rootSymbolLinkageID="PhotoGalleryPreview" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="3mAXbBC4VrPWqcFV17Eue/">
+               <classProperties><![CDATA[<component id="PhotoGalleryPreview" class="PhotoGalleryPreview" modified="1323095517468">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="PhotoGalleryPreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="PhotoGalleryPreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="PhotoGalleryPreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fj03vzhrho81.dat"/>
+               </customIcon>
+               <SwcItem name="PhotoGalleryPreview" version="1323095517" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Photo Gallery Thumbnails" itemID="4f3d1c16-000000b3" linkageExportForAS="true" linkageClassName="PhotoGalleryThumbnails" sourceLastImported="1323095521" customIconID="0" actionscriptClass="PhotoGalleryThumbnails" swfScmHRef="fj27ezhrhq.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj27ezhrhq..swf" persistLivePreview11="true" livePreview11ScmHRef="fj27ezhrhq83.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj27ezhrhq..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Photo Gallery Thumbnails.xml" rootSymbolLinkageID="PhotoGalleryThumbnails" movieRectRight="2000" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="zeWg974zsPtvBN5VJKI63/">
+               <classProperties><![CDATA[<component id="PhotoGalleryThumbnails" class="PhotoGalleryThumbnails" modified="1323095521031">
+<movieBounds xmin="0" xmax="2000" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="ModulePreview"/>
+	<classDef id="PhotoGalleryThumbnails"/>
+</classDefs>
+<class id="PhotoGalleryThumbnails" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="PhotoGalleryThumbnails" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fj27ezhrhq84.dat"/>
+               </customIcon>
+               <SwcItem name="PhotoGalleryThumbnails" version="1323095521" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMSoundItem name="Sounds/read" itemID="4e01e209-000000d4" linkageExportForAS="true" linkageClassName="read" sourceExternalFilepath=".\LIBRARY\Sounds\read.wav" sourceLastImported="1303314324" href="Sounds\read.wav" soundDataHRef="M 367 1308746249.dat" format="44kHz 16bit Stereo" sampleCount="3048"/>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Rich Content Module Preview" itemID="4f3d1c16-000000c2" linkageExportForAS="true" linkageClassName="RichContentModulePreview" sourceLastImported="1323095529" customIconID="0" actionscriptClass="RichContentModulePreview" swfScmHRef="fj43zzhrht.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj43zzhrht..swf" persistLivePreview11="true" livePreview11ScmHRef="fj43zzhrht86.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj43zzhrht..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Rich Content Module Preview.xml" rootSymbolLinkageID="RichContentModulePreview" movieRectLeft="-210" movieRectRight="2244" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="8O0OYFfaaY4nu9OLcRyE80">
+               <classProperties><![CDATA[<component id="RichContentModulePreview" class="RichContentModulePreview" modified="1323095529562">
+<movieBounds xmin="-210" xmax="2244" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="RichContentModulePreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="RichContentModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="RichContentModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fj43zzhrht87.dat"/>
+               </customIcon>
+               <SwcItem name="RichContentModulePreview" version="1323095529" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+          <DOMBitmapItem name="Template Elements/Slots/RingsSlot Assets/rings.png" itemID="4c6e9d9e-00000d6c" sourceExternalFilepath=".\flash\img\rings.png" sourceLastImported="1282225619" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Slots\RingsSlot Assets\rings.png" bitmapDataHRef="M 197 1282317726.dat" frameRight="2380" frameBottom="1260"/>
+          <DOMBitmapItem name="Template Elements/Modules/TemplateRichContentModule Assets/scroll_shadow.png" itemID="4e4d1c0c-00000305" sourceExternalFilepath=".\LIBRARY\Template Elements\Modules\TemplateRichContentModule Assets\scroll_shadow.png" sourceLastImported="1313674738" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Modules\TemplateRichContentModule Assets\scroll_shadow.png" bitmapDataHRef="M 448 1331655085.dat" frameRight="500" frameBottom="420"/>
+          <DOMBitmapItem name="Template Elements/Slots/MenuItemSlot Assets/shadow.png" itemID="502e35d3-00000829" sourceExternalFilepath=".\LIBRARY\Template Elements\Slots\MenuItemSlot Assets\shadow.png" sourceLastImported="1345205691" externalFileCRC32="3453498700" externalFileSize="175" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Slots\MenuItemSlot Assets\shadow.png" bitmapDataHRef="M 30 1345205707.dat" frameRight="200" frameBottom="120"/>
+          <DOMBitmapItem name="Template Elements/Modules/MP3PlayerModule Assets/sound.png" itemID="4f2bf0a9-00000b6b" sourceExternalFilepath=".\LIBRARY\Template Elements\Modules\MP3PlayerModule Assets\sound.png" sourceLastImported="1328279679" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Modules\MP3PlayerModule Assets\sound.png" bitmapDataHRef="M 409 1328279721.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
+          <DOMBitmapItem name="Template Elements/Modules/MP3PlayerModule Assets/soundOff.png" itemID="502e5928-00000955" sourceExternalFilepath=".\LIBRARY\Template Elements\Modules\MP3PlayerModule Assets\soundOff.png" sourceLastImported="1345214760" externalFileSize="726" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Modules\MP3PlayerModule Assets\soundOff.png" bitmapDataHRef="M 34 1345214429.dat" frameRight="340" frameBottom="340"/>
+          <DOMBitmapItem name="Template Elements/Modules/MP3PlayerModule Assets/soundOn.png" itemID="502e5928-00000956" sourceExternalFilepath=".\LIBRARY\Template Elements\Modules\MP3PlayerModule Assets\soundOn.png" sourceLastImported="1345214760" externalFileSize="723" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Template Elements\Modules\MP3PlayerModule Assets\soundOn.png" bitmapDataHRef="M 32 1345214381.dat" frameRight="340" frameBottom="340"/>
+          <DOMCompiledClipItem name="Components/Moto Modules Preview/Video Player Module Preview" itemID="4f3d1c16-00000212" linkageExportForAS="true" linkageClassName="VideoPlayerModulePreview" sourceLastImported="1323095536" customIconID="0" actionscriptClass="VideoPlayerModulePreview" swfScmHRef="fj5z9zhrhv.swf" swfScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj5z9zhrhv..swf" persistLivePreview11="true" livePreview11ScmHRef="fj5z9zhrhv89.swf" livePreview11ScmSourceFilename="C:\Documents and Settings\violetta\Local Settings\Application Data\Adobe\Flash CS5\en_US\Configuration\TMPfj5z9zhrhv..swf" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true" swcPath="Components/Moto Modules Preview/Video Player Module Preview.xml" rootSymbolLinkageID="VideoPlayerModulePreview" movieRectLeft="-190" movieRectRight="2214" movieRectBottom="2000" playerVersion="9" actionscriptVersion="3" hashKey="9vCsBrGcMa84CggIjl2e61">
+               <classProperties><![CDATA[<component id="VideoPlayerModulePreview" class="VideoPlayerModulePreview" modified="1323095536921">
+<movieBounds xmin="-190" xmax="2214" ymin="0" ymax="2000" />
+<classDefs>
+	<classDef id="fl.livepreview.LivePreviewParent"/>
+	<classDef id="VideoPlayerModulePreview"/>
+	<classDef id="ModulePreview"/>
+</classDefs>
+<class id="VideoPlayerModulePreview" >
+	<__go_to_ctor_definition_help file="D:\moto\trunk\assets\fla\modulePreviews\ModulePreview.as" pos="188" />
+	<method id="width" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="height" returnType="Number" isProperty="true" permissions="writeonly">
+	</method>
+	<method id="background" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="label" returnType="MovieClip" isProperty="true" permissions="readwrite">
+	</method>
+	<method id="VideoPlayerModulePreview" isConstructor="true" isProperty="false">
+	</method>
+	<method id="setSize" returnType="void" isProperty="false">
+	</method>
+	<method id="ModulePreview" isConstructor="true" isProperty="false">
+	</method>
+</class></component>
+]]></classProperties>
+               <customIcon>
+                    <CustomIcon rowByteCount="72" colorDepth="32" width="18" height="18" frameRight="360" frameBottom="360" isTransparent="true" href="fj5z9zhrhv90.dat"/>
+               </customIcon>
+               <SwcItem name="VideoPlayerModulePreview" version="1323095536" isTopLevel="true"/>
+          </DOMCompiledClipItem>
+     </media>
+     <symbols>
+          <Include href="Template Elements/Graphics &amp; Animation/contentHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/bottomHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/EmptyHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/leftBottomHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/maskHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/pagePartHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/splashMenuHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/topHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Holders/websiteHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule.xml"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/areaHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/centralCircleHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/centralCircleHolder1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/circleHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/circleHolder1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/circleHolder2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/clip.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/contentHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/MainMenuItemRenderer.xml"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/menuHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/submenuHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainMenuModule Assets/textHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainSubMenu.xml"/>
+          <Include href="Template Elements/Modules/MainSubMenu Assets/clip.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainSubMenu Assets/itemHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainSubMenu Assets/MainSubMenuItemRenderer.xml"/>
+          <Include href="Template Elements/Modules/MainSubMenu Assets/menuHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MainSubMenu Assets/rectangle.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MP3PlayerModule.xml"/>
+          <Include href="Template Elements/Modules/MP3PlayerModule Assets/MovieClipButton.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MP3PlayerModule Assets/soundEQpla2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MP3PlayerModule Assets/soundEQplay.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MP3PlayerModule Assets/SoundIconHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/MP3PlayerModule Assets/SoundIconHolder2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule.xml"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/arows_.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/arr1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/arrHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/arrow.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/arrow1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/clip.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/g.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/line.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/line_.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/sc_1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/scrollbar.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButton.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButtonRectangle.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/ScrollTrack.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/scrollTrackRectangle_.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Modules/TemplateRichContentModule Assets/shadow_.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Other/WebsitePreloader.xml"/>
+          <Include href="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Other/WebsitePreloader Assets/loader_pic_3.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Popups/WebsitePopup.xml"/>
+          <Include href="Template Elements/Popups/WebsitePopup Assets/EmptyHolder_popup.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Popups/WebsitePopup Assets/part_1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Popups/WebsitePopup Assets/popupbg_.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Popups/WebsitePopup Assets/popUpPart 1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Popups/WebsitePopup Assets/websitePopupBg.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Popups/WebsitePopup Assets/websitePopupHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/AnimatedLinesSlot.xml"/>
+          <Include href="Template Elements/Slots/AnimatedLinesSlot Assets/rect.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/AnimatedLinesSlot Assets/textHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/BackgroundAnimationSlot.xml"/>
+          <Include href="Template Elements/Slots/BackgroundAnimationSlot Assets/decor_3.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/BackgroundAnimationSlot Assets/decors_all.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/BackgroundAnimationSlot Assets/patt_02.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/BackgroundAnimationSlot Assets/rect.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/BackgroundAnimationSlot Assets/TEXThOLDER.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot.xml"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/CloseButtonSlot_bg.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/CloseElementSlotText.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/CloseSlotBg.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/colorBG.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/ColorButton.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/itemButton.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/itemButton1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/CloseButtonSlot Assets/tx.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/ImageSlot.xml"/>
+          <Include href="Template Elements/Slots/ImageSlot Assets/area.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/ImageSlot Assets/imageHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/ImageSlot Assets/maskHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/ImageSlot Assets/rectHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/ImageSlot Assets/rectHolder1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot.xml"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/action images 3_logo.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/action Load Images 21_logo.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/Anim.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/AnimHalfClean.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/bg_spot_2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/comp_name_main_2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/heart_ani.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/HrtSm.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/loader Images_logo.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/Menu/close button splash.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/Page Movie/logo name.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/Page Movie/slogan.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/rect.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/Symbol 1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/Symbol 2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/IntroSlot Assets/textHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/MenuItemSlot.xml"/>
+          <Include href="Template Elements/Slots/MenuItemSlot Assets/area.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/MenuItemSlot Assets/emptyHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/MenuItemSlot Assets/imageHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/MenuItemSlot Assets/imageHolder1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/MenuItemSlot Assets/infoHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/MenuItemSlot Assets/shadowHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/MenuItemSlot Assets/textHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/PagePartSlot.xml"/>
+          <Include href="Template Elements/Slots/PagePartSlot Assets/ani11.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/PagePartSlot Assets/ani21.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/PagePartSlot Assets/ani31.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/PagePartSlot Assets/bg_pages.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/PagePartSlot Assets/preview.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/PagePartSlot Assets/preview2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot.xml"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/area2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/circle2.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/close_main.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/cross.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/cross_plane.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/Gr-Base Flare.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/Gr-Lens Cross.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/Gr-Ring 1.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/Lens flare copy.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/preview.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/rings.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/stars_new_1001.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/RingsSlot Assets/stars_new_1002.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/TitleSlot.xml"/>
+          <Include href="Template Elements/Slots/TitleSlotAssets/dotHolder.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/TitleSlotAssets/ReadMoreSlotText.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/TitleSlotAssets/text_.xml" loadImmediate="false"/>
+          <Include href="Template Elements/Slots/TitleSlotAssets/TitleSlotHitArea_.xml" loadImmediate="false"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="37">
+               <layers>
+                    <DOMLayer name="Layer 58" color="#808080" locked="true" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="110" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="110" duration="45" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import com.moto.template.common.utils.MotoUtils;
+MotoUtils.playLibrarySound("fx", 0.5);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="155" duration="19" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import com.moto.template.common.utils.MotoUtils;
+MotoUtils.playLibrarySound("fx", 0.5);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="174" duration="54" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import com.moto.template.common.utils.MotoUtils;
+MotoUtils.playLibrarySound("fx", 0.5);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="comments" color="#FF4F4F" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="3" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="95" name=" Switch Page Handler" labelType="comment" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="98" duration="130" name=" Navigation" labelType="comment" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="actions" color="#FF4FFF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import com.moto.template.common.Moto;
+import com.moto.template.common.utils.MotoUtils;
+import com.moto.template.common.events.MotoEvent;]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="3" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Moto.getInstance().websiteSoundsEnabled = MotoUtils.convertToBoolean(Moto.getInstance().getWebsitePropertyValueByID(1), true);
+
+Moto.getInstance().getWebsiteHolder(6, bottomHolder.website_holder_6);
+Moto.getInstance().getWebsiteHolder(7, headerHolder.website_holder_7);
+Moto.getInstance().getLayoutHolder(1, 9, layout_1_holder_9);
+
+Moto.getInstance().getWebsiteHolder(1, website_holder_1);
+
+stage.addEventListener(Event.RESIZE, resizeStage);
+function resizeStage(event:Event = null) {
+	//headerHolder.y= -Math.round((stage.stageHeight-800)/2);
+	//bottomHolder.y=Math.round(700 + (stage.stageHeight-800)/2);
+/*	leftBottomHolder.x = -Math.round((stage.stageWidth-980)/2);
+	leftBottomHolder.y = Math.round(700 + (stage.stageHeight-800)/2);
+	rightBottomHolder.x = Math.round((980 - stage.stageWidth)/2 + stage.stageWidth - 80);
+	rightBottomHolder.y = Math.round(700 + (stage.stageHeight-800)/2);*/
+}
+resizeStage();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="39" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import common.events.PagePartEvent;
+// Add switch pages listener and handler
+Moto.getInstance().eventDispatcher.addEventListener(MotoEvent.SWITCH_PAGE, switchPagesHandler);
+
+function switchPagesHandler(event:Event):void
+{
+	if (!Object(event).extra)
+    {
+        return;
+    }
+	if (!Moto.getInstance().animationIsPlaying)
+	{
+		Moto.getInstance().animationIsPlaying = true;
+		
+		// Get current layout
+		var currentLayout:uint = Moto.getInstance().currentLayout;		
+		var previousLayout:uint = Moto.getInstance().previousLayout;
+		
+		switch (currentLayout)
+		{
+			case 1:
+			{
+				if (previousLayout == 2)
+				{
+					// Layouts 2 -> 1 transition
+					gotoAndPlay("layout_2_out");
+					Moto.getInstance().eventDispatcher.dispatchEvent(new PagePartEvent(PagePartEvent.CHANGE, "layout_2_out"));
+				}
+				break;
+			}
+			
+			case 2:
+			{
+				if (previousLayout == 1)
+				{
+					// Layouts 1 -> 2 transition
+					gotoAndPlay("layout_2_in");
+					Moto.getInstance().eventDispatcher.dispatchEvent(new PagePartEvent(PagePartEvent.CHANGE, "layout_2_in"));
+				}
+				else
+				{
+					// Layouts 2 -> 2 transition
+					gotoAndPlay("layout_2_rotate");
+					//Moto.getInstance().eventDispatcher.dispatchEvent(new PagePartEvent(PagePartEvent.CHANGE, "layout_2_rotate"));
+				}
+				break;
+			}
+		}
+	}
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="43" duration="43" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Moto.getInstance().getWebsiteHolder(15, website_holder_15);
+
+
+
+]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="86" duration="11" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Moto.getInstance().getLayoutHolder(1, 2, layout_1_holder_2);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="97" duration="3" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Moto.getInstance().getLayoutHolder(2, 8, pagePartHolder.layout_2_holder_8);
+MotoUtils.removeAllChildren(layout_1_holder_9);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="100" duration="12" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[/*stage.addEventListener(Event.RESIZE, resizeStage2);
+function resizeStage2(event:Event = null) {
+	contentHolder.y=Math.round((stage.stageHeight-800)/2 + 270);
+}
+resizeStage2();*/]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="112" duration="23" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[MotoUtils.removeAllChildren(layout_1_holder_2);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="135" duration="17" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Moto.getInstance().getCurrentPageHolder(4, contentHolder.page_2_holder_4);
+
+contentHolder.gotoAndPlay("show");]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="152" duration="6" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[contentHolder.gotoAndPlay("s2")]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="158" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[MotoUtils.removeAllChildren(contentHolder.page_2_holder_4); ]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="159" duration="11" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Moto.getInstance().getCurrentPageHolder(4, contentHolder.page_2_holder_4);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="170" duration="45" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[contentHolder.gotoAndPlay("s3")]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="215" duration="13" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[MotoUtils.removeAllChildren(contentHolder.page_2_holder_4);
+Moto.getInstance().getLayoutHolder(1, 2, layout_1_holder_2);
+
+//stage.removeEventListener(Event.RESIZE, resizeStage2);]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="labels" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="97" name="layout_1_in" labelType="name" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[Moto.getInstance().animationIsPlaying = true;]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="98" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[if (Moto.getInstance().currentPage > 1)
+{	
+	gotoAndPlay("layout_2_in");
+	Moto.getInstance().eventDispatcher.dispatchEvent(new PagePartEvent(PagePartEvent.CHANGE, "layout_2_in"));
+}
+else
+{
+	stop();
+	Moto.getInstance().animationIsPlaying = false;
+}]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="99" duration="51" name="layout_2_in" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="150" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+
+Moto.getInstance().animationIsPlaying = false;]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="151" duration="17" name="layout_2_rotate" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="168" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+
+Moto.getInstance().animationIsPlaying = false;]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="169" duration="58" name="layout_2_out" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="227" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();
+
+Moto.getInstance().animationIsPlaying = false;]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="headerHolder (top)" color="#4FFF4F" current="true" isSelected="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="227" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/topHolder" name="headerHolder" selected="true" centerPoint3DX="-250" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point x="-250" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="bottomHolder (bottom)" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="227" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/bottomHolder" name="bottomHolder" selected="true" centerPoint3DX="50" centerPoint3DY="1750">
+                                             <matrix>
+                                                  <Matrix ty="700"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="page_2_holder_4" color="#4FFFFF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="99" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="99" duration="129" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Graphics &amp; Animation/contentHolder" name="contentHolder" selected="true" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="layout_1_holder_2" color="#808080" locked="true" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="43" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="43" duration="43" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="layout_1_holder_2" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="86" duration="13" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="layout_1_holder_2" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="99" duration="11" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="layout_1_holder_2">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="110" duration="105" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="layout_1_holder_2" selected="true">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="215" duration="12" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="100">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="layout_1_holder_2" blendMode="layer" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="227" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="layout_1_holder_2" blendMode="layer" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="layout_2_holder_8" color="#4FFFFF" locked="true" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="97" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="97" duration="131" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/pagePartHolder" name="pagePartHolder" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="website_holder_15" color="#4FFF4F" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" duration="43" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="43" duration="185" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="website_holder_15" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="layout_1_holder_9" color="#9933CC" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="227" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="layout_1_holder_9" centerPoint3DX="50" centerPoint3DY="50">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="website_holder_1" color="#FF4FFF" locked="true" autoNamed="false" heightLiteral="15">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" duration="227" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="website_holder_1">
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <swatchLists>
+          <swatchList>
+               <swatches>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#003300" hue="80" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006600" hue="80" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009900" hue="80" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC00" hue="80" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330000" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333300" hue="40" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#336600" hue="60" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#339900" hue="67" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#33CC00" hue="70" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#33FF00" hue="72" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#660000" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663300" hue="20" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#666600" hue="40" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#669900" hue="53" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#66CC00" hue="60" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#66FF00" hue="64" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000033" hue="160" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#003333" hue="120" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006633" hue="100" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009933" hue="93" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC33" hue="90" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF33" hue="88" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330033" hue="200" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem color="#336633" hue="80" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339933" hue="80" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC33" hue="80" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF33" hue="80" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660033" hue="220" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663333" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666633" hue="40" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#669933" hue="60" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#66CC33" hue="67" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#66FF33" hue="70" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000066" hue="160" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#003366" hue="140" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#006666" hue="120" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009966" hue="107" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC66" hue="100" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF66" hue="96" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330066" hue="180" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#333366" hue="160" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#336666" hue="120" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339966" hue="100" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC66" hue="93" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF66" hue="90" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660066" hue="200" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663366" hue="200" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem color="#669966" hue="80" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC66" hue="80" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF66" hue="80" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000099" hue="160" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#003399" hue="147" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#006699" hue="133" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#009999" hue="120" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC99" hue="110" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF99" hue="104" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330099" hue="173" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#333399" hue="160" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#336699" hue="140" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#339999" hue="120" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC99" hue="107" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF99" hue="100" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660099" hue="187" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#663399" hue="180" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#666699" hue="160" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#669999" hue="120" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC99" hue="100" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF99" hue="93" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000CC" hue="160" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0033CC" hue="150" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0066CC" hue="140" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0099CC" hue="130" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00CCCC" hue="120" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FFCC" hue="112" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300CC" hue="170" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#3333CC" hue="160" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3366CC" hue="147" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3399CC" hue="133" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33CCCC" hue="120" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FFCC" hue="110" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600CC" hue="180" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#6633CC" hue="173" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#6666CC" hue="160" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#6699CC" hue="140" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66CCCC" hue="120" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FFCC" hue="107" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0033FF" hue="152" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0066FF" hue="144" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0099FF" hue="136" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00CCFF" hue="128" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300FF" hue="168" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3333FF" hue="160" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3366FF" hue="150" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3399FF" hue="140" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33CCFF" hue="130" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33FFFF" hue="120" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600FF" hue="176" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#6633FF" hue="170" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6666FF" hue="160" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#6699FF" hue="147" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66CCFF" hue="133" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66FFFF" hue="120" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990000" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993300" hue="13" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#996600" hue="27" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#999900" hue="40" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#99CC00" hue="50" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#99FF00" hue="56" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC0000" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3300" hue="10" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC6600" hue="20" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC9900" hue="30" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCCC00" hue="40" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCFF00" hue="48" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3300" hue="8" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF6600" hue="16" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF9900" hue="24" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFCC00" hue="32" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990033" hue="227" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993333" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996633" hue="20" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#999933" hue="40" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#99CC33" hue="53" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#99FF33" hue="60" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC0033" hue="230" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3333" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6633" hue="13" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC9933" hue="27" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCCC33" hue="40" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCFF33" hue="50" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF0033" hue="232" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3333" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6633" hue="10" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF9933" hue="20" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFCC33" hue="30" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFFF33" hue="40" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990066" hue="213" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993366" hue="220" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996666" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999966" hue="40" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#99CC66" hue="60" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#99FF66" hue="67" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC0066" hue="220" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3366" hue="227" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6666" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9966" hue="20" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCCC66" hue="40" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCFF66" hue="53" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF0066" hue="224" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3366" hue="230" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6666" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9966" hue="13" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFCC66" hue="27" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFFF66" hue="40" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990099" hue="200" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993399" hue="200" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996699" hue="200" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem color="#99CC99" hue="80" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FF99" hue="80" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC0099" hue="210" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3399" hue="213" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6699" hue="220" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9999" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCC99" hue="40" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCFF99" hue="60" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FF0099" hue="216" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3399" hue="220" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6699" hue="227" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9999" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCC99" hue="20" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFFF99" hue="40" saturation="239" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900CC" hue="190" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#9933CC" hue="187" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#9966CC" hue="180" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#9999CC" hue="160" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99CCCC" hue="120" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FFCC" hue="100" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00CC" hue="200" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC33CC" hue="200" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC66CC" hue="200" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC99CC" hue="200" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem color="#CCFFCC" hue="80" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00CC" hue="208" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33CC" hue="210" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66CC" hue="213" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99CC" hue="220" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCCC" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFCC" hue="40" saturation="239" brightness="216"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900FF" hue="184" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#9933FF" hue="180" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#9966FF" hue="173" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#9999FF" hue="160" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99CCFF" hue="140" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99FFFF" hue="120" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00FF" hue="192" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC33FF" hue="190" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC66FF" hue="187" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC99FF" hue="180" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CCCCFF" hue="160" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#CCFFFF" hue="120" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33FF" hue="200" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66FF" hue="200" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99FF" hue="200" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCFF" hue="200" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+               </swatches>
+          </swatchList>
+     </swatchLists>
+     <extendedSwatchLists>
+          <swatchList>
+               <swatches>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FFFFFF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#00FF00" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <RadialGradientSwatchItem>
+                         <GradientEntry color="#0000FF" ratio="0"/>
+                         <GradientEntry ratio="1"/>
+                    </RadialGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#0066FD" ratio="0"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.376470588235294"/>
+                         <GradientEntry color="#FFFFFF" ratio="0.47843137254902"/>
+                         <GradientEntry color="#996600" ratio="0.501960784313725"/>
+                         <GradientEntry color="#FFCC00" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FFFFFF" ratio="1"/>
+                    </LinearGradientSwatchItem>
+                    <LinearGradientSwatchItem>
+                         <GradientEntry color="#FF0000" ratio="0"/>
+                         <GradientEntry color="#FFFF00" ratio="0.164705882352941"/>
+                         <GradientEntry color="#00FF00" ratio="0.364705882352941"/>
+                         <GradientEntry color="#00FFFF" ratio="0.498039215686275"/>
+                         <GradientEntry color="#0000FF" ratio="0.666666666666667"/>
+                         <GradientEntry color="#FF00FF" ratio="0.831372549019608"/>
+                         <GradientEntry color="#FF0000" ratio="1"/>
+                    </LinearGradientSwatchItem>
+               </swatches>
+          </swatchList>
+     </extendedSwatchLists>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="297809" publishTime="1345228559"/>
+          <PublishItem publishSize="297464" publishTime="1345228213"/>
+          <PublishItem publishSize="297481" publishTime="1345228116"/>
+          <PublishItem publishSize="297468" publishTime="1345228048"/>
+          <PublishItem publishSize="297477" publishTime="1345228018"/>
+          <PublishItem publishSize="297491" publishTime="1345227584"/>
+          <PublishItem publishSize="297513" publishTime="1345227511"/>
+          <PublishItem publishSize="278328" publishTime="1345227341"/>
+          <PublishItem publishSize="278730" publishTime="1345227120"/>
+          <PublishItem publishSize="278803" publishTime="1345226700"/>
+          <PublishItem publishSize="279135" publishTime="1345226602"/>
+          <PublishItem publishSize="278892" publishTime="1345226445"/>
+          <PublishItem publishSize="278889" publishTime="1345226351"/>
+          <PublishItem publishSize="278890" publishTime="1345226274"/>
+          <PublishItem publishSize="205845" publishTime="1345226250"/>
+          <PublishItem publishSize="259986" publishTime="1345225612"/>
+          <PublishItem publishSize="259973" publishTime="1345225540"/>
+          <PublishItem publishSize="259975" publishTime="1345225495"/>
+          <PublishItem publishSize="259934" publishTime="1345225400"/>
+          <PublishItem publishSize="261869" publishTime="1345225227"/>
+     </publishHistory>
+     <swcCache>
+          <Swc hashKey="8O0OYFfaaY4nu9OLcRyE80" href="fj9jqzhri0.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="RichContentModulePreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="9p5yq7PCNCo2o8ldxteEQ." href="fj9k5zhri0.swc">
+               <classDefinitions>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.ImageLoader"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="com.moto.template.common.view.AnimatedProgressBar"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="CommonPreview"/>
+                    <ClassDefinition value="ImageLoaderPreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="6UA4CnRQuTeeRjWUmg8AH0" href="fj9k5zhri092.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.SWFLoader"/>
+                    <ClassDefinition value="com.moto.template.common.view.AnimatedProgressBar"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="CommonPreview"/>
+                    <ClassDefinition value="SWFLoaderPreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="9vCsBrGcMa84CggIjl2e61" href="fj9k5zhri093.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="VideoPlayerModulePreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="Z86gPgU1zX2qoXzQ9QEwP." href="fj9k5zhri095.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="ImageGalleryModulePreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="3mAXbBC4VrPWqcFV17Eue/" href="fj9k5zhri094.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="PhotoGalleryPreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="aBWhW4sQGZvtEioYQ7t1l/" href="fj9k5zhri096.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.MediaLoader"/>
+                    <ClassDefinition value="com.moto.template.common.view.AnimatedProgressBar"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="CommonPreview"/>
+                    <ClassDefinition value="MediaLoaderPreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="FTIWRxYltAul84HO7c5Wv/" href="fj9k5zhri098.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.YouTubeVideoLoader"/>
+                    <ClassDefinition value="com.moto.template.common.view.AnimatedProgressBar"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="CommonPreview"/>
+                    <ClassDefinition value="YouTubeLoaderPreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="o0nhrSpNeS5isiqTA9bfc1" href="fj9k5zhri097.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="CatalogModulePreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="Pq//rGRSbFSAjQ/FgRaXm/" href="fj9k5zhri099.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.FLVLoader"/>
+                    <ClassDefinition value="com.moto.template.common.view.AnimatedProgressBar"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.loaders.AbstractMediaLoader"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="CommonPreview"/>
+                    <ClassDefinition value="FLVLoaderPreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="zeWg974zsPtvBN5VJKI63/" href="fj9k5zhri0100.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="ModulePreview"/>
+                    <ClassDefinition value="PhotoGalleryThumbnails"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="MpzD7I5TgERjas.beKJgb0" href="fj9k5zhri0101.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="MenuModulePreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="R3N9SlAwXSZG.DuT4EUWi." href="fj9k5zhri0102.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="com.moto.template.common.view.AnimatedProgressBar"/>
+                    <ClassDefinition value="com.moto.template.common.view.components.ModuleContentArea"/>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="CommonPreview"/>
+                    <ClassDefinition value="ModuleContentAreaPreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="y24X2VXT//iY0DGkLLQNM." href="fj9k5zhri0103.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="ModulePreview"/>
+                    <ClassDefinition value="FormModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="xsayVZoFuugG.YXGZH6R61" href="fj9k5zhri0105.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="InfoModulePreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="RvY0bSE8td2xmqdMHoTHu1" href="fj9k5zhri0104.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="MusicPlayerModulePreview"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+          <Swc hashKey="PZJDzeVNYmKMWSyg4LRGv." href="fj9klzhri0.swc">
+               <classDefinitions>
+                    <ClassDefinition value="fl.livepreview.LivePreviewParent"/>
+                    <ClassDefinition value="PhotoGalleryLightbox"/>
+                    <ClassDefinition value="ModulePreview"/>
+               </classDefinitions>
+          </Swc>
+     </swcCache>
+</DOMDocument>

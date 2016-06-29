@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleGalleryModule>
+	<configuration>
+		<option id="previewPropertyID" editable="false">
+			<value>1</value>
+		</option>
+		<option id="thumbnailPropertyID" editable="false">
+			<value>2</value>
+		</option>
+		<option id="thumbnailWidth" editable="false">
+			<value>146</value>
+		</option>
+		<option id="thumbnailHeight" editable="false">
+			<value>100</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="image" keyName="preview">
+				<name><![CDATA[Preview]]></name>
+			</property>
+			<property id="2" type="image" keyName="thumbnail">
+				<name><![CDATA[Thumbnail]]></name>
+			</property>
+			<property id="3" type="htmlText" keyName="description">
+				<name><![CDATA[Description]]></name>
+				<parameters>
+					<allowLinks>true</allowLinks>
+				</parameters>
+			</property>
+		</properties>
+		<template id="0" order="0">
+			<properties>
+				<item propertyType="1"/>
+				<item propertyType="2"/>
+				<item propertyType="3" embedFonts="false"/>
+			</properties>
+		</template>
+	</structure>
+	<data><item id="1" order="1"><properties><item propertyType="1"><![CDATA[../images/52ef4e657d352.jpg]]></item><item propertyType="2"><![CDATA[../images/52ef4e657d352_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="2" order="2"><properties><item propertyType="1"><![CDATA[../images/001.JPG]]></item><item propertyType="2"><![CDATA[../images/001_146_100.JPG]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="3" order="3"><properties><item propertyType="1"><![CDATA[../images/001RWRQR.jpg]]></item><item propertyType="2"><![CDATA[../images/001RWRQR_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="4" order="4"><properties><item propertyType="1"><![CDATA[../images/02.jpg]]></item><item propertyType="2"><![CDATA[../images/02_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="5" order="5"><properties><item propertyType="1"><![CDATA[../images/040_vip_DmitriyGalaktionov_kz_.jpg]]></item><item propertyType="2"><![CDATA[../images/040_vip_DmitriyGalaktionov_kz__146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="6" order="6"><properties><item propertyType="1"><![CDATA[../images/1.JPG]]></item><item propertyType="2"><![CDATA[../images/1_146_100.JPG]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="7" order="7"><properties><item propertyType="1"><![CDATA[../images/05.jpg]]></item><item propertyType="2"><![CDATA[../images/05_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="8" order="8"><properties><item propertyType="1"><![CDATA[../images/15480_146_100.jpg]]></item><item propertyType="2"><![CDATA[../images/15480_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="9" order="9"><properties><item propertyType="1"><![CDATA[../images/20000.jpg]]></item><item propertyType="2"><![CDATA[../images/20000_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="10" order="10"><properties><item propertyType="1"><![CDATA[../images/52ef347997e17.jpg]]></item><item propertyType="2"><![CDATA[../images/52ef347997e17_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="11" order="11"><properties><item propertyType="1"><![CDATA[../images/4.JPG]]></item><item propertyType="2"><![CDATA[../images/4_146_100.JPG]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="12" order="12"><properties><item propertyType="1"><![CDATA[../images/5.JPG]]></item><item propertyType="2"><![CDATA[../images/5_146_100.JPG]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="13" order="13"><properties><item propertyType="1"><![CDATA[../images/52c923f7bc4d9_146_100.jpg]]></item><item propertyType="2"><![CDATA[../images/52c923f7bc4d9_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="14" order="14"><properties><item propertyType="1"><![CDATA[../images/78904017.jpg]]></item><item propertyType="2"><![CDATA[../images/78904017_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="15" order="15"><properties><item propertyType="1"><![CDATA[../images/81963462.jpg]]></item><item propertyType="2"><![CDATA[../images/81963462_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item><item id="16" order="16"><properties><item propertyType="1"><![CDATA[../images/896483_8_644x461.jpg]]></item><item propertyType="2"><![CDATA[../images/896483_8_644x461_146_100.jpg]]></item><item propertyType="3" embedFonts="false"><![CDATA[]]></item></properties></item></data>
+</simpleGalleryModule>

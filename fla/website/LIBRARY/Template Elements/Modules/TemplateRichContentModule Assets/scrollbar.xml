@@ -1,0 +1,59 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/TemplateRichContentModule Assets/scrollbar" itemID="4cd1152b-00000412" sourceFlashFilepath="..\..\..\..\16291\endWork\30_12_11\website.fla" sourceLibraryItemHRef="Template Elements/Modules/TemplateRichContentModule Assets/scrollbar" sourceLastModified="1324978179" lastModified="1345228619" lastUniqueIdentifier="7">
+  <timeline>
+    <DOMTimeline name="scrollbar">
+      <layers>
+        <DOMLayer name="button" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButton" name="button" selected="true" centerPoint3DX="3.5" centerPoint3DY="35">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="track" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/ScrollTrack" name="track" selected="true" centerPoint3DX="3.5" centerPoint3DY="97">
+                  <matrix>
+                    <Matrix ty="-3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.5" y="100"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter blurX="2" blurY="2" distance="1" inner="true" strength="0.6"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="trackGuide" color="#FFFF4F" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButtonRectangle" name="trackGuide" selected="true" centerPoint3DX="10.5" centerPoint3DY="60.5">
+                  <matrix>
+                    <Matrix a="0.999984741210938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

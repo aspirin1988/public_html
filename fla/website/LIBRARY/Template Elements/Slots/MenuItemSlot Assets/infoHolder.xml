@@ -1,0 +1,63 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/MenuItemSlot Assets/infoHolder" itemID="502e20d2-00000802" sourceLibraryItemHRef="Template Elements/Slots/Symbol 1" lastModified="1345211694" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="infoHolder">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/MenuItemSlot Assets/textHolder" name="textHolder" selected="true" blendMode="layer" centerPoint3DX="44.5" centerPoint3DY="21.4">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/MenuItemSlot Assets/emptyHolder" name="infoBack" selected="true">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shadow" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/MenuItemSlot Assets/shadowHolder" name="shadowHolder" selected="true" centerPoint3DX="5" centerPoint3DY="3">
+                  <transformationPoint>
+                    <Point x="5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shadow" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/MenuItemSlot Assets/shadowHolder" name="shadowHolder2" centerPoint3DX="5" centerPoint3DY="3">
+                  <matrix>
+                    <Matrix a="-1" tx="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

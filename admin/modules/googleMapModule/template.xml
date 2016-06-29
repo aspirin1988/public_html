@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<googlemap>
+	<configuration>
+		<option id="iconID">
+			<value>1</value>
+		</option>
+		<option id="latitudeID">
+			<value>2</value>
+		</option>
+		<option id="longitudeID">
+			<value>3</value>
+		</option>
+		<option id="titleID">
+			<value>4</value>
+		</option>
+		<option id="descriptionID">
+			<value>5</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="image">
+				<name>Marker Icon</name>
+			</property>
+			<property id="2" type="plainText">
+				<name>Latitude</name>
+			</property>
+			<property id="3" type="plainText">
+				<name>Longitude</name>
+			</property>
+			<property id="4" type="htmlText">
+				<name>Title</name>
+			</property>
+			<property id="5" type="htmlText">
+				<name>Description</name>
+			</property>
+		</properties>
+		<template/>
+	</structure>
+	<data/>
+</googlemap>

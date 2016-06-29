@@ -1,0 +1,71 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/IntroSlot Assets/action images 3_logo" itemID="4bc80d4d-000000c1" sourceFlashFilepath="..\delta-10091\flash\with_mus\main_cs3.fla" sourceLibraryItemHRef="action images 3_logo" sourceLastModified="1271406280" lastModified="1271406280">
+  <timeline>
+    <DOMTimeline name="action images 3_logo">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[buttonMode = true;
+
+var picURL:URLRequest;
+var picLoader:Loader;
+var request:URLRequest;
+
+var urlImages:String = MovieClip(root).websiteXML.settings.image[MovieClip(parent).numImages].@link;
+var urlPage:Number = MovieClip(root).websiteXML.settings.image[MovieClip(parent).numImages].@linkPage;
+
+picURL=new URLRequest(MovieClip(root).websiteXML.settings.image[MovieClip(parent).numImages].@imageUrl);
+
+//trace("picURL = " + MovieClip(root).websiteXML.pages.titlePage[MovieClip(root).linkPage].imagesPage.image[MovieClip(parent).numImages].@imageUrl)
+
+picLoader= new Loader();
+
+picLoader.contentLoaderInfo.addEventListener(ProgressEvent.PROGRESS,onLoadProgress);
+
+picLoader.contentLoaderInfo.addEventListener(Event.COMPLETE,onLoadComplete);
+
+picLoader.load(picURL);
+
+function onLoadProgress(evt:ProgressEvent):void {
+	var titileLoaderLoad:Number = Math.round(100 * (evt.bytesLoaded / evt.bytesTotal));
+	MovieClip(parent).loadingImages.progress.text = titileLoaderLoad + "%";
+	MovieClip(parent).loadingImages.gotoAndStop(titileLoaderLoad);
+}
+function onLoadComplete(evt:Event):void {
+
+
+	addChild(picLoader.content);
+
+
+	MovieClip(parent).play();
+
+
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#84A234" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1 0|560 0!560 0|560 419!560 419|1 419!1 419|1 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+	<item name="WEBSITE_RESOURSE_PATH"><![CDATA[website.swf]]></item>
+	
+	<item name="CONFIG_RESOURSE_PATH"><![CDATA[xml/settings.xml]]></item>
+	
+	<item name="MENUS_RESOURSE_PATH"><![CDATA[xml/menus.xml]]></item>
+	
+	<item name="CONTENT_RESOURSE_PATH"><![CDATA[xml/content.xml]]></item>
+
+	<item name="ASSETS_RESOURSE_PATH"><![CDATA[xml/assets.xml]]></item>
+	
+	<item name="STRUCTURE_RESOURSE_PATH"><![CDATA[xml/structure.xml]]></item>
+
+	<item name="FONTS_RESOURSE_PATH"><![CDATA[xml/fonts.xml]]></item>
+	
+	<item name="FONTS_FOLDER"><![CDATA[fonts]]></item>
+
+	<item name="SNAPSHOT_WIDTH"><![CDATA[205]]></item>
+
+	<item name="SNAPSHOT_CREATION_DELAY"><![CDATA[2]]></item>
+
+	<item name="ALLOW_FULL_SCREEN"><![CDATA[true]]></item>
+	
+	<item name="WEBSITE_WIDTH"><![CDATA[100%]]></item>
+	
+	<item name="WEBSITE_HEIGHT"><![CDATA[100%]]></item>
+
+	<item name="WEBSITE_MIN_WIDTH"><![CDATA[1000]]></item>
+	
+	<item name="WEBSITE_MIN_HEIGHT"><![CDATA[800]]></item>
+
+	<item name="FLASH_PLAYER_VERSION_REQUIRED"><![CDATA[9.0.23]]></item>
+
+	<item name="BACKGROUND_COLOR"><![CDATA[#3a3a3a]]></item>
+
+	<item name="CLIENT_VERSION"><![CDATA[1.8.1]]></item>
+	
+	<item name="ENCODED_CONTENT_RESOURSE_PATH"><![CDATA[xml/content.xmlz]]></item>
+
+	<item name="ENCODED_STRUCTURE_RESOURSE_PATH"><![CDATA[xml/structure.xmlz]]></item>
+	
+</configuration>

@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/BackgroundAnimationSlot" itemID="502e8408-000003fd" linkageExportForAS="true" linkageBaseClass="slots.BackgroundAnimationSlot" linkageClassName="BackgroundAnimationSlot" sourceLibraryItemHRef="Template Elements/Slots/Symbol 1" lastModified="1345226399" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="BackgroundAnimationSlot">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/TEXThOLDER" name="preview" selected="true" centerPoint3DX="169.45" centerPoint3DY="15.95">
+                  <transformationPoint>
+                    <Point x="169.45" y="15.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/BackgroundAnimationSlot Assets/decors_all" name="holder" selected="true" centerPoint3DX="260.3" centerPoint3DY="102.15">
+                  <matrix>
+                    <Matrix tx="110" ty="566"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

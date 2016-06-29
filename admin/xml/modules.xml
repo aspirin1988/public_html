@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modules>
+	<module id="infoModule" url="modules/infoModule/InfoModule.swf"/>
+	<module id="mp3Player" url="modules/mp3PlayerModule/MP3PlayerModule.swf"/>
+	<module id="contactForm" url="modules/contactFormModule/ContactFormModule.swf"/>
+	<module id="simpleGallery" url="modules/simpleGalleryModule/SimpleGalleryModule.swf"/>
+	<module id="simpleMediaPlayer" url="modules/simpleMediaPlayerModule/SimpleMediaPlayerModule.swf"/>
+	<module id="catalogModule" url="modules/advancedCatalogModule/AdvancedCatalogModule.swf"/>
+	<module id="mapModule" url="modules/googleMapModule/GoogleMapModule.swf"/>
+	<module id="htmlWidget" url="modules/htmlWidgetModule/HtmlWidgetModule.swf"/>
+</modules>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleGalleryModule>
+	<configuration>
+		<option id="previewPropertyID">
+			<value>1</value>
+		</option>
+		<option id="thumbnailPropertyID">
+			<value>2</value>
+		</option>
+		<option id="thumbnailWidth">
+			<value>146</value>
+		</option>
+		<option id="thumbnailHeight">
+			<value>100</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="media">
+				<name><![CDATA[Preview]]></name>
+				<parameters>
+					<image>true</image>
+					<flash>true</flash>
+					<video>true</video>
+					<youtube>true</youtube>
+				</parameters>
+			</property>
+			<property id="2" type="image">
+				<name><![CDATA[Thumbnail]]></name>
+			</property>
+			<property id="3" type="link">
+				<name><![CDATA[Link]]></name>
+			</property>
+		</properties>
+		<template>
+			<properties>
+				<item propertyType="1"/>
+				<item propertyType="2"/>
+				<item propertyType="3"/>
+			</properties>
+		</template>
+	</structure>
+	<data><item id="4" order="1"><properties><item propertyType="1"><![CDATA[images/video_svadba_moto.jpg]]></item><item propertyType="2"><![CDATA[images/video_svadba_moto_600_400.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="5" order="2"><properties><item propertyType="1"><![CDATA[images/52caa60a0610a.jpg]]></item><item propertyType="2"><![CDATA[images/52caa60a0610a_600_400.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="6" order="3"><properties><item propertyType="1"><![CDATA[images/3296-800x600_146_100.jpg]]></item><item propertyType="2"><![CDATA[images/3296-800x600_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item></data>
+</simpleGalleryModule>

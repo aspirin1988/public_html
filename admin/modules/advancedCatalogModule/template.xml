@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogModule>
+	<configuration>
+		<option id="rootChildTypes">
+			<value>1,2</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+		<option id="listView">
+			<value><![CDATA[false]]></value>
+		</option>
+		<option id="lastSelectedItemID">
+			<value><![CDATA[0]]></value>
+		</option>
+	</configuration>
+	<structure>
+		<items>
+			<item id="1" labelPropertyID="1" thumbnailPropertyID="2">
+				<name><![CDATA[Model]]></name>
+				<properties>
+					<property id="1" type="htmlText">
+						<name><![CDATA[Name]]></name>
+					</property>
+					<property id="2" type="image">
+						<name><![CDATA[Photo]]></name>
+					</property>
+				</properties>
+				<template/>
+				<childTypes />
+				<maxItems>0</maxItems>
+				<defaultLabel>Model</defaultLabel>
+				<defaultThumbnail>images/modelThumbnail.jpg</defaultThumbnail>
+			</item>
+		</items>
+	</structure>
+	<data/>
+</catalogModule>

@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/IntroSlot Assets/textHolder" itemID="502e6652-00000aa0" sourceLibraryItemHRef="Symbol 3" lastModified="1345226663">
+  <timeline>
+    <DOMTimeline name="textHolder">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="customThicknessSharpness" width="66" height="13.35" antiAliasSharpness="72" antiAliasThickness="69" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Intro Slot</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="-2" bitmapSize="240" face="_sans" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/rect" name="g" selected="true" centerPoint3DX="72" centerPoint3DY="17.85">
+                  <matrix>
+                    <Matrix ty="-0.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="72" y="18"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

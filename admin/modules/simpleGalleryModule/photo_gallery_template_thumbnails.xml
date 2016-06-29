@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleGalleryModule>
+	<configuration>
+		<option id="previewPropertyID">
+			<value>1</value>
+		</option>
+		<option id="thumbnailPropertyID">
+			<value>2</value>
+		</option>
+		<option id="thumbnailWidth">
+			<value>146</value>
+		</option>
+		<option id="thumbnailHeight">
+			<value>100</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="media">
+				<name><![CDATA[Preview]]></name>
+				<parameters>
+					<image>true</image>
+					<flash>true</flash>
+					<video>true</video>
+					<youtube>true</youtube>
+				</parameters>
+			</property>
+			<property id="2" type="image">
+				<name><![CDATA[Thumbnail]]></name>
+			</property>
+			<property id="3" type="link">
+				<name><![CDATA[Link]]></name>
+			</property>
+		</properties>
+		<template>
+			<properties>
+				<item propertyType="1"></item>
+				<item propertyType="2"></item>
+				<item propertyType="3"></item>
+			</properties>
+		</template>
+	</structure>
+	<data/>
+</simpleGalleryModule>

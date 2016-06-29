@@ -1,0 +1,57 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" itemID="4f2bc251-000007f5" sourceFlashFilepath="..\..\..\webSite30\website.fla" sourceLibraryItemHRef="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" sourceLastModified="1300719362" lastModified="1305807194">
+  <timeline>
+    <DOMTimeline name="loader_ell_3_2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_1" name="">
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="2" blurY="2" color="#FFFFFF" inner="true" quality="3" strength="0.8"/>
+                    <GlowFilter color="#FFFFFF" quality="3" strength="3"/>
+                  </filters>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="13" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_1" name="">
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="2" blurY="2" color="#FFFFFF" inner="true" quality="3" strength="0.8"/>
+                    <GlowFilter color="#FFFFFF" quality="3" strength="3"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_1" name="">
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                  <filters>
+                    <GlowFilter blurX="2" blurY="2" color="#FFFFFF" inner="true" quality="3" strength="0.8"/>
+                    <GlowFilter color="#FFFFFF" quality="3" strength="3"/>
+                  </filters>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

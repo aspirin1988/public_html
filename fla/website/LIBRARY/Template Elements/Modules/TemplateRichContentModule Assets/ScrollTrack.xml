@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/TemplateRichContentModule Assets/ScrollTrack" itemID="4905930f-0000019d" sourceFlashFilepath="..\..\..\..\16291\endWork\30_12_11\website.fla" sourceLibraryItemHRef="Template Elements/Modules/TemplateRichContentModule Assets/ScrollTrack" sourceLastModified="1305975598" scaleGridLeft="3.1" scaleGridRight="25.25" scaleGridTop="72" scaleGridBottom="138" lastModified="1305975598" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="ScrollTrack">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/scrollTrackRectangle_" name="g" selected="true" centerPoint3DX="3.5" centerPoint3DY="100">
+                  <transformationPoint>
+                    <Point x="15" y="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

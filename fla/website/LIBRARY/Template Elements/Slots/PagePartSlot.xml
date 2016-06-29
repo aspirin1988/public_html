@@ -1,0 +1,50 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/PagePartSlot" itemID="4f3b7315-000002ae" linkageExportForAS="true" linkageBaseClass="slots.PagePartSlot" linkageClassName="PagePartSlot" sourceLibraryItemHRef="Template Elements/Slots/ListElementSlot copy" lastModified="1345217749" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="PagePartSlot">
+      <layers>
+        <DOMLayer name="pagePart" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/PagePartSlot Assets/bg_pages" name="holder" selected="true" centerPoint3DX="333" centerPoint3DY="216">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/PagePartSlot Assets/preview2" name="preview2" selected="true" centerPoint3DX="484.05" centerPoint3DY="226.4">
+                  <matrix>
+                    <Matrix tx="187"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="297.05" y="226.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="preview" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/PagePartSlot Assets/preview" name="preview" selected="true" centerPoint3DX="452.4" centerPoint3DY="209.95">
+                  <transformationPoint>
+                    <Point x="452.4" y="209.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

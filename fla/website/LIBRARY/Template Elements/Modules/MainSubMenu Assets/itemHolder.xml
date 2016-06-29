@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MainSubMenu Assets/itemHolder" itemID="4dcbf64a-000004af" sourceFlashFilepath="..\..\..\example\34800\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MainSubMenu Assets/itemHolder" sourceLastModified="1305214240" lastModified="1329304844">
+  <timeline>
+    <DOMTimeline name="itemHolder">
+      <layers>
+        <DOMLayer name="text" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="tf" selected="true" fontRenderingMode="device" width="40" height="11.15">
+                  <matrix>
+                    <Matrix d="1.0032958984375" tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>TITLE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" size="10" bitmapSize="200" face="_sans"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

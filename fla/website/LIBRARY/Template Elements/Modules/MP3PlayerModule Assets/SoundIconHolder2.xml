@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MP3PlayerModule Assets/SoundIconHolder2" itemID="4d233989-00000370" sourceFlashFilepath="..\..\..\..\..\envelope\16292\endWork\05_01_12\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MP3PlayerModule Assets/SoundIconHolder2" sourceLastModified="1305553927" lastModified="1305553927">
+  <timeline>
+    <DOMTimeline name="SoundIconHolder2">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/MP3PlayerModule Assets/soundEQpla2" name="" selected="true" centerPoint3DX="8" centerPoint3DY="8">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

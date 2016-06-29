@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Popups/WebsitePopup Assets/websitePopupBg" itemID="4cf4b524-00000243" sourceFlashFilepath="..\..\..\webSite31\website.fla" sourceLibraryItemHRef="Template Elements/Popups/WebsitePopup Assets/websitePopupBg" sourceLastModified="1276762457" lastModified="1276762457" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="websitePopupBg">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Popups/WebsitePopup Assets/popupbg_" name="bg">
+                  <transformationPoint>
+                    <Point x="500" y="400"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

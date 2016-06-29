@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/AppPreloader" itemID="4a4a5053-000003b3" linkageExportForAS="true" linkageBaseClass="common.AppPreloader" linkageClassName="AppPreloader" sourceFlashFilepath="..\..\..\..\34959\endWork\27_01_12\moto.fla" sourceLibraryItemHRef="Template Elements/AppPreloader" sourceLastModified="1324054253" lastModified="1330501628" lastUniqueIdentifier="28">
+  <timeline>
+    <DOMTimeline name="AppPreloader">
+      <layers>
+        <DOMLayer name="a" color="#FFFF4F" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 57" color="#4FFF4F" current="true" isSelected="true" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/AppPreloader Assets/line" name="line" selected="true" centerPoint3DX="80" centerPoint3DY="25">
+                  <transformationPoint>
+                    <Point x="78.5" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

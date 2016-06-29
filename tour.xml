@@ -1,0 +1,592 @@
+<krpano version="1.17" title="Virtual Tour" onstart="startup();">
+
+	<progress showwait="none" showload="bar(bottom,100%,4,0,0,shaded,0xffffff,0xc71585,0xc71585,0x6a6a6a,1,0xaaaaaa,1)"/>
+	<control movetocursor ="arrow" />
+	<!--<display flash10="on" stillquality="HIGHSHARP" movequality="HIGHSHARP" stillquality10="HIGHSHARP" movequality10="HIGHSHARP" details="22" />-->
+	<include url="skin/vtourskin.xml" />
+    
+	
+	<!-- set skin settings: bingmaps? gyro? thumbnail controlling? tooltips? -->
+	<skin_settings bingmaps="false"
+	               bingmaps_key=""
+	               bingmaps_zoombuttons="false"
+	               gyro="true"
+	               thumbs_width="120" thumbs_height="60" thumbs_padding="5" thumbs_vpadding="8" thumbs_crop="0|80|240|120"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="true"
+	               thumbs_scrollindicator="true"
+	               tooltips_thumbs="true"
+	               tooltips_hotspots="true"
+	               tooltips_mapspots="true"
+	               controlbar_offset="-38"
+	               />
+
+	<!-- set optional skin logo url -->
+	<!--<layer name="skin_logo" url="" scale="0.25" opened_onclick="openurl('...',_blank);" />-->
+
+
+	<action name="startup">
+		if(startscene === null, copy(startscene,scene[0].name));
+		loadscene(get(startscene), null, MERGE);
+	</action>
+
+	
+	<scene name="scene_1" title="Площадка" onstart="" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-56.535" vlookat="-0.068" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120.000" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/1.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/1.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/1.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/1.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/1.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/1.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-121.825" atv="11.166" linkedscene="scene_3_equi" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-101.684" atv="12.036" linkedscene="scene_4_equi" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-75.326" atv="15.066" linkedscene="scene_2_equi" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-44.809" atv="12.700" linkedscene="scene_5_equi" />
+		<hotspot name="spot5" style="skin_hotspotstyle" ath="-24.636" atv="8.338" linkedscene="scene_5_equi" />
+		<hotspot name="spot6" style="skin_hotspotstyle" ath="-9.619" atv="6.442" linkedscene="scene_6_equi" />
+		<hotspot name="spot7" style="skin_hotspotstyle" ath="95.868" atv="20.045" linkedscene="scene_7_equi" />
+
+
+		<hotspot name="picture1" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-93.711"
+		         atv="-10.219"
+		         zoom="false"
+		         onclick="set(plugin[picture].visible,true);tween(plugin[picture].alpha, 1);"
+		         />
+		       <plugin name="picture" visible="false" url="graphics/1.jpg" align="center" alpha="1" onclick="closepicture();" width="prop" height="82%"/>
+           <action name="closepicture">
+		if(plugin[picture].visible,
+		closeglobalobjects();
+		tween(plugin[picture].alpha, 0);
+		delayedcall(0.5,set(plugin[picture].visible,false));
+		);
+	    </action>
+
+	
+		
+		
+		
+		<hotspot name="picture2" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-70.000"
+		         atv="-10.000" 
+		         zoom="false"
+		         onclick="set(plugin[pictureqq].visible,true);tween(plugin[pictureqq].alpha, 1);"
+		         />
+		       <plugin name="pictureqq" visible="false" url="graphics/5.jpg" align="center" alpha="1" onclick="closepictureqq();" width="prop" height="75%"/>
+           <action name="closepictureqq">
+		if(plugin[pictureqq].visible,
+		closeglobalobjects();
+		tween(plugin[pictureqq].alpha, 0);
+		delayedcall(0.5,set(plugin[pictureqq].visible,false));
+		);
+	    </action>
+
+		<hotspot name="picture2" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-70"
+		         atv="-10"
+		         zoom="false"
+		         onclick="set(plugin[picturetwo].visible,true);tween(plugin[picturetwo].alpha, 1);"
+		         />
+		       <plugin name="picturetwo" visible="false" url="graphics/2.jpg" align="center" alpha="1" onclick="closepicturetwo();" width="prop" height="75%"/>
+           <action name="closepicturetwo">
+		if(plugin[picturetwo].visible,
+		closeglobalobjects();
+		tween(plugin[picturetwo].alpha, 0);
+		delayedcall(0.5,set(plugin[picturetwo].visible,false));
+		);
+	    </action>
+	
+	
+
+		<hotspot name="picture3" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="98.588"
+		         atv="-3.807"
+		         zoom="false"
+		         onclick="set(plugin[picturetr].visible,true);tween(plugin[picturetr].alpha, 1);"
+		         />
+		       <plugin name="picturetr" visible="false" url="graphics/3.jpg" align="center" alpha="1" onclick="closepicturetr();" width="prop" height="75%"/>
+           <action name="closepicturetr">
+		if(plugin[picturetr].visible,
+		closeglobalobjects();
+		tween(plugin[picturetr].alpha, 0);
+		delayedcall(0.5,set(plugin[picturetr].visible,false));
+		);
+	    </action>
+	
+		<hotspot name="picture4" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture2" 
+		         ath="84.279"
+		         atv="2.068"
+		         zoom="false"
+		         onclick="set(plugin[picturef].visible,true);tween(plugin[picturef].alpha, 1);"
+		         />
+		       <plugin name="picturef" visible="false" url="graphics/4.jpg" align="center" alpha="1" onclick="closepicturef();" width="prop" height="75%"/>
+           <action name="closepicturef">
+		if(plugin[picturef].visible,
+		closeglobalobjects();
+		tween(plugin[picturef].alpha, 0);
+		delayedcall(0.5,set(plugin[picturef].visible,false));
+		);
+	    </action>
+	
+	
+		<hotspot name="picture5" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture2" 
+		         ath="-82.505"
+		         atv="-9.647"
+		         zoom="false"
+		         onclick="set(plugin[picturefv].visible,true);tween(plugin[picturefv].alpha, 1);"
+		         />
+		       <plugin name="picturefv" visible="false" url="graphics/5.jpg" align="center" alpha="1" onclick="closepicturefv();" width="prop" height="75%"/>
+           <action name="closepicturefv">
+		if(plugin[picturefv].visible,
+		closeglobalobjects();
+		tween(plugin[picturefv].alpha, 0);
+		delayedcall(0.5,set(plugin[picturefv].visible,false));
+		);
+	    </action>
+	
+	
+		<hotspot name="picture6" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-35.954"
+		         atv="-8.110"
+		         zoom="false"
+		         onclick="set(plugin[pictures].visible,true);tween(plugin[pictures].alpha, 1);"
+		         />
+		       <plugin name="pictures" visible="false" url="graphics/6.jpg" align="center" alpha="1" onclick="closepictures();" width="prop" height="75%"/>
+           <action name="closepictures">
+		if(plugin[pictures].visible,
+		closeglobalobjects();
+		tween(plugin[pictures].alpha, 0);
+		delayedcall(0.5,set(plugin[pictures].visible,false));
+		);
+	    </action>
+	
+		<hotspot name="picture7" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-47.503"
+		         atv="-8.881"
+		         zoom="false"
+		         onclick="set(plugin[picturesv].visible,true);tween(plugin[picturesv].alpha, 1);"
+		         />
+		       <plugin name="picturesv" visible="false" url="graphics/7.jpg" align="center" alpha="1" onclick="closepicturesv();" width="prop" height="75%"/>
+           <action name="closepicturesv">
+		if(plugin[picturesv].visible,
+		closeglobalobjects();
+		tween(plugin[picturesv].alpha, 0);
+		delayedcall(0.5,set(plugin[picturesv].visible,false));
+		);
+	    </action>
+		<hotspot name="spot15" style="skin_hotspotstyleback" ath="-56.666" atv="27.314" linkedscene="scene_12" />
+	
+	</scene>
+
+	<scene name="scene_12" title="Площадка" onstart="" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="107.926" vlookat="6.823" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120.000" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/1.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/1.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/1.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/1.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/1.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/1.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-121.825" atv="11.166" linkedscene="scene_3_equi" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-101.684" atv="12.036" linkedscene="scene_4_equi" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-75.326" atv="15.066" linkedscene="scene_2_equi" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-44.809" atv="12.700" linkedscene="scene_5_equi" />
+		<hotspot name="spot5" style="skin_hotspotstyle" ath="-24.636" atv="8.338" linkedscene="scene_5_equi" />
+		<hotspot name="spot6" style="skin_hotspotstyle" ath="-9.619" atv="6.442" linkedscene="scene_6_equi" />
+		<hotspot name="spot7" style="skin_hotspotstyle" ath="95.868" atv="20.045" linkedscene="scene_7_equi" />
+
+
+		<hotspot name="picture1" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-93.711"
+		         atv="-10.219"
+		         zoom="false"
+		         onclick="set(plugin[picture].visible,true);tween(plugin[picture].alpha, 1);"
+		         />
+		       <plugin name="picture" visible="false" url="graphics/1.jpg" align="center" alpha="1" onclick="closepicture();" width="prop" height="82%"/>
+           <action name="closepicture">
+		if(plugin[picture].visible,
+		closeglobalobjects();
+		tween(plugin[picture].alpha, 0);
+		delayedcall(0.5,set(plugin[picture].visible,false));
+		);
+	    </action>
+
+	
+		
+		
+		
+		<hotspot name="picture2" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-70.649"
+		         atv="-8.945" 
+		         zoom="false"
+		         onclick="set(plugin[pictureqq].visible,true);tween(plugin[pictureqq].alpha, 1);"
+		         />
+		       <plugin name="pictureqq" visible="false" url="graphics/5.jpg" align="center" alpha="1" onclick="closepictureqq();" width="prop" height="75%"/>
+           <action name="closepictureqq">
+		if(plugin[pictureqq].visible,
+		closeglobalobjects();
+		tween(plugin[pictureqq].alpha, 0);
+		delayedcall(0.5,set(plugin[pictureqq].visible,false));
+		);
+	    </action>
+
+		<hotspot name="picture2" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-70"
+		         atv="-10"
+		         zoom="false"
+		         onclick="set(plugin[picturetwo].visible,true);tween(plugin[picturetwo].alpha, 1);"
+		         />
+		       <plugin name="picturetwo" visible="false" url="graphics/2.jpg" align="center" alpha="1" onclick="closepicturetwo();" width="prop" height="75%"/>
+           <action name="closepicturetwo">
+		if(plugin[picturetwo].visible,
+		closeglobalobjects();
+		tween(plugin[picturetwo].alpha, 0);
+		delayedcall(0.5,set(plugin[picturetwo].visible,false));
+		);
+	    </action>
+	
+	
+
+		<hotspot name="picture3" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="98.588"
+		         atv="-3.807"
+		         zoom="false"
+		         onclick="set(plugin[picturetr].visible,true);tween(plugin[picturetr].alpha, 1);"
+		         />
+		       <plugin name="picturetr" visible="false" url="graphics/3.jpg" align="center" alpha="1" onclick="closepicturetr();" width="prop" height="75%"/>
+           <action name="closepicturetr">
+		if(plugin[picturetr].visible,
+		closeglobalobjects();
+		tween(plugin[picturetr].alpha, 0);
+		delayedcall(0.5,set(plugin[picturetr].visible,false));
+		);
+	    </action>
+	
+		<hotspot name="picture4" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture2" 
+		         ath="84.279"
+		         atv="2.068"
+		         zoom="false"
+		         onclick="set(plugin[picturef].visible,true);tween(plugin[picturef].alpha, 1);"
+		         />
+		       <plugin name="picturef" visible="false" url="graphics/4.jpg" align="center" alpha="1" onclick="closepicturef();" width="prop" height="75%"/>
+           <action name="closepicturef">
+		if(plugin[picturef].visible,
+		closeglobalobjects();
+		tween(plugin[picturef].alpha, 0);
+		delayedcall(0.5,set(plugin[picturef].visible,false));
+		);
+	    </action>
+	
+	
+		<hotspot name="picture5" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture2" 
+		         ath="-82.505"
+		         atv="-9.647"
+		         zoom="false"
+		         onclick="set(plugin[picturefv].visible,true);tween(plugin[picturefv].alpha, 1);"
+		         />
+		       <plugin name="picturefv" visible="false" url="graphics/5.jpg" align="center" alpha="1" onclick="closepicturefv();" width="prop" height="75%"/>
+           <action name="closepicturefv">
+		if(plugin[picturefv].visible,
+		closeglobalobjects();
+		tween(plugin[picturefv].alpha, 0);
+		delayedcall(0.5,set(plugin[picturefv].visible,false));
+		);
+	    </action>
+	
+	
+		<hotspot name="picture6" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-35.954"
+		         atv="-8.110"
+		         zoom="false"
+		         onclick="set(plugin[pictures].visible,true);tween(plugin[pictures].alpha, 1);"
+		         />
+		       <plugin name="pictures" visible="false" url="graphics/6.jpg" align="center" alpha="1" onclick="closepictures();" width="prop" height="75%"/>
+           <action name="closepictures">
+		if(plugin[pictures].visible,
+		closeglobalobjects();
+		tween(plugin[pictures].alpha, 0);
+		delayedcall(0.5,set(plugin[pictures].visible,false));
+		);
+	    </action>
+	
+		<hotspot name="picture7" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="-47.503"
+		         atv="-8.881"
+		         zoom="false"
+		         onclick="set(plugin[picturesv].visible,true);tween(plugin[picturesv].alpha, 1);"
+		         />
+		       <plugin name="picturesv" visible="false" url="graphics/7.jpg" align="center" alpha="1" onclick="closepicturesv();" width="prop" height="75%"/>
+           <action name="closepicturesv">
+		if(plugin[picturesv].visible,
+		closeglobalobjects();
+		tween(plugin[picturesv].alpha, 0);
+		delayedcall(0.5,set(plugin[picturesv].visible,false));
+		);
+	    </action>
+	
+
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</scene>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<scene name="scene_2_equi" title="Ford" onstart="" thumburl="panos/2_equi.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0" vlookat="0" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/2_equi.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/2_equi.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/2_equi.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/2_equi.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/2_equi.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/2_equi.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-170.170" atv="0.540" linkedscene="scene_1" />
+
+
+	</scene>
+
+	<scene name="scene_3_equi" title="Hammer" onstart="" thumburl="panos/3_equi.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="246.208" vlookat="3.510" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120.000" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/3_equi.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/3_equi.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/3_equi.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/3_equi.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/3_equi.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/3_equi.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-8.186" atv="11.548" linkedscene="scene_1" />
+
+
+	</scene>
+
+	<scene name="scene_4_equi" title="Mercedes" onstart="" thumburl="panos/4_equi.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-110.057" vlookat="13.490" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120.000" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/4_equi.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/4_equi.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/4_equi.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/4_equi.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/4_equi.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/4_equi.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-22.983" atv="20.658" linkedscene="scene_1" />
+
+
+	</scene>
+
+	<scene name="scene_5_equi" title="Hammer H2" onstart="" thumburl="panos/5_equi.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="57.891" vlookat="17.027" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120.000" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/5_equi.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/5_equi.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/5_equi.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/5_equi.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/5_equi.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/5_equi.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-104.858" atv="3.918" linkedscene="scene_1" />
+
+
+	</scene>
+
+	<scene name="scene_6_equi" title="Cadillac" onstart="" thumburl="panos/6_equi.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-82.072" vlookat="0.488" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120.000" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/6_equi.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/6_equi.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/6_equi.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/6_equi.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/6_equi.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/6_equi.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="64.760" atv="9.590" linkedscene="scene_1" />
+
+
+	</scene>
+
+	<scene name="scene_7_equi" title="Bentley" onstart="" thumburl="panos/7_equi.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="155.640" vlookat="14.986" hlookatmin="-180" hlookatmax="180" fovtype="DFOV" fov="120.000" maxpixelzoom="1.5" fovmin="70" fovmax="125" limitview="auto" />
+
+		<preview url="panos/7_equi.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" progressive="false">
+			<level tiledimagewidth="2048" tiledimageheight="2048" download="view">
+				<cube url="panos/7_equi.tiles/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024" download="view">
+				<cube url="panos/7_equi.tiles/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="512" tiledimageheight="512" download="view">
+				<cube url="panos/7_equi.tiles/l1_%s_%v_%h.jpg" />
+			</level>
+			<mobile>
+				<cube url="panos/7_equi.tiles/mobile_%s.jpg" />
+			</mobile>
+			<mobile devices="iPad+Retina+Tablet">
+				<cube url="panos/7_equi.tiles/tablet_%s.jpg" />
+			</mobile>
+		</image>
+
+		<!-- place your scene hotspots here -->
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-96.486" atv="5.944" linkedscene="scene_1" />
+
+
+	</scene>
+
+
+</krpano>

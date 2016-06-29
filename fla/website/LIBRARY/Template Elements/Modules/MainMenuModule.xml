@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MainMenuModule" itemID="4dcbd273-000009bd" linkageExportForAS="true" linkageBaseClass="modules.MainMenuModule" linkageClassName="MainMenuModule" sourceFlashFilepath="..\..\..\example\34800\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MainMenuModule" sourceLastModified="1305213888" lastModified="1329314784" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="MainMenuModule">
+      <layers>
+        <DOMLayer name="content holder" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/MainMenuModule Assets/contentHolder" name="contentHolder">
+                  <matrix>
+                    <Matrix tx="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30" y="21.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="preview" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMCompiledClipInstance libraryItemName="Components/Moto Modules Preview/Menu Module Preview" name="preview" selected="true" uniqueID="2">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='bg_pages' oldCopiedComponentPath=''>
+</component>
+]]></dataBindingXML>
+                </DOMCompiledClipInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

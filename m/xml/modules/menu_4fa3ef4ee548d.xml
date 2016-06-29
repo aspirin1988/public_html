@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infomodule>
+	<configuration>
+		<option id="titleID">
+			<value>1</value>
+		</option>
+	</configuration>
+
+	<structure>
+		<properties>
+			<property id="1" type="plainText" keyName="label">
+				<name><![CDATA[Label]]></name>
+			</property>
+		</properties>
+		<template id="0" parent="0" click="switchPage;page=1" order="0">
+			<properties>
+				<item propertyType="1"><![CDATA[MENU LABEL]]></item>
+			</properties>
+		</template>
+	</structure>
+
+	<data><item id="1" parent="0" click="" order="1"><properties><item propertyType="1"><![CDATA[MENU ITEM 1]]></item></properties></item><item id="2" parent="0" click="" order="2"><properties><item propertyType="1"><![CDATA[MENU ITEM 2]]></item></properties></item><item id="5" parent="2" click="" order="3"><properties><item propertyType="1"><![CDATA[MENU ITEM 5]]></item></properties></item><item id="6" parent="2" click="" order="4"><properties><item propertyType="1"><![CDATA[MENU ITEM 6]]></item></properties></item><item id="7" parent="2" click="" order="5"><properties><item propertyType="1"><![CDATA[MENU ITEM 7]]></item></properties></item><item id="3" parent="0" click="" order="6"><properties><item propertyType="1"><![CDATA[MENU ITEM 3]]></item></properties></item><item id="4" parent="0" click="" order="7"><properties><item propertyType="1"><![CDATA[MENU ITEM 4]]></item></properties></item></data>
+
+</infomodule>

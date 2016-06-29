@@ -1,0 +1,145 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButton" itemID="490592c1-00000199" sourceFlashFilepath="..\..\..\..\16291\endWork\30_12_11\website.fla" sourceLibraryItemHRef="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButton" sourceLastModified="1324970615" lastModified="1345228591" lastUniqueIdentifier="18">
+  <timeline>
+    <DOMTimeline name="ScrollButton" currentFrame="22">
+      <layers>
+        <DOMLayer name="a" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop()]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="10" name="over" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop()]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="11" name="out" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/arrHolder" name="arr1" centerPoint3DX="13.5" centerPoint3DY="110">
+                  <matrix>
+                    <Matrix d="-1" tx="8" ty="113"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/arrHolder" name="arr1" centerPoint3DX="13.5" centerPoint3DY="100">
+                  <matrix>
+                    <Matrix d="-1" tx="8" ty="103"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/arrHolder" name="arr1" selected="true" centerPoint3DX="13.5" centerPoint3DY="110">
+                  <matrix>
+                    <Matrix d="-1" tx="8" ty="113"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/arrHolder" name="arr2" centerPoint3DX="13.5" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix tx="8" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="11" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/arrHolder" name="arr2" centerPoint3DX="13.5" centerPoint3DY="21">
+                  <matrix>
+                    <Matrix tx="8" ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/arrHolder" name="arr2" centerPoint3DX="13.5" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix tx="8" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="ScrollButtonRectangle" color="#4F80FF" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButtonRectangle" name="" centerPoint3DX="6.5" centerPoint3DY="35">
+                  <matrix>
+                    <Matrix tx="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="g" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/ScrollButtonRectangle" name="g" centerPoint3DX="4.5" centerPoint3DY="14.5">
+                  <matrix>
+                    <Matrix tx="3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.5" y="22"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

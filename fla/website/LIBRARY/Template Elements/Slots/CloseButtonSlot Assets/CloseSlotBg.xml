@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/CloseButtonSlot Assets/CloseSlotBg" itemID="4dfb0d1d-000001ea" sourceFlashFilepath="..\..\..\..\..\moto_templates\new\for_developers\1.4.0\components\popups\popup_03\popup_3.fla" sourceLibraryItemHRef="slots/CloseButtonSlot Assets/CloseSlotBg" sourceLastModified="1258032721" lastModified="1258032721">
+  <timeline>
+    <DOMTimeline name="CloseSlotBg">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!500 0|500 500!500 500|0 500!0 500|0 0!0 0|500 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

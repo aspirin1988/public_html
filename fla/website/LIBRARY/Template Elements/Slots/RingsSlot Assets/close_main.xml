@@ -1,0 +1,186 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/RingsSlot Assets/close_main" itemID="4bc71721-000002a2" sourceFlashFilepath="..\..\delta-11569_new_loading_as3\flash\main_cs3.fla" sourceLibraryItemHRef="close_main" sourceLastModified="1283597893" lastModified="1284030045" lastUniqueIdentifier="10">
+  <timeline>
+    <DOMTimeline name="close_main" currentFrame="1">
+      <layers>
+        <DOMLayer name="Layer 11" color="#FFFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 7" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[MovieClip(root).logoLink(panelCloseSplash,'closeAllPage');
+panelCloseSplash.buttonMode = true;
+
+
+panelCloseSplash.addEventListener(MouseEvent.MOUSE_OVER, mouseOverFunction);
+panelCloseSplash.addEventListener(MouseEvent.MOUSE_OUT, mouseOutFunction);
+
+panelCloseSplash.buttonMode = true;
+
+
+function mouseOverFunction(e:MouseEvent):void {
+	gotoAndPlay("s1");
+}
+
+
+function mouseOutFunction(e:MouseEvent):void {
+	gotoAndPlay("s2");
+}
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="13" name="s1" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="15" duration="14" name="s2" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="area" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/area2" name="panelCloseSplash" selected="true">
+                  <matrix>
+                    <Matrix a="0.321701049804688" d="0.847412109375" tx="-1.05" ty="-1.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.1" y="25.6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 8" color="#FF4F4F">
+          <frames>
+            <DOMFrame index="0" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/cross" name="">
+                  <matrix>
+                    <Matrix tx="18" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/cross" name="">
+                  <matrix>
+                    <Matrix tx="18" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#990000"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/cross" name="">
+                  <matrix>
+                    <Matrix tx="18" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-5.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="cross_plane.png" color="#9933CC" autoNamed="false" visible="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/cross_plane" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="18" ty="37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="14" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/cross_plane" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="18" ty="37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#333333"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/cross_plane" name="">
+                  <matrix>
+                    <Matrix tx="18" ty="37"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-18.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

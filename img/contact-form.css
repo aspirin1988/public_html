@@ -1,0 +1,188 @@
+.commentbox{
+	margin:0px;
+	background:#eaeeee;
+	padding:20px 20px 1px 20px;
+}
+
+.upicempty{
+	background:url(/img/m4.png) center center no-repeat;
+	width:80px;height:80px;
+	overflow:hidden;
+	margin:20px auto 0px auto;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+.ipic{
+	float:left;
+	width:80px !important;height:80px !important;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+.navpages{
+	margin:10px auto;
+}
+.navpages img{
+	width:9px;height:9px;
+}
+
+.message_box_load{
+	background: url('/img/form-loader.gif') center center no-repeat;		
+}
+#userpicarea{
+	width:80px;
+	text-align:center;position:relative;
+	float:left;
+}
+.message_box{
+	margin-left:90px;
+	background:url(/img/c-arrow.png) 0px 48px no-repeat;
+}
+.messagebox{
+	margin-left:13px;
+	background:#e8e8e8;
+	padding:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.town{display:none;}
+
+.textarea{
+	border:1px #fff solid !important;
+	margin:5px 5px 5px 0px;
+	min-height:132px;
+	border:1px #dddfdf dotted;
+	padding:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.textarea textarea{
+	background:transparent;
+	width:100%;height:110px;
+	border:0px #dddfdf dotted;
+}
+
+.inptxt{
+	padding:0px;margin:5px 5px 5px 0px;
+	width:180px;display:inline-block;
+}
+.inptxt input{
+	width:160px;
+	margin:5px 5px 0px 0px;
+	background:transparent;
+	display:inline-block;
+	border:1px #fff solid;
+	padding:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+.message_box label.error{
+	display:block;
+	padding-top:0px;
+	line-height:10px;
+}
+.message_box input.error, .message_box textarea.error{
+	border:1px #6f0110 solid;
+}
+
+.fbtn {
+	
+}
+.uname{
+	display:block;
+	font-weight:bold;
+}
+.btn-primary{
+	display:block !important;
+	width:200px;height:32px;
+	text-align:center;
+	padding:5px 5px 5px 5px;
+	background:#b5146b url('bgbtn.png') right bottom  no-repeat !important;
+	border:1px #b02570 solid !important;
+}
+.btn-primary:hover{
+	border:1px #b02570 solid; 
+	
+}
+.btn-primary[disabled]{
+	background:#ccc;
+	border:1px #b02570 solid; 
+}
+#uploadbtn{
+	cursor:pointer;
+	width:70px;padding-top:20px;line-height:12px;
+	margin:5px auto;
+	text-align:center;
+	background:url(/img/bload.png) center top no-repeat;
+}
+
+.inputbtnbg{
+	margin-top:5px;
+	width:170px;height:32px;
+	text-align:center;
+	padding:5px 5px 5px 5px;
+	color:#000;
+	border:1px #b02570 solid; 
+}
+.inputbtnbg:hover{
+	cursor:pointer;
+	background:#fff;
+}
+
+#coment-list .message_box{
+	background:url(/img/c-arrow.png) 0px 30px no-repeat;
+	margin-left:90px;
+	margin-bottom:10px;
+}
+#coment-list .messagebox{
+	padding:20px;
+	min-height:80px;
+	
+}
+#show_comment_form{
+	display:block !important;margin:20px auto !important;width:200px;text-align:center;
+	
+}
+
+.iforms .input_inp{
+	position:relative;
+	
+}
+.iforms span.marker{
+	top:8px;left:5px;
+	position:absolute;
+}
+.iforms .error{
+	/*display:inline !important;*/
+	margin-top:0px;
+}
+
+.iforms .i-checkbox .error{
+	/*display:inline !important;*/
+	width:20px;
+}
+.iforms .i-checkbox input{
+	margin-left:-10px;
+}
+.iforms .i-checkbox label.error{
+	width:auto;
+	margin-top:-20px;
+	/*display:block !important;*/
+	margin-left:10px;
+}
+.g_loader{
+	background:#6f0110 url(/img/712.gif) 6px center no-repeat !important;
+	padding-left:30px !important;
+	color:#fff !important;
+}
+.iforms .input_inp{
+	font-size:12px;
+}

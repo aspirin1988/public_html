@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/TemplateRichContentModule Assets/scrollTrackRectangle_" itemID="4cd11656-00000420" sourceFlashFilepath="..\..\..\..\16291\endWork\30_12_11\website.fla" sourceLibraryItemHRef="Template Elements/Modules/TemplateRichContentModule Assets/scrollTrackRectangle_" sourceLastModified="1324970630" scaleGridLeft="13.4" scaleGridRight="13.65" scaleGridTop="26.5" scaleGridBottom="64.25" lastModified="1345228006">
+  <timeline>
+    <DOMTimeline name="scrollTrackRectangle_">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="27" objectHeight="100" x="-4" y="24" lockFlag="true" topLeftRadius="13" topRightRadius="13" bottomLeftRadius="13" bottomRightRadius="13">
+                  <matrix>
+                    <Matrix tx="4" ty="-24"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#990066"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

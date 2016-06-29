@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<motoFonts>
+  <font>
+    <name><![CDATA[CaligulaDodgy]]></name>
+    <file>CaligulaDodgy.swf</file>
+    <characters>default</characters>
+    <enabled>true</enabled>
+    <regular>false</regular>
+    <italic>false</italic>
+    <bold>false</bold>
+    <boldItalic>false</boldItalic>
+    <regularRange><![CDATA[]]></regularRange>
+    <italicRange><![CDATA[]]></italicRange>
+    <boldRange><![CDATA[]]></boldRange>
+    <boldItalicRange><![CDATA[]]></boldItalicRange>
+  </font>
+  <font>
+    <name><![CDATA[Arial]]></name>
+    <file>Arial.swf</file>
+    <characters>default</characters>
+    <enabled>true</enabled>
+    <regular>false</regular>
+    <italic>false</italic>
+    <bold>false</bold>
+    <boldItalic>false</boldItalic>
+    <regularRange><![CDATA[]]></regularRange>
+    <italicRange><![CDATA[]]></italicRange>
+    <boldRange><![CDATA[]]></boldRange>
+    <boldItalicRange><![CDATA[]]></boldItalicRange>
+  </font>
+  <font>
+    <name><![CDATA[KZ Boyarsky]]></name>
+    <file>KZBoyarsky.swf</file>
+    <characters>default</characters>
+    <enabled>true</enabled>
+    <regular>false</regular>
+    <italic>false</italic>
+    <bold>false</bold>
+    <boldItalic>false</boldItalic>
+    <regularRange><![CDATA[]]></regularRange>
+    <italicRange><![CDATA[]]></italicRange>
+    <boldRange><![CDATA[]]></boldRange>
+    <boldItalicRange><![CDATA[]]></boldItalicRange>
+  </font>
+</motoFonts>

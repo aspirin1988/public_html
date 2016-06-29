@@ -1,0 +1,17 @@
+2014-01-23 16:35:16
+
+get access admin/xml/config.xml
+get access config.xml
+get access admin/config.xml
+Init Update
+Run proccessDefaultKeys
+get access xml/settings.xml
+get access xml/assets.xml
+proccessDefaultKeys is ok
+Run startUpdate
+Run updateCMS_18001
+Run updateCMS_18001 is ok
+startUpdate is ok
+   Post backup actions
+get access xml/settings.xml
+   finished

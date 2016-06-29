@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<motoConfig>
+	<configuration>
+		<option name="startPage" description=""><![CDATA[2]]></option>
+		<option name="websiteTitlePrefix" description=""><![CDATA[Аренда автомобилей, машин в Алматы]]></option>
+		<option name="showWarnings" description=""><![CDATA[false]]></option>
+		
+		<option name="googleAnalyticsEnabled" description=""><![CDATA[false]]></option>
+		<option name="googleAnalyticsSWFTrackerEnabled" description=""><![CDATA[false]]></option>
+		<option name="googleAnalyticsAccount" description=""><![CDATA[]]></option>
+		<option name="googleWebmasterToolsEnabled" description=""><![CDATA[true]]></option>
+		<option name="googleWebmasterToolsMetaTag" description=""><![CDATA[]]></option>
+		<option name="googleWebmasterToolsFileName" description=""><![CDATA[googlef96b3ba66cb89e04.html]]></option>
+	<option name="websiteIcon" description=""><![CDATA[]]></option><option name="underConstruction" description=""><![CDATA[false]]></option><option name="underConstructionTheme" description=""><![CDATA[standard_white]]></option><option name="underConstructionMessage" description=""><![CDATA[]]></option><option name="enableCompatibilityMode" description=""><![CDATA[false]]></option><option name="loadEncodedData" description=""><![CDATA[false]]></option><option name="websiteProtectionSessionExpireTime" description=""><![CDATA[3600]]></option><option name="websiteProtectionEnabled" description=""><![CDATA[false]]></option><option name="websiteProtectionKey" description=""><![CDATA[]]></option><option name="redirectToMobile" description=""><![CDATA[true]]></option></configuration>
+</motoConfig>

@@ -1,0 +1,64 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Holders/bottomHolder" itemID="4dd11ea9-00004211" sourceLibraryItemHRef="Symbol 1" lastModified="1345227566" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="bottomHolder" currentFrame="34">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="108" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="108" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" outline="true" current="true" isSelected="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" duration="94" keyMode="15872">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="website_holder_6" blendMode="layer" centerPoint3DX="50" centerPoint3DY="70">
+                  <matrix>
+                    <Matrix ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="94" duration="14" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="website_holder_6" blendMode="layer" centerPoint3DX="50" centerPoint3DY="70">
+                  <matrix>
+                    <Matrix ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="108" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Holders/EmptyHolder" name="website_holder_6" selected="true" blendMode="layer" centerPoint3DX="50" centerPoint3DY="50">
+                  <transformationPoint>
+                    <Point x="50" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

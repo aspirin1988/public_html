@@ -1,0 +1,1569 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/IntroSlot Assets/Anim" itemID="4c6fb004-0000005e" sourceFlashFilepath=".\flash\Heart.fla" sourceLibraryItemHRef="Anim" sourceLastModified="1282288660" lastModified="1345218676" lastUniqueIdentifier="67">
+  <timeline>
+    <DOMTimeline name="Anim" currentFrame="70">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="70" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="70" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[gotoAndPlay(2);]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.25956726074219" d="2.39889526367188" tx="-55.25" ty="-105.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-87.95" ty="-187.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-91.5" ty="-201.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.25956726074219" d="2.39889526367188" tx="-138.3" ty="-106.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-210.95" ty="-153"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-225.2" ty="-161.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="-181.75" ty="-45.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-284.4" ty="-36.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-306.15" ty="-33.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="-168.6" ty="26.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-261.35" ty="64.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-280.8" ty="72.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="-126.1" ty="95.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-196.8" ty="155.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-211.65" ty="167.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="-82.85" ty="143.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-138.05" ty="197.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-149.65" ty="208.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="-48.8" ty="185.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-83.05" ty="243.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-89.75" ty="256.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" ty="216.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-0.55" ty="277.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-0.3" ty="290.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="42.4" ty="176.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="75.75" ty="241.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="83.25" ty="253.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="84.8" ty="141.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="165.05" ty="179.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="182.1" ty="187.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="123.4" ty="97.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="213.05" ty="116.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="231.9" ty="119.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="159.7" ty="46.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="258.45" ty="56.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="279.2" ty="59.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="182.1" ty="-17.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="269.05" ty="-34.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="287.4" ty="-38.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="163.6" ty="-88.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="252.65" ty="-138"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="271.35" ty="-148.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="107.95" ty="-120.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="136.4" ty="-198.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="142.4" ty="-214.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" tx="43.05" ty="-106.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="36.7" ty="-189.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="35.4" ty="-206.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Symbol 2" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="100">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.274418604651163"/>
+                  <Point x="0.866666666666667" y="0.3125"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="2.17266845703125" d="2.306640625" ty="-71.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="59" duration="8" tweenType="motion" useSingleEaseCurve="false" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065" acceleration="-100">
+              <tweens>
+                <CustomEase target="position">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="rotation">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="scale">
+                  <Point/>
+                  <Point x="0.302325581395349" y="0.454861111111111"/>
+                  <Point x="0.636363636363636" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="color">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+                <CustomEase target="filters">
+                  <Point/>
+                  <Point x="0.333333333333333" y="0.333333333333333"/>
+                  <Point x="0.666666666666667" y="0.666666666666667"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="1.03094482421875" d="1.04600524902344" tx="-10.1" ty="-138.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="67" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 2" name="">
+                  <matrix>
+                    <Matrix a="0.5223388671875" d="0.525177001953125" tx="-12.2" ty="-152.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="68" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 1" name="">
+                  <matrix>
+                    <Matrix ty="202.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-95.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" duration="51" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="52" duration="3" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" hasCustomEase="true" keyMode="24065">
+              <tweens>
+                <CustomEase target="all">
+                  <Point/>
+                  <Point x="0.33333333"/>
+                  <Point x="0.66666666" y="1"/>
+                  <Point x="1" y="1"/>
+                </CustomEase>
+              </tweens>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 1" name="">
+                  <matrix>
+                    <Matrix ty="202.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-95.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="55" tweenType="motion" motionTweenSync="true" motionTweenSnap="true" keyMode="24065" acceleration="100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/Symbol 1" name="">
+                  <matrix>
+                    <Matrix a="0.903793334960938" d="1.067138671875" ty="214.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-95.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="56" duration="15" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="AnimHalf" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/AnimHalfClean" name="" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix a="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="AnimHalf" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/IntroSlot Assets/AnimHalfClean" name="" symbolType="graphic" loop="play once">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

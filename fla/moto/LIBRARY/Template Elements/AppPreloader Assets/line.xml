@@ -1,0 +1,69 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/AppPreloader Assets/line" itemID="4ee8bfaf-000008ac" sourceFlashFilepath="..\..\..\..\..\envelope\EndWork\15921_hScroll\endWork\19_12_11\moto.fla" sourceLibraryItemHRef="Template Elements/AppPreloader Assets/line" sourceLastModified="1324308982" lastModified="1345216009" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="line">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true" visible="false" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/AppPreloader Assets/maskHolder" name="clip" selected="true">
+                  <transformationPoint>
+                    <Point x="50" y="8.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="0" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/AppPreloader Assets/rects" name="clipTf" blendMode="layer" centerPoint3DX="80.05" centerPoint3DY="26.1">
+                  <matrix>
+                    <Matrix a="1.00054931640625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="44.4" y="8.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FFFFFF"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 6" color="#808080" locked="true" outline="true" useOutlineView="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/AppPreloader Assets/maskHolder" name="clip1">
+                  <transformationPoint>
+                    <Point x="50" y="8.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" parentLayerIndex="2" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/AppPreloader Assets/rects" name="clipTf1" blendMode="layer" centerPoint3DX="80.05" centerPoint3DY="51.25">
+                  <matrix>
+                    <Matrix a="1.00054931640625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="44.45" y="8.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

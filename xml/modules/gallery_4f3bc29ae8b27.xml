@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleGalleryModule>
+
+	<configuration>
+		<option id="previewPropertyID">
+			<value>1</value>
+		</option>
+		<option id="thumbnailPropertyID">
+			<value>2</value>
+		</option>
+		<option id="thumbnailWidth">
+			<value>146</value>
+		</option>
+		<option id="thumbnailHeight">
+			<value>100</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+	</configuration>
+	
+	<structure>
+		<properties>
+			<property id="1" type="image">
+				<name><![CDATA[Preview]]></name>
+			</property>
+			<property id="2" type="image">
+				<name><![CDATA[Thumbnail]]></name>
+			</property>
+			<property id="3" type="htmlText">
+				<name><![CDATA[Title]]></name>
+			</property>
+			<property id="4" type="htmlText">
+				<name><![CDATA[Description]]></name>
+			</property>
+		</properties>
+		<template/>
+	</structure>
+
+	<data><item id="1" order="1"><properties><item propertyType="1"><![CDATA[images/tfile_gall_2_1.jpg]]></item><item propertyType="2"><![CDATA[images/tfile_pic_small_01.jpg]]></item><item propertyType="3"><![CDATA[]]></item><item propertyType="4"><![CDATA[]]></item></properties></item><item id="2" order="2"><properties><item propertyType="1"><![CDATA[images/tfile_gall_2_2.jpg]]></item><item propertyType="2"><![CDATA[images/tfile_pic_small_02.jpg]]></item><item propertyType="3"><![CDATA[]]></item><item propertyType="4"><![CDATA[]]></item></properties></item><item id="3" order="3"><properties><item propertyType="1"><![CDATA[images/tfile_gall_2_5.jpg]]></item><item propertyType="2"><![CDATA[images/tfile_pic_small_03.jpg]]></item><item propertyType="3"><![CDATA[]]></item><item propertyType="4"><![CDATA[]]></item></properties></item><item id="4" order="4"><properties><item propertyType="1"><![CDATA[images/tfile_gall_2_3.jpg]]></item><item propertyType="2"><![CDATA[images/tfile_pic_small_04.jpg]]></item><item propertyType="3"><![CDATA[]]></item><item propertyType="4"><![CDATA[]]></item></properties></item><item id="5" order="5"><properties><item propertyType="1"><![CDATA[images/tfile_gall_2_6.jpg]]></item><item propertyType="2"><![CDATA[images/tfile_pic_small_05.jpg]]></item><item propertyType="3"><![CDATA[]]></item><item propertyType="4"><![CDATA[]]></item></properties></item><item id="6" order="6"><properties><item propertyType="1"><![CDATA[images/tfile_gall_2_4.jpg]]></item><item propertyType="2"><![CDATA[images/tfile_pic_small_06.jpg]]></item><item propertyType="3"><![CDATA[]]></item><item propertyType="4"><![CDATA[]]></item></properties></item></data>
+
+</simpleGalleryModule>

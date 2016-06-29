@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/RingsSlot Assets/Gr-Ring 1" itemID="38a0cfb6-0000002b" sourceFlashFilepath="..\..\..\..\D\use_for_templates\use_stars_shine.fla" sourceLibraryItemHRef="Gr-Ring 1" sourceLastModified="1257236271" lastModified="1283769760">
+  <timeline>
+    <DOMTimeline name="Gr-Ring 1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#009900" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.2"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!653.5 -654.5[#39C.7B #FFFE80.B4 924.5 0!924.5 0[#39C.7B #17F.0A 653.5 654!653.5 654[#17E.8B #39C.FB -0.5 925!-0.5 925[#FFFE80.74 #39C.FB -654.5 654!-654.5 654[#FFFC67.9F #184.0E -925.5 14!-925.5 14[-925.5 #7.2 -925.5 0!-925.5 0[#FFFC62.82
+ #FFFE80.B4 -654.5 -654.5!-654.5 -654.5[#FFFE80.74 #FFFC62.C4 -0.5 -925!-0.5 -925[#10E.01 #FFFC62.D9 484.5 -790!484.5 -790[#23D.E1 #FFFD22.03 653.5 -654.5"/>
+                    <Edge fillStyle0="1" edges="
+!608 -608[#26C.15 #FFFDAB.D4 631.5 -584!631.5 -584[#35C.14 #FFFEAC.AB 860 0!860 0[#35B.F7 #164.1B 608 608!608 608[#164.1B #35B.F7 0 860!0 860[#FFFE9B.E5 #35B.F7 -608 608!-608 608[#FFFD00.A3 #1C0.B8 -826 247.5!-826 247.5[#FFFCA4.0D #82.E4
+ -860 0!-860 0[#FFFCA4.09 #FFFE9B.E5 -608 -608!-608 -608[#FFFE9B.E5 #FFFCA4.09 0 -860!0 -860[#164.1B #FFFCA4.09 608 -608"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

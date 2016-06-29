@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_1" itemID="4f2bc251-000007f8" sourceFlashFilepath="..\..\..\webSite30\website.fla" sourceLibraryItemHRef="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_1" sourceLastModified="1300719340" lastModified="1300719340">
+  <timeline>
+    <DOMTimeline name="loader_ell_3_1">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!62 56[66 61 66 70!66 70[65 79 62 86!62 86[57 91 50 91!50 91|-68 86!-68 86[-74 86 -79 79!-79 79[-83 73 -83 64!-83 64[-83 55 -77 49!-77 49[-75 43 -68 43!-68 43|50 48!50 48[58 49 62 56"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

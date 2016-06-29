@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Popups/WebsitePopup Assets/part_1" itemID="4f7d4819-000002e1" lastModified="1333610521">
+  <timeline>
+    <DOMTimeline name="part_1">
+      <layers>
+        <DOMLayer name="Layer 4" color="#FF4FFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="511.25" objectHeight="438.9" x="0.05" y="0.05" lockFlag="true">
+                  <matrix>
+                    <Matrix a="1.29281616210938" d="1.43536376953125" tx="-0.05" ty="-0.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="255.65" y="219.5"/>
+                  </transformationPoint>
+                  <fill>
+                    <SolidColor color="#363B3E"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infomodule>
+	<configuration>
+		<option id="titleID">
+			<value>2</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="image">
+				<name>Icon</name>
+			</property>
+			<property id="2" type="htmlText">
+				<name>Description</name>
+			</property>
+			<property id="3" type="htmlText">
+				<name>Full text</name>
+			</property>
+		</properties>
+		<template/>
+	</structure>
+
+	
+	<data/>
+</infomodule>

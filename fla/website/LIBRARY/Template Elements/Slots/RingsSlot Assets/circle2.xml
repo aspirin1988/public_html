@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/RingsSlot Assets/circle2" itemID="437c8bc7-00000204" sourceFlashFilepath="..\..\..\..\D\use_for_templates\use_stars_shine.fla" sourceLibraryItemHRef="circle2" sourceLastModified="1132235719" lastModified="1132235719">
+  <timeline>
+    <DOMTimeline name="circle2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.1070556640625" d="0.1070556640625"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0.0705882352941176"/>
+                        <GradientEntry color="#F7ECEB" ratio="0.145098039215686"/>
+                        <GradientEntry color="#EACDCA" alpha="0.890196078431373" ratio="0.219607843137255"/>
+                        <GradientEntry color="#BF918A" alpha="0.458823529411765" ratio="0.36078431372549"/>
+                        <GradientEntry color="#856560" alpha="0.450980392156863" ratio="0.47843137254902"/>
+                        <GradientEntry color="#684E4D" alpha="0" ratio="1"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1230 -1231S2[1740 -721 1740 0!1740 0[1740 721 1230 1230!1230 1230[721 1740 0 1740!0 1740[-721 1740 -1231 1230!-1231 1230[-1740 721 -1740 0!-1740 0[-1740 -721 -1231 -1231!-1231 -1231[-721 -1740 0 -1740!0 -1740[721 -1740 1230 -1231"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

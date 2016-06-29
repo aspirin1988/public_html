@@ -1,0 +1,99 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/RingsSlot Assets/rings" itemID="4c6e9da3-00000d6e" sourceLibraryItemHRef="Symbol 1" lastModified="1345196232" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="rings">
+      <layers>
+        <DOMLayer name="Layer 5" color="#4FFFFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Lens flare copy" name="" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.599990844726563" d="0.599990844726563" tx="-35.5" ty="-30.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Lens flare copy" name="" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.361831665039063" d="0.361831665039063" tx="0.55" ty="-52.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Lens flare copy" name="" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.410629272460938" d="0.410629272460938" tx="-4.2" ty="-17.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Lens flare copy" name="" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.390655517578125" d="0.390655517578125" tx="25.75" ty="-24.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Lens flare copy" name="" blendMode="add" centerPoint3DX="36.15" centerPoint3DY="-53.55">
+                  <matrix>
+                    <Matrix a="0.341537475585938" d="0.341537475585938" tx="36.15" ty="-53.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Lens flare copy" name="" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.236770629882813" d="0.236770629882813" tx="55.3" ty="-12.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/Lens flare copy" name="" blendMode="add">
+                  <matrix>
+                    <Matrix a="0.263168334960938" d="0.263168334960938" tx="-31.15" ty="-54.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rings.png" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rings.png" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Template Elements/Slots/RingsSlot Assets/rings.png">
+                  <matrix>
+                    <Matrix tx="-48.5" ty="-66"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

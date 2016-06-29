@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infomodule>
+	<configuration>
+		<option id="titleID">
+			<value>2</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="image">
+				<name>Icon</name>
+			</property>
+			<property id="2" type="htmlText">
+				<name>Title</name>
+			</property>
+			<property id="3" type="plainText">
+				<name>Date</name>
+			</property>
+			<property id="4" type="link">
+				<name>Link</name>
+			</property>
+			<property id="5" type="htmlText">
+				<name>Description</name>
+			</property>
+		</properties>
+		<template/>
+	</structure>
+	<data/>
+</infomodule>

@@ -1,0 +1,4 @@
+2014-09-22T11:36:01+04:00 ERR (3): [2] unlink(/home/sojrypee/public_html/images/221_01_541fd14ec82b8.png) [<a href='function.unlink'>function.unlink</a>]: No such file or directory
+	in file /home/sojrypee/public_html/admin/libs/Moto/services/vo/MediaLibraryItemVO.php:0
+2015-09-22T13:36:19+04:00 ERR (3): [2] unlink(/home/sojrypee/public_html/) [<a href='function.unlink'>function.unlink</a>]: Is a directory
+	in file /home/sojrypee/public_html/admin/libs/Moto/services/ConfigurationService.php:0

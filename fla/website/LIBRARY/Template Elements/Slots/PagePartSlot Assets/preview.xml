@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/PagePartSlot Assets/preview" itemID="502e01d5-0000058e" sourceLibraryItemHRef="Symbol 1" lastModified="1345192995">
+  <timeline>
+    <DOMTimeline name="preview">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix a="0.97894287109375" d="0.83233642578125"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#202020"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!20042 1030S2|20042 9898!20042 9898[20031 10386 19708 10705!19708 10705|19519 10838!19519 10838[19361 10926 19159 10933!19159 10933|877 10933!877 10933|689 10907!689 10907[504 10855 340 10708!340 10708[6 10376 0 9894!0 9894|0 1047!0 1047
+[2 581 338 233!338 233[615 8 892 5!892 5|19132 5!19132 5[19344 -34 19710 236!19710 236[20026 539 20042 1030"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MainMenuModule Assets/textHolder" itemID="4dcbd5c8-00000d03" sourceFlashFilepath="..\..\..\example\34800\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MainMenuModule Assets/textHolder" sourceLastModified="1306826256" lastModified="1329304849" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="textHolder">
+      <layers>
+        <DOMLayer name="clip" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/MainMenuModule Assets/clip" name="clip" selected="true">
+                  <matrix>
+                    <Matrix d="1.0032958984375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21" y="13.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

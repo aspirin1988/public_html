@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/TitleSlotAssets/ReadMoreSlotText" itemID="4a574414-000001f6" sourceLibraryItemHRef="Template Elements/Slots/TitleSlotAssets/ReadMoreSlotText" sourceLastModified="1327574937" lastModified="1331276677" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="ReadMoreSlotText">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/TitleSlotAssets/text_" name="clip" selected="true" blendMode="layer" centerPoint3DX="28" centerPoint3DY="8.7">
+                  <matrix>
+                    <Matrix d="1.00286865234375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="28" y="9.25"/>
+                  </transformationPoint>
+                  <filters>
+                    <AdjustColorFilter/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

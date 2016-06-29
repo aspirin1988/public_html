@@ -1,0 +1,577 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Other/WebsitePreloader Assets/loader_pic_3" itemID="4f2bc251-000007f2" sourceFlashFilepath="..\..\..\webSite30\website.fla" sourceLibraryItemHRef="Template Elements/Other/WebsitePreloader Assets/loader_pic_3" sourceLastModified="1300716763" lastModified="1308746413">
+  <timeline>
+    <DOMTimeline name="loader_pic_3" currentFrame="11">
+      <layers>
+        <DOMLayer name="Layer 28" color="#FF4FFF" outline="true" useOutlineView="true" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="48" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="48" duration="48" name="s1" labelType="name" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[ille_6.gotoAndPlay(5);
+ille_5.gotoAndPlay(9);
+ille_4.gotoAndPlay(13);
+ille_3.gotoAndPlay(17);
+ille_2.gotoAndPlay(21);
+ille_1.gotoAndPlay(25);]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="96" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[gotoAndPlay("s1");
+]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#9933CC" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.0439605712890625" b="-0.99786376953125" c="0.99786376953125" d="0.0439605712890625" tx="12.05" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" duration="72" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FFFF4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.491928100585938" b="-0.868560791015625" c="0.868560791015625" d="0.491928100585938" tx="18.1" ty="3.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" duration="68" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FF4FFF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.872848510742188" b="-0.484939575195313" c="0.484939575195313" d="0.872848510742188" tx="23.65" ty="6.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="3.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" duration="64" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4FFFFF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix tx="26.6" ty="11.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4FFF4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="16" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.872848510742188" b="0.484939575195313" c="0.484939575195313" d="-0.872848510742188" tx="23.85" ty="23.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.15" y="3.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="41" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FF4F4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.491928100585938" b="0.868560791015625" c="0.868560791015625" d="-0.491928100585938" tx="18.5" ty="26.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="45" duration="52" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4F80FF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="ille_1">
+                  <matrix>
+                    <Matrix a="0.00421142578125" b="0.998947143554688" c="0.998947143554688" d="-0.00421142578125" tx="11.9" ty="26"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" duration="48" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="28" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="ille_2">
+                  <matrix>
+                    <Matrix a="-0.491928100585938" b="0.868560791015625" c="-0.868560791015625" d="-0.491928100585938" tx="12.3" ty="26.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="53" duration="44" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FFFF4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="32" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="32" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="ille_3">
+                  <matrix>
+                    <Matrix a="-0.872848510742188" b="0.484939575195313" c="-0.484939575195313" d="-0.872848510742188" tx="6.95" ty="23.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="57" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#808080" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="36" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="36" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="ille_4">
+                  <matrix>
+                    <Matrix a="-1" tx="4" ty="11.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="61" duration="36" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4FFFFF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="40" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="ille_5">
+                  <matrix>
+                    <Matrix a="-0.872848510742188" b="-0.484939575195313" c="-0.484939575195313" d="0.872848510742188" tx="6.75" ty="6.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="65" duration="32" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FF4FFF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="44" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="44" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="ille_6">
+                  <matrix>
+                    <Matrix a="-0.491928100585938" b="-0.868560791015625" c="-0.868560791015625" d="0.491928100585938" tx="11.9" ty="3.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.15" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="69" duration="28" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4FFF4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="48" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="48" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.0439605712890625" b="-0.99786376953125" c="0.99786376953125" d="0.0439605712890625" tx="12.05" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="73" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FF4F4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="52" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="52" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.491928100585938" b="-0.868560791015625" c="0.868560791015625" d="0.491928100585938" tx="18.1" ty="3.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="77" duration="20" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4F80FF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="56" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="56" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.872848510742188" b="-0.484939575195313" c="0.484939575195313" d="0.872848510742188" tx="23.65" ty="6.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="3.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="81" duration="16" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#808080" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="60" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix tx="26.6" ty="11.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="85" duration="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4FFFFF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="64" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="64" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.872848510742188" b="0.484939575195313" c="0.484939575195313" d="-0.872848510742188" tx="23.85" ty="23.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.15" y="3.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="89" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FF4FFF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="68" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="68" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.491928100585938" b="0.868560791015625" c="0.868560791015625" d="-0.491928100585938" tx="18.5" ty="26.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="93" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FFFF4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="72" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="72" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.00421142578125" b="0.998947143554688" c="0.998947143554688" d="-0.00421142578125" tx="11.9" ty="26"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="76" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="76" duration="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="-0.491928100585938" b="0.868560791015625" c="-0.868560791015625" d="-0.491928100585938" tx="12.3" ty="26.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4FFF4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="80" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="80" duration="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="-0.872848510742188" b="0.484939575195313" c="-0.484939575195313" d="-0.872848510742188" tx="6.95" ty="23.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-0.05" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#FF4F4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="84" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="84" duration="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="-1" tx="4" ty="11.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4F80FF" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="88" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="88" duration="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="-0.872848510742188" b="-0.484939575195313" c="-0.484939575195313" d="0.872848510742188" tx="6.75" ty="6.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#808080" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="92" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="92" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="-0.491928100585938" b="-0.868560791015625" c="-0.868560791015625" d="0.491928100585938" tx="11.9" ty="3.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.15" y="3.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="loader_ell_2" color="#4FFF4F" outline="true" useOutlineView="true" autoNamed="false" heightLiteral="15">
+          <frames>
+            <DOMFrame index="0" duration="96" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="96" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Other/WebsitePreloader Assets/loader_ell_3_2" name="">
+                  <matrix>
+                    <Matrix a="0.0439605712890625" b="-0.99786376953125" c="0.99786376953125" d="0.0439605712890625" tx="12.05" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.1" y="3.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 58" color="#9933CC" outline="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" duration="97" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!303 0[429 0 517 88!517 88[606 177 606 303!606 303[606 429 517 517!517 517[429 606 303 606!303 606[177 606 88 517!88 517[0 429 0 303!0 303[0 177 88 88!88 88[177 0 303 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://royalcar.kz/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/royalcar</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/rentavto</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/3d-tour</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/Br</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/popup-7</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/popup-6</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/popup-8</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/services</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/Plat</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://royalcar.kz/contacts</loc>
+  <priority>0.64</priority>
+</url>
+</urlset>

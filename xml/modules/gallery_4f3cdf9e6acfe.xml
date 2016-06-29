@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleGalleryModule>
+	<configuration>
+		<option id="previewPropertyID">
+			<value>1</value>
+		</option>
+		<option id="thumbnailPropertyID">
+			<value>1</value>
+		</option>
+		<option id="thumbnailWidth">
+			<value>146</value>
+		</option>
+		<option id="thumbnailHeight">
+			<value>100</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="media">
+				<name><![CDATA[Preview]]></name>
+				<parameters>
+					<image>true</image>
+					<flash>true</flash>
+					<video>true</video>
+					<youtube>true</youtube>
+				</parameters>
+			</property>
+		</properties>
+		<template>
+			<properties>
+				<item propertyType="1"/>
+			</properties>
+		</template>
+	</structure>
+	<data><item id="1" order="1"><properties><item propertyType="1"><![CDATA[images/photo1.jpg]]></item></properties></item><item id="2" order="2"><properties><item propertyType="1"><![CDATA[images/photo2.jpg]]></item></properties></item><item id="3" order="3"><properties><item propertyType="1"><![CDATA[images/photo3.jpg]]></item></properties></item><item id="4" order="4"><properties><item propertyType="1"><![CDATA[images/photo4.jpg]]></item></properties></item><item id="5" order="5"><properties><item propertyType="1"><![CDATA[images/photo5.jpg]]></item></properties></item></data>
+</simpleGalleryModule>

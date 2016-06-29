@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/IntroSlot Assets/loader Images_logo" itemID="4bc80d50-000000c3" sourceFlashFilepath="..\delta-10091\flash\with_mus\main_cs3.fla" sourceLibraryItemHRef="loader Images_logo" sourceLastModified="1271401808" lastModified="1283855694">
+  <timeline>
+    <DOMTimeline name="loader Images_logo">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="progress" selected="true" fontRenderingMode="bitmap" width="117.95" height="13.25" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="-54.95" ty="-6"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>100%</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" lineSpacing="0" size="10" bitmapSize="200" face="Tahoma-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

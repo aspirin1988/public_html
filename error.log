@@ -1,0 +1,431 @@
+[Wed Jun 29 12:31:19.622043 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Notice:  Undefined variable: cookie_array_name in /home/serg/site/public_html/localconf.php on line 8
+[Wed Jun 29 12:31:19.622099 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Stack trace:
+[Wed Jun 29 12:31:19.622120 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 12:31:19.622136 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 12:31:19.622192 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Notice:  Undefined variable: cookie_array_name in /home/serg/site/public_html/localconf.php on line 9
+[Wed Jun 29 12:31:19.622205 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Stack trace:
+[Wed Jun 29 12:31:19.622219 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 12:31:19.622232 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 12:31:19.622261 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Notice:  Undefined variable: sql_tbl in /home/serg/site/public_html/index.php on line 5
+[Wed Jun 29 12:31:19.622271 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Stack trace:
+[Wed Jun 29 12:31:19.622284 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 12:31:19.623579 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Fatal error:  Call to undefined function func_query() in /home/serg/site/public_html/include/head.php on line 2
+[Wed Jun 29 12:31:19.623595 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP Stack trace:
+[Wed Jun 29 12:31:19.623608 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 12:31:19.623621 2016] [:error] [pid 2506] [client 127.0.0.1:40900] PHP   2. include() /home/serg/site/public_html/index.php:9
+[Wed Jun 29 12:31:19.665872 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Notice:  Undefined variable: cookie_array_name in /home/serg/site/public_html/localconf.php on line 8, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665907 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665918 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665926 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665959 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Notice:  Undefined variable: cookie_array_name in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665965 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665972 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665979 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.665994 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Notice:  Undefined variable: sql_tbl in /home/serg/site/public_html/index.php on line 5, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.666000 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.666006 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.666538 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Fatal error:  Call to undefined function func_query() in /home/serg/site/public_html/include/head.php on line 2, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.666566 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.666574 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 12:31:19.666581 2016] [:error] [pid 7664] [client 127.0.0.1:40901] PHP   2. include() /home/serg/site/public_html/index.php:9, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.688698 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:01:54.688901 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP Stack trace:
+[Wed Jun 29 13:01:54.688930 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:01:54.688952 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:01:54.688969 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:01:54.709304 2016] [:error] [pid 7705] [client 127.0.0.1:41061] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709308 2016] [:error] [pid 2504] [client 127.0.0.1:41062] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709347 2016] [:error] [pid 7705] [client 127.0.0.1:41061] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709359 2016] [:error] [pid 2504] [client 127.0.0.1:41062] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709370 2016] [:error] [pid 7705] [client 127.0.0.1:41061] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709374 2016] [:error] [pid 2504] [client 127.0.0.1:41062] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709383 2016] [:error] [pid 7705] [client 127.0.0.1:41061] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709387 2016] [:error] [pid 2504] [client 127.0.0.1:41062] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709395 2016] [:error] [pid 7705] [client 127.0.0.1:41061] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.709399 2016] [:error] [pid 2504] [client 127.0.0.1:41062] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.713622 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.713652 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.713664 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.713674 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.713683 2016] [:error] [pid 7704] [client 127.0.0.1:41060] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.715014 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.715065 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.715080 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.715092 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.715102 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.858153 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.858183 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.858191 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.858196 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:01:54.858201 2016] [:error] [pid 2508] [client 127.0.0.1:41063] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.821519 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:06:25.821585 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:
+[Wed Jun 29 13:06:25.821607 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:06:25.821624 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:06:25.821639 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:06:25.856739 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856741 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856772 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856783 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856793 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856796 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856805 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856807 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856815 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.856817 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.861550 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.861611 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.861623 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.861632 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.861639 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.862600 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.862625 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.862637 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.862645 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.862653 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.968191 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.968223 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.968235 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.968243 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:25.968250 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.173823 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:06:27.173853 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:
+[Wed Jun 29 13:06:27.173909 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:06:27.173918 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:06:27.173924 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:06:27.192582 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.192605 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.192611 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.192616 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.192620 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.196890 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.196918 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.196929 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.196937 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.196944 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200025 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200059 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200071 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200075 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200080 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200089 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200094 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200100 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200110 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.200118 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.294241 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.294272 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.294283 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.294293 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.294300 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.759484 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:06:27.759517 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:
+[Wed Jun 29 13:06:27.759525 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:06:27.759531 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:06:27.759537 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:06:27.775266 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775266 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775266 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775291 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775295 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775305 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775311 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775313 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775317 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775320 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775322 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775326 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775328 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775330 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.775334 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.779265 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.779303 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.779314 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.779323 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.779330 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.895276 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.895305 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.895312 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.895326 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:27.895331 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.167638 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:06:28.167673 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:
+[Wed Jun 29 13:06:28.167684 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:06:28.167692 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:06:28.167700 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:06:28.186972 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.187003 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.187010 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.187015 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.187020 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.188381 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.188402 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.188414 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.188422 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.188430 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.190966 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.190995 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.191005 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.191013 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.191021 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.194638 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.194666 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.194677 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.194698 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.194704 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.288497 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.288522 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.288532 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.288541 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.288548 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.376671 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:06:28.376694 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:
+[Wed Jun 29 13:06:28.376701 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:06:28.376707 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:06:28.376712 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:06:28.404789 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404815 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404816 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404825 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404830 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404837 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404842 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404845 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404850 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.404858 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408695 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408708 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408720 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408735 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408743 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408743 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408751 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408752 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408758 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.408760 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.526786 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.526829 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.526840 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.526848 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.526856 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.784566 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:06:28.784599 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:
+[Wed Jun 29 13:06:28.784610 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:06:28.784618 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:06:28.784625 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:06:28.808177 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808207 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808218 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808217 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808227 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808232 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808239 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808242 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808260 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.808268 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.812049 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.813982 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.814014 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.814024 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.814033 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.812085 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.814181 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.814198 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.814207 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.814215 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.913142 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.913183 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.913196 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.913206 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:28.913214 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.014532 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:06:29.014566 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:
+[Wed Jun 29 13:06:29.014573 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:06:29.014578 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:06:29.014583 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:06:29.046065 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046101 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046112 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046119 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046124 2016] [:error] [pid 7689] [client 127.0.0.1:41080] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046736 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046761 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046772 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046780 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.046788 2016] [:error] [pid 7664] [client 127.0.0.1:41083] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.048859 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.048887 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.048894 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.048899 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.048903 2016] [:error] [pid 2505] [client 127.0.0.1:41081] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.050227 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.050284 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.050299 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.050307 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.050314 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.155825 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.155858 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.155869 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.155877 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:06:29.155885 2016] [:error] [pid 2506] [client 127.0.0.1:41082] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.311654 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43
+[Wed Jun 29 13:12:11.311709 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP Stack trace:
+[Wed Jun 29 13:12:11.311733 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:12:11.311752 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:12:11.311770 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP   3. require() /home/serg/site/public_html/localconf.php:5
+[Wed Jun 29 13:12:11.355174 2016] [:error] [pid 7704] [client 127.0.0.1:41094] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.355228 2016] [:error] [pid 7704] [client 127.0.0.1:41094] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.355246 2016] [:error] [pid 7704] [client 127.0.0.1:41094] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.355260 2016] [:error] [pid 7704] [client 127.0.0.1:41094] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.355275 2016] [:error] [pid 7704] [client 127.0.0.1:41094] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.356267 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.356288 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.356305 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.356320 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.356333 2016] [:error] [pid 2504] [client 127.0.0.1:41093] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.362097 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.362141 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.362158 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.362174 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.362187 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.364533 2016] [:error] [pid 2507] [client 127.0.0.1:41096] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.364568 2016] [:error] [pid 2507] [client 127.0.0.1:41096] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.364585 2016] [:error] [pid 2507] [client 127.0.0.1:41096] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.364598 2016] [:error] [pid 2507] [client 127.0.0.1:41096] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.364625 2016] [:error] [pid 2507] [client 127.0.0.1:41096] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.477530 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP Fatal error:  Call to undefined function db_connect() in /home/serg/site/public_html/config.php on line 43, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.477557 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.477567 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.477575 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:12:11.477583 2016] [:error] [pid 2508] [client 127.0.0.1:41095] PHP   3. require() /home/serg/site/public_html/localconf.php:5, referer: http://public_html.tes/
+[Wed Jun 29 13:14:33.285611 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9
+[Wed Jun 29 13:14:33.285809 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP Stack trace:
+[Wed Jun 29 13:14:33.285835 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:14:33.285847 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:14:33.315401 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/serg/site/public_html/tpl/custumer/home.tpl on line 271
+[Wed Jun 29 13:14:33.315427 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP Stack trace:
+[Wed Jun 29 13:14:33.315434 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:14:33.315441 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP   2. include() /home/serg/site/public_html/index.php:116
+[Wed Jun 29 13:14:33.315449 2016] [:error] [pid 7664] [client 127.0.0.1:41211] PHP   3. include() /home/serg/site/public_html/tpl/custumer/index.tpl:81
+[Wed Jun 29 13:14:34.639510 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.639542 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.639553 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.639562 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657116 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP Warning:  include(footer.tpl): failed to open stream: No such file or directory in /home/serg/site/public_html/tpl/custumer/empty.tpl on line 35, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657140 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657151 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657160 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   2. include() /home/serg/site/public_html/index.php:116, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657169 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   3. include() /home/serg/site/public_html/tpl/custumer/index.tpl:79, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657183 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP Warning:  include(): Failed opening 'footer.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/public_html/tpl/custumer/empty.tpl on line 35, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657201 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657210 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657218 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   2. include() /home/serg/site/public_html/index.php:116, referer: http://public_html.tes/
+[Wed Jun 29 13:14:34.657225 2016] [:error] [pid 7704] [client 127.0.0.1:41216] PHP   3. include() /home/serg/site/public_html/tpl/custumer/index.tpl:79, referer: http://public_html.tes/
+[Wed Jun 29 13:17:27.735605 2016] [:error] [pid 2508] [client 127.0.0.1:41229] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9
+[Wed Jun 29 13:17:27.735671 2016] [:error] [pid 2508] [client 127.0.0.1:41229] PHP Stack trace:
+[Wed Jun 29 13:17:27.735692 2016] [:error] [pid 2508] [client 127.0.0.1:41229] PHP   1. {main}() /home/serg/site/public_html/index.php:0
+[Wed Jun 29 13:17:27.735707 2016] [:error] [pid 2508] [client 127.0.0.1:41229] PHP   2. include() /home/serg/site/public_html/index.php:2
+[Wed Jun 29 13:20:56.584044 2016] [:error] [pid 7700] [client 127.0.0.1:41288] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/
+[Wed Jun 29 13:20:56.584084 2016] [:error] [pid 7700] [client 127.0.0.1:41288] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:20:56.584096 2016] [:error] [pid 7700] [client 127.0.0.1:41288] PHP   1. {main}() /home/serg/site/public_html/ajax_listener.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:20:56.584105 2016] [:error] [pid 7700] [client 127.0.0.1:41288] PHP   2. include() /home/serg/site/public_html/ajax_listener.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:21:06.490730 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/
+[Wed Jun 29 13:21:06.490771 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP Stack trace:, referer: http://public_html.tes/
+[Wed Jun 29 13:21:06.490781 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/
+[Wed Jun 29 13:21:06.490790 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/
+[Wed Jun 29 13:21:08.760963 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/catalogue/
+[Wed Jun 29 13:21:08.760989 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP Stack trace:, referer: http://public_html.tes/catalogue/
+[Wed Jun 29 13:21:08.760997 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/
+[Wed Jun 29 13:21:08.761002 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/catalogue/
+[Wed Jun 29 13:21:09.700557 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:09.700590 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:09.700603 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:09.700623 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:09.700631 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:11.467739 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:11.467784 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:11.467794 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:11.467802 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/catalogue/klass_biznes/
+[Wed Jun 29 13:21:12.064403 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.064517 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.064532 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.064541 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079837 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Warning:  include(footer.tpl): failed to open stream: No such file or directory in /home/serg/site/public_html/tpl/custumer/empty.tpl on line 35, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079866 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079877 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079886 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   2. include() /home/serg/site/public_html/index.php:116, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079893 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   3. include() /home/serg/site/public_html/tpl/custumer/index.tpl:79, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079907 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Warning:  include(): Failed opening 'footer.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/serg/site/public_html/tpl/custumer/empty.tpl on line 35, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079913 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079920 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079928 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   2. include() /home/serg/site/public_html/index.php:116, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:12.079935 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   3. include() /home/serg/site/public_html/tpl/custumer/index.tpl:79, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:13.161529 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:13.161562 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:13.161573 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:13.161581 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/catalogue/klass_izumrud/
+[Wed Jun 29 13:21:13.292037 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.292067 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.292079 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.292087 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.292094 2016] [:error] [pid 2504] [client 127.0.0.1:41300] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.358689 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.358730 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.358743 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.358751 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.358759 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.366803 2016] [:error] [pid 12392] [client 127.0.0.1:41313] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.366833 2016] [:error] [pid 12392] [client 127.0.0.1:41313] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.366845 2016] [:error] [pid 12392] [client 127.0.0.1:41313] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.366853 2016] [:error] [pid 12392] [client 127.0.0.1:41313] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.366860 2016] [:error] [pid 12392] [client 127.0.0.1:41313] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.374396 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.374432 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.374448 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.374457 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:13.374464 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:15.010680 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:15.010713 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:15.010720 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:15.010725 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/catalogue/klass_jemchug/
+[Wed Jun 29 13:21:15.193454 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.193485 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.193497 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.193505 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.193511 2016] [:error] [pid 2505] [client 127.0.0.1:41292] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.206334 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.206373 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.206384 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.206392 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.206399 2016] [:error] [pid 7705] [client 127.0.0.1:41293] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.283701 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP Warning:  imagejpeg(): Filename cannot be empty in /home/serg/site/public_html/watermark/watermark.php on line 56, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.283759 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.283772 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP   1. {main}() /home/serg/site/public_html/watermark/watermark.php:0, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.283781 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP   2. image_resize() /home/serg/site/public_html/watermark/watermark.php:172, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:15.283789 2016] [:error] [pid 7704] [client 127.0.0.1:41290] PHP   3. imagejpeg() /home/serg/site/public_html/watermark/watermark.php:56, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:23.950162 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:23.950211 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Stack trace:, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:23.950228 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:23.950250 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/catalogue/klass_brilliant/
+[Wed Jun 29 13:21:26.509139 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.509171 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Stack trace:, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.509178 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.509183 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520573 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Notice:  Undefined variable: comment_type in /home/serg/site/public_html/tpl/custumer/coment_forms.tpl on line 17, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520598 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Stack trace:, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520605 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520610 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   2. include() /home/serg/site/public_html/index.php:116, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520614 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   3. include() /home/serg/site/public_html/tpl/custumer/index.tpl:85, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520618 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   4. include() /home/serg/site/public_html/tpl/custumer/work.tpl:145, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520622 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   5. include() /home/serg/site/public_html/tpl/custumer/comments.tpl:32, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520627 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Notice:  Undefined variable: comment_perent_id in /home/serg/site/public_html/tpl/custumer/coment_forms.tpl on line 18, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520630 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP Stack trace:, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520634 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520648 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   2. include() /home/serg/site/public_html/index.php:116, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520652 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   3. include() /home/serg/site/public_html/tpl/custumer/index.tpl:85, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520656 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   4. include() /home/serg/site/public_html/tpl/custumer/work.tpl:145, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:26.520660 2016] [:error] [pid 12550] [client 127.0.0.1:41323] PHP   5. include() /home/serg/site/public_html/tpl/custumer/comments.tpl:32, referer: http://public_html.tes/o_nas/
+[Wed Jun 29 13:21:35.894942 2016] [:error] [pid 7664] [client 127.0.0.1:41332] PHP Warning:  Illegal string offset 'cookietest' in /home/serg/site/public_html/localconf.php on line 9, referer: http://public_html.tes/otzivi/
+[Wed Jun 29 13:21:35.894977 2016] [:error] [pid 7664] [client 127.0.0.1:41332] PHP Stack trace:, referer: http://public_html.tes/otzivi/
+[Wed Jun 29 13:21:35.894988 2016] [:error] [pid 7664] [client 127.0.0.1:41332] PHP   1. {main}() /home/serg/site/public_html/index.php:0, referer: http://public_html.tes/otzivi/
+[Wed Jun 29 13:21:35.894996 2016] [:error] [pid 7664] [client 127.0.0.1:41332] PHP   2. include() /home/serg/site/public_html/index.php:2, referer: http://public_html.tes/otzivi/

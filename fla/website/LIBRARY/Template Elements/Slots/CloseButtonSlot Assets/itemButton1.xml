@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/CloseButtonSlot Assets/itemButton1" itemID="4d4a6431-000000ca" sourceFlashFilepath="..\..\website.fla" sourceLibraryItemHRef="Template Elements/Slots/CloseButtonSlot Assets/itemButton1" sourceLastModified="1327938739" lastModified="1330422390" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="itemButton1">
+      <layers>
+        <DOMLayer name="g" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/CloseButtonSlot Assets/CloseButtonSlot_bg" name="item" selected="true">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

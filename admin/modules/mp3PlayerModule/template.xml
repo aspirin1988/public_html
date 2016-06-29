@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleMusicPlayerModule>
+
+	<configuration>
+		<option id="titleID">
+			<value>2</value>
+		</option>
+		<option id="autoLoadAndPlay">
+			<value>true</value>
+		</option> 
+		<option id="repeat">
+			<value>true</value>
+		</option> 
+		<option id="defaultVolume">
+			<value>0.35</value>
+		</option>
+		<option id="primary">
+			<value>false</value>
+		</option>
+		<option id="streaming">
+			<value>false</value>
+		</option>
+		<option id="bufferTime">
+			<value>3000</value>
+		</option>
+	</configuration>
+
+	<structure>
+		<properties>
+			<property id="1" type="sound">
+				<name>Url</name>
+			</property>
+			<property id="2" type="htmlText">
+				<name>Title</name>
+			</property>
+		</properties>
+		<template/>
+	</structure>
+
+	<data/>
+
+</simpleMusicPlayerModule>

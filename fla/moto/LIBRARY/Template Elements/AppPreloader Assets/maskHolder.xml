@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/AppPreloader Assets/maskHolder" itemID="4eeb6f7d-00000a02" sourceFlashFilepath="..\..\..\..\..\envelope\EndWork\15921_hScroll\endWork\19_12_11\moto.fla" sourceLibraryItemHRef="Template Elements/AppPreloader Assets/maskHolder" sourceLastModified="1324308925" lastModified="1330501744">
+  <timeline>
+    <DOMTimeline name="maskHolder">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#A5C671"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!3200 1000|0 1000!0 1000|0 0!0 0|3200 0!3200 0|3200 1000"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

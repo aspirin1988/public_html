@@ -1,0 +1,190 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/RingsSlot Assets/stars_new_1002" itemID="4799dc35-00000104" sourceLibraryItemHRef="stars_new_1002" sourceLastModified="1282744646" lastModified="1282744853" lastUniqueIdentifier="26">
+  <timeline>
+    <DOMTimeline name="stars_new_1002" currentFrame="3">
+      <layers>
+        <DOMLayer name="Action Layer" color="#FFFF00" locked="true">
+          <frames>
+            <DOMFrame index="0" duration="128" motionTweenScale="false" keyMode="8192">
+              <Actionscript>
+                <script><![CDATA[var num:Number=int(Math.random()*70);
+gotoAndPlay(num);]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 5" color="#FFFF00" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="69" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="69" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.0964202880859375" b="0.0449676513671875" c="-0.107635498046875" d="0.230789184570313"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="70" duration="27" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.0956268310546875" b="0.0457916259765625" c="-0.15985107421875" d="0.33380126953125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" duration="30" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.04595947265625" b="0.04595947265625" c="-1.60855102539063" d="1.60856628417969" tx="-0.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="127" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="" selected="true">
+                  <matrix>
+                    <Matrix a="0.0491180419921875" b="0.105377197265625" c="-0.230758666992188" d="0.107589721679688"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" duration="69" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="69" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="" selected="true">
+                  <matrix>
+                    <Matrix a="0.0449676513671875" b="-0.0964202880859375" c="0.230789184570313" d="0.107635498046875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="70" duration="27" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.0457916259765625" b="-0.0956268310546875" c="0.33380126953125" d="0.15985107421875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" duration="30" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.04595947265625" b="-0.04595947265625" c="1.60856628417969" d="1.60856628417969" tx="-0.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="127" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.105377197265625" b="-0.0491180419921875" c="0.107589721679688" d="0.230758666992188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#FFFF00">
+          <frames>
+            <DOMFrame index="0" duration="69" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="69" duration="28" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.155990600585938" d="0.155990600585938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" duration="30" tweenType="motion" motionTweenSnap="true" keyMode="22017" acceleration="-100">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.3253173828125" b="1.52587890625e-005" d="0.3253173828125" tx="-0.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="127" motionTweenScale="false" keyMode="8192">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Slots/RingsSlot Assets/stars_new_1001" name="">
+                  <matrix>
+                    <Matrix a="0.142990112304688" d="0.142990112304688"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

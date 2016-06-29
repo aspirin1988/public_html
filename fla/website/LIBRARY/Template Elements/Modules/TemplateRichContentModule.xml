@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/TemplateRichContentModule" itemID="4908beef-00000672" linkageExportForAS="true" linkageBaseClass="modules.TemplateRichContentModule" linkageClassName="TemplateRichContentModule" sourceFlashFilepath="..\..\..\..\16291\endWork\30_12_11\website.fla" sourceLibraryItemHRef="Template Elements/Modules/TemplateRichContentModule" sourceLastModified="1324640288" lastModified="1324640288" lastUniqueIdentifier="8">
+  <timeline>
+    <DOMTimeline name="TemplateRichContentModule">
+      <layers>
+        <DOMLayer name="scrollbar" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/TemplateRichContentModule Assets/scrollbar" name="scrollbar" selected="true" centerPoint3DX="213.5" centerPoint3DY="100">
+                  <matrix>
+                    <Matrix tx="210"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15" y="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="content" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMCompiledClipInstance libraryItemName="Components/Moto Components/Moto CMS Module Content Area" name="area" uniqueID="4">
+                  <matrix>
+                    <Matrix a="2" d="2"/>
+                  </matrix>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TemplateRichContentModule' oldCopiedComponentPath='4'>
+</component>
+]]></dataBindingXML>
+                </DOMCompiledClipInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="preview" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMCompiledClipInstance libraryItemName="Components/Moto Modules Preview/Rich Content Module Preview" name="preview" uniqueID="8">
+                  <matrix>
+                    <Matrix tx="11.35"/>
+                  </matrix>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='TemplateRichContentModule' oldCopiedComponentPath='8'>
+</component>
+]]></dataBindingXML>
+                </DOMCompiledClipInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

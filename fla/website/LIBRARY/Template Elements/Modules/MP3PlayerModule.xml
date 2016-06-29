@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Modules/MP3PlayerModule" itemID="4a66debe-000004e5" linkageExportForAS="true" linkageBaseClass="modules.MP3PlayerModule" linkageClassName="MP3PlayerModule" sourceFlashFilepath="..\..\..\..\..\envelope\16292\endWork\05_01_12\website.fla" sourceLibraryItemHRef="Template Elements/Modules/MP3PlayerModule" sourceLastModified="1324889620" lastModified="1345214746" lastUniqueIdentifier="10">
+  <timeline>
+    <DOMTimeline name="MP3PlayerModule">
+      <layers>
+        <DOMLayer name="button" color="#FF4FFF" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/MP3PlayerModule Assets/MovieClipButton" name="button" centerPoint3DX="9" centerPoint3DY="9">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/MP3PlayerModule Assets/SoundIconHolder" name="holderON" selected="true" blendMode="layer" centerPoint3DX="9" centerPoint3DY="9">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5" y="4.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#FFFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Template Elements/Modules/MP3PlayerModule Assets/SoundIconHolder2" name="holderOFF" blendMode="layer" centerPoint3DX="9" centerPoint3DY="9">
+                  <matrix>
+                    <Matrix tx="1" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

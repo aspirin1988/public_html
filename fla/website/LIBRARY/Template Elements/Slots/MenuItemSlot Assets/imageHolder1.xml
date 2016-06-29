@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/MenuItemSlot Assets/imageHolder1" itemID="502e4de2-00000852" sourceLibraryItemHRef="Symbol 1" lastModified="1345211874" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="imageHolder1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMCompiledClipInstance libraryItemName="Components/Moto Components/Moto CMS Image Loader" name="image" selected="true" uniqueID="1">
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='MenuItemSlot' oldCopiedComponentPath='3.2.1'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="backgroundAlpha">
+      <Inspectable name="Background Alpha" variable="backgroundAlpha" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="backgroundColor">
+      <Inspectable name="Background Color" variable="backgroundColor" category="" verbose="0" defaultValue="0x000000" type="String"/>
+   </property>
+   <property id="horizontalAlign">
+      <Inspectable name="Horizontal Align" variable="horizontalAlign" category="" verbose="0" defaultValue="center" enumeration="left,right,center" type="List"/>
+   </property>
+   <property id="scalingMode">
+      <Inspectable name="Scaling Mode" variable="scalingMode" category="" verbose="0" defaultValue="fill" enumeration="none,crop,fill,fit,fitWidth,fitHeight,resize" type="List"/>
+   </property>
+   <property id="smoothing">
+      <Inspectable name="Smoothing" variable="smoothing" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="verticalAlign">
+      <Inspectable name="Vertical Align" variable="verticalAlign" category="" verbose="0" defaultValue="middle" enumeration="top,bottom,middle" type="List"/>
+   </property>
+   <property id="zooming">
+      <Inspectable name="Zooming" variable="zooming" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMCompiledClipInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

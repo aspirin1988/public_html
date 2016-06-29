@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleMusicPlayerModule>
+
+	<configuration><option id="titleID"><value><![CDATA[2]]></value></option><option id="autoLoadAndPlay"><value><![CDATA[true]]></value></option><option id="repeat"><value><![CDATA[true]]></value></option><option id="defaultVolume"><value><![CDATA[0.35]]></value></option><option id="primary"><value><![CDATA[true]]></value></option><option id="streaming"><value><![CDATA[false]]></value></option><option id="bufferTime"><value><![CDATA[3000]]></value></option></configuration>
+
+	<structure>
+		<properties>
+			<property id="1" type="sound">
+				<name>Url</name>
+			</property>
+			<property id="2" type="htmlText">
+				<name>Title</name>
+			</property>
+		</properties>
+		<template/>
+	</structure>
+
+	<data><item id="1" order="1"><properties><item propertyType="1"><![CDATA[music/502e587f81b34.mp3]]></item><item propertyType="2"><![CDATA[]]></item></properties></item></data>
+
+</simpleMusicPlayerModule>

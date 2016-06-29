@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<googlemap>
+	<configuration><option id="iconID"><value><![CDATA[1]]></value></option><option id="latitudeID"><value><![CDATA[2]]></value></option><option id="longitudeID"><value><![CDATA[3]]></value></option><option id="titleID"><value><![CDATA[4]]></value></option><option id="descriptionID"><value><![CDATA[5]]></value></option><option id="mapKey"><value><![CDATA[47]]></value></option><option id="mapLanguage"><value><![CDATA[-default-]]></value></option></configuration>
+	<structure>
+		<properties>
+			<property id="1" type="image">
+				<name>Marker Icon</name>
+			</property>
+			<property id="2" type="plainText">
+				<name>Latitude</name>
+			</property>
+			<property id="3" type="plainText">
+				<name>Longitude</name>
+			</property>
+			<property id="4" type="htmlText">
+				<name>Title</name>
+			</property>
+			<property id="5" type="htmlText">
+				<name>Description</name>
+			</property>
+		</properties>
+		<template/>
+	</structure>
+	<data><item id="1" order="1"><properties><item propertyType="1"><![CDATA[]]></item><item propertyType="2"><![CDATA[-33.83761276780043]]></item><item propertyType="3"><![CDATA[151.21631159684296]]></item><item propertyType="4"><![CDATA[Location]]></item><item propertyType="5"><![CDATA[]]></item></properties></item></data>
+</googlemap>

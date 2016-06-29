@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Template Elements/Slots/TitleSlotAssets/TitleSlotHitArea_" itemID="4d523f9c-00000164" sourceLibraryItemHRef="Template Elements/Slots/TitleSlotAssets/TitleSlotHitArea_" sourceLastModified="1297253141" lastModified="1336559140" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="TitleSlotHitArea_">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="118" objectHeight="15" x="-0.05" y="0" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="0.05"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#2CC9FF"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

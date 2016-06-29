@@ -1,0 +1,92 @@
+
+
+		<hotspot name="picture1" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture1" 
+		         ath="0"
+		         atv="0"
+		         zoom="false"
+		         onclick="set(plugin[picture].visible,true);tween(plugin[picture].alpha, 1);"
+		         />
+		       <plugin name="picture" visible="false" url="graphics/object0.png" align="center" alpha="1" onclick="closepicture();" width="prop" height="82%"/>
+           <action name="closepicture">
+		if(plugin[picture].visible,
+		closeglobalobjects();
+		tween(plugin[picture].alpha, 0);
+		delayedcall(0.5,set(plugin[picture].visible,false));
+		);
+	    </action>
+
+	
+
+		<hotspot name="picture2" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylepicture2" 
+		         ath="0"
+		         atv="0"
+		         zoom="false"
+		         onclick="set(plugin[picture].visible,true);tween(plugin[picture].alpha, 1);"
+		         />
+		       <plugin name="picture" visible="false" url="graphics/object0.png" align="center" alpha="1" onclick="closepicture();" width="prop" height="82%"/>
+           <action name="closepicture">
+		if(plugin[picture].visible,
+		closeglobalobjects();
+		tween(plugin[picture].alpha, 0);
+		delayedcall(0.5,set(plugin[picture].visible,false));
+		);
+	    </action>
+
+		
+
+			<hotspot name="video1" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstylevideo" 
+		         ath="0"
+		         atv="0"
+		         zoom="false"
+		        onclick="set(plugin[soundinterface].mute,true);set(plugin[video].visible,true);tween(plugin[video].alpha,1); set(plugin[video_rim].visible,true);tween(plugin[video_rim].alpha,1);plugin[video].play();"
+		         />
+		       <plugin name="video_rim" visible="false" zorder="5" url="skin/rim.png" align="center" alpha="0" width="77%" height="73%"/>
+		       <plugin name="video"  visible="false" zorder="6" alturl="plugins/videoplayer.js" url="plugins/videoplayer.swf" videourl="graphics/video.mp4" pausedonstart="true" align="center" alpha="0" onclick="set(plugin[soundinterface].mute,false);action(closevideo);" width="73%" height="70%"/>
+    <action name="closevideo">
+		if(plugin[video].visible,
+		closeglobalobjects();
+		tween(plugin[video].alpha, 0);
+		delayedcall(0.5,set(plugin[video].visible,false));
+		plugin[video].stop();
+		tween(plugin[video_rim].alpha,0);
+		delayedcall(0.5,set(plugin[video_rim].visible,false));
+		);
+	</action>
+
+		
+		
+
+		<hotspot name="info1" onover="tween(scale,0.8,0.2);tween(alpha,1,0.2);" onout="tween(scale,0.5,0.2);tween(alpha,0.8,0.2);" alpha="0.8" style="skin_hotspotstyleinfo" 
+		         ath="0"
+		         atv="0"
+		         zoom="false"
+		         onclick="openurl(http://navse360.ru/)"
+		         />
+		       
+
+	
+
+	<hotspot name="videospot" 
+		     url="plugins/videoplayer.swf" 
+	         alturl="plugins/videoplayer.js"
+	         ath="78.687474" atv="-7.488146" distorted="true" rx="-0.25" ry="-2.0" rz="0.340844" width="240" height="prop" scale="0.497256" 
+	         onhover=""
+	         onclick="togglepause();"
+	         buffertime="0.1"
+	         directionalsound="true"
+	         ignoremetadata="false"
+	         iscomplete="false"
+	         isvideoready="true"
+	         loop="true"
+	         onvideocomplete=""
+	         onvideopaused=""
+	         onvideoready=""
+	         outofrangevolume="0"
+	         pausedonstart="false"
+	         range="110"
+	         rangefalloff="1"
+	         videourl="graphics/video.mp4"
+	         volume="0"
+	         />
+
+	

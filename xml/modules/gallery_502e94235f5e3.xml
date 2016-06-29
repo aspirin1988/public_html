@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleGalleryModule>
+
+	<configuration>
+		<option id="previewPropertyID" editable="false">
+			<value>1</value>
+		</option>
+		<option id="thumbnailPropertyID" editable="false">
+			<value>2</value>
+		</option>
+		<option id="thumbnailWidth" editable="false">
+			<value>112</value>
+		</option>
+		<option id="thumbnailHeight" editable="false">
+			<value>75</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+	</configuration>
+	
+	<structure>
+		<properties>
+			<property id="1" type="image">
+				<name><![CDATA[Preview]]></name>
+			</property>
+			<property id="2" type="image">
+				<name><![CDATA[Thumbnail]]></name>
+				<parameters>
+					<thumbnailWidth>130</thumbnailWidth>
+					<thumbnailHeight>173</thumbnailHeight>
+					<generateThumbnail>true</generateThumbnail>
+				</parameters>
+			</property>
+		</properties>
+		<template id="0" order="0">
+			<properties>
+				<item propertyType="1"/>
+				<item propertyType="2"/>
+			</properties>
+		</template>
+	</structure>
+
+	<data><item id="1" order="1"><properties><item propertyType="1"><![CDATA[images/52d125899864a.jpg]]></item><item propertyType="2"><![CDATA[images/52d125899864a_600_400.jpg]]></item></properties></item><item id="2" order="2"><properties><item propertyType="1"><![CDATA[images/52d12587937ac.jpg]]></item><item propertyType="2"><![CDATA[images/52d12587937ac_600_400.jpg]]></item></properties></item><item id="3" order="3"><properties><item propertyType="1"><![CDATA[images/52d1257c66340.jpg]]></item><item propertyType="2"><![CDATA[images/52d1257c66340_600_400.jpg]]></item></properties></item><item id="5" order="4"><properties><item propertyType="1"><![CDATA[images/52d12574a91fa.jpg]]></item><item propertyType="2"><![CDATA[images/52d12574a91fa_600_400.jpg]]></item></properties></item><item id="6" order="5"><properties><item propertyType="1"><![CDATA[images/erin_20100518_1517768302.jpg]]></item><item propertyType="2"><![CDATA[images/erin_20100518_1517768302_600_400.jpg]]></item></properties></item><item id="7" order="6"><properties><item propertyType="1"><![CDATA[images/chester.jpg]]></item><item propertyType="2"><![CDATA[images/chester_600_400.jpg]]></item></properties></item><item id="9" order="7"><properties><item propertyType="1"><![CDATA[images/Blue-by-Enzoani-Addison.jpg]]></item><item propertyType="2"><![CDATA[images/Blue-by-Enzoani-Addison_600_400.jpg]]></item></properties></item><item id="10" order="8"><properties><item propertyType="1"><![CDATA[images/Benjamin-Roberts-1014.jpg]]></item><item propertyType="2"><![CDATA[images/Benjamin-Roberts-1014_600_400.jpg]]></item></properties></item><item id="11" order="9"><properties><item propertyType="1"><![CDATA[images/Benjamin-Roberts-966.jpg]]></item><item propertyType="2"><![CDATA[images/Benjamin-Roberts-966_600_400.jpg]]></item></properties></item></data>
+
+</simpleGalleryModule>

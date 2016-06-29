@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleGalleryModule>
+	<configuration>
+		<option id="previewPropertyID">
+			<value>1</value>
+		</option>
+		<option id="thumbnailPropertyID">
+			<value>2</value>
+		</option>
+		<option id="thumbnailWidth">
+			<value>146</value>
+		</option>
+		<option id="thumbnailHeight">
+			<value>100</value>
+		</option>
+		<option id="maxRootItems">
+			<value>0</value>
+		</option>
+	</configuration>
+	<structure>
+		<properties>
+			<property id="1" type="media">
+				<name><![CDATA[Preview]]></name>
+				<parameters>
+					<image>true</image>
+					<flash>true</flash>
+					<video>true</video>
+					<youtube>true</youtube>
+				</parameters>
+			</property>
+			<property id="2" type="image">
+				<name><![CDATA[Thumbnail]]></name>
+			</property>
+			<property id="3" type="link">
+				<name><![CDATA[Link]]></name>
+			</property>
+		</properties>
+		<template>
+			<properties>
+				<item propertyType="1"/>
+				<item propertyType="2"/>
+				<item propertyType="3"/>
+			</properties>
+		</template>
+	</structure>
+	<data><item id="1" order="1"><properties><item propertyType="1"><![CDATA[images/52c923f7bc4d9.jpg]]></item><item propertyType="2"><![CDATA[images/52c923f7bc4d9_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="2" order="2"><properties><item propertyType="1"><![CDATA[images/52c923e837124.jpg]]></item><item propertyType="2"><![CDATA[images/52c923e837124_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="3" order="3"><properties><item propertyType="1"><![CDATA[images/x_c386b064.jpg]]></item><item propertyType="2"><![CDATA[images/x_c386b064_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="4" order="4"><properties><item propertyType="1"><![CDATA[images/wed_var3_il_10.jpg]]></item><item propertyType="2"><![CDATA[images/wed_var3_il_10_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="5" order="5"><properties><item propertyType="1"><![CDATA[images/tgtg.jpeg]]></item><item propertyType="2"><![CDATA[images/tgtg_146_100.jpeg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="6" order="6"><properties><item propertyType="1"><![CDATA[images/svadba-carflo.jpg]]></item><item propertyType="2"><![CDATA[images/svadba-carflo_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="7" order="7"><properties><item propertyType="1"><![CDATA[images/Rbg2B6DzzOg.jpg]]></item><item propertyType="2"><![CDATA[images/Rbg2B6DzzOg_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="8" order="8"><properties><item propertyType="1"><![CDATA[images/PB070013.JPG]]></item><item propertyType="2"><![CDATA[images/PB070013_146_100.JPG]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="9" order="9"><properties><item propertyType="1"><![CDATA[images/52c923d4dcece.jpeg]]></item><item propertyType="2"><![CDATA[images/52c923d4dcece_146_100.jpeg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="10" order="10"><properties><item propertyType="1"><![CDATA[images/medium_21082009762.jpg]]></item><item propertyType="2"><![CDATA[images/medium_21082009762_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="11" order="11"><properties><item propertyType="1"><![CDATA[images/l.jpg]]></item><item propertyType="2"><![CDATA[images/l_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="12" order="12"><properties><item propertyType="1"><![CDATA[images/GfZqNGH-wIg.jpg]]></item><item propertyType="2"><![CDATA[images/GfZqNGH-wIg_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="13" order="13"><properties><item propertyType="1"><![CDATA[images/flr06.jpg]]></item><item propertyType="2"><![CDATA[images/flr06_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="14" order="14"><properties><item propertyType="1"><![CDATA[images/DSC00912.JPG]]></item><item propertyType="2"><![CDATA[images/DSC00912_146_100.JPG]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="15" order="15"><properties><item propertyType="1"><![CDATA[images/decoration_13.jpg]]></item><item propertyType="2"><![CDATA[images/decoration_13_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="16" order="16"><properties><item propertyType="1"><![CDATA[images/decoration_6.jpg]]></item><item propertyType="2"><![CDATA[images/decoration_6_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="17" order="17"><properties><item propertyType="1"><![CDATA[images/car-1.jpg]]></item><item propertyType="2"><![CDATA[images/car-1_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="18" order="18"><properties><item propertyType="1"><![CDATA[images/c14ae58c275c.jpg]]></item><item propertyType="2"><![CDATA[images/c14ae58c275c_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="19" order="19"><properties><item propertyType="1"><![CDATA[images/403363674475.jpg]]></item><item propertyType="2"><![CDATA[images/403363674475_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="20" order="20"><properties><item propertyType="1"><![CDATA[images/1318030680_ukrashenie-svadebnyx-mashin-1988910.jpg]]></item><item propertyType="2"><![CDATA[images/1318030680_ukrashenie-svadebnyx-mashin-1988910_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="21" order="21"><properties><item propertyType="1"><![CDATA[images/1305365225_200259540_1----.jpg]]></item><item propertyType="2"><![CDATA[images/1305365225_200259540_1----_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="22" order="22"><properties><item propertyType="1"><![CDATA[images/596606466jkkkkkkkkkkkkkk.jpg]]></item><item propertyType="2"><![CDATA[images/596606466jkkkkkkkkkkkkkk_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="23" order="23"><properties><item propertyType="1"><![CDATA[images/93146l.jpg]]></item><item propertyType="2"><![CDATA[images/93146l_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="24" order="24"><properties><item propertyType="1"><![CDATA[images/20000.jpg]]></item><item propertyType="2"><![CDATA[images/20000_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="25" order="25"><properties><item propertyType="1"><![CDATA[images/15480.jpg]]></item><item propertyType="2"><![CDATA[images/15480_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="26" order="26"><properties><item propertyType="1"><![CDATA[images/3296-800x600.jpg]]></item><item propertyType="2"><![CDATA[images/3296-800x600_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="27" order="27"><properties><item propertyType="1"><![CDATA[images/52c9208370e82.jpg]]></item><item propertyType="2"><![CDATA[images/52c9208370e82_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="28" order="28"><properties><item propertyType="1"><![CDATA[images/52c92073b92a3.jpg]]></item><item propertyType="2"><![CDATA[images/52c92073b92a3_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item><item id="29" order="29"><properties><item propertyType="1"><![CDATA[images/17_1-1024x1024.jpg]]></item><item propertyType="2"><![CDATA[images/17_1-1024x1024_146_100.jpg]]></item><item propertyType="3"><![CDATA[]]></item></properties></item></data>
+</simpleGalleryModule>
